@@ -1,0 +1,68 @@
+* {	margin:0;padding:0;}
+img {border:0;}
+body {font-size: 14px; font-family:'Open Sans', Arial, Helvetica, sans-serif; color:#333; background: #fff url(../images/banner.jpg) center top no-repeat;}
+li {list-style:none;}
+a{color: #006699; text-decoration: none;}
+a:hover{text-decoration: none;}
+/* float clearing for everyone else */
+.clearfix:after{clear: both;content: ".";display: block; height: 0;visibility: hidden;font-size: 0;line-height: 0;}
+.clearfix {display: inline-block;}
+/* clear for single use */
+.clear{clear:both; border:0; height:0; font-size:0; line-height:0; }
+
+.wrapper{ width: 980px; margin:0 auto; display:block; position:relative;}
+
+.activebtn { display: block; background: url(../images/button.png) no-repeat; width: 298px; height: 77px; margin-top: 20px; font-weight: 600; color: #ae1901; font-size: 36px; text-align: center; line-height: 77px;}
+.activebtn:hover { background-position: 0 -100px;}
+#banner { height: 620px;}
+#banner >img { margin-top: 204px; margin-left: 74px; margin-right: 50px; display: block; float: left;}
+#banner dl { width: 470px; float: left; padding-top: 225px; color: #fff;}
+#banner dl dd { height: 40px; background: url(../images/choose.png) no-repeat; padding-left: 28px; font-size: 15px;}
+#banner dl dt { padding-top: 28px;}
+#banner dl dt img { float: left;margin-top: 18px;margin-right: 12px;}
+#banner dl dt span { display: block;color: #ad4f2f;font-size: 16px;line-height: 1.5em;}
+#banner dl dt strong { color: #fff100; font-size: 31px;}
+#banner dl dt del { font-size: 19px;}
+#banner dl dt p { display: block;width:298px;padding-top: 8px;color: #b46304;font-size: 14px;text-align: center;}
+
+.payments { height: 164px; border-top: solid #000 1px; background-color: #1e1f20;}
+
+.payments dl { float: left; padding: 0px 75px; color: #fff; text-align: center; font-weight: 600;}
+.payments dl dt {  line-height: 70px; }
+.payments dl:last-child { width: 170px; text-align: left; }
+.payments dl:last-child dt { padding-left: 20px;}
+.payments dl:last-child dd { font-size: 14px; font-weight: 400; color: #f9e89d; background: url(../images/email.jpg) no-repeat; margin-bottom: 10px; background-position: 0px 5px; padding-left: 25px;}
+.payments dl:last-child dd:last-child { background: url(../images/phone.jpg) no-repeat; background-position: 0px 4px;}
+
+.product { padding-top: 20px;}
+.product dt { color: #2d3e50; padding-bottom: 15px; font-size: 21px; text-align: center; line-height: 40px; }
+.product dd { font-weight: 600; text-align: center;}
+.product dd img{ margin-left: -30px;;margin-bottom: 8px;margin-right: 8px;}
+.product dd span { display: inline-block;color: #808b8d;font-size: 16px;font-weight: 300;line-height: 1.5em;text-align: left;}
+.product dd strong { color: #c1392b; font-size: 31px;}
+.product dd del { font-size: 18px;}
+.product .activebtn { background: url(../images/product_btn.png) no-repeat; width: 395px; height: 78px; margin: 8px auto 31px auto; font-size: 37px; line-height: 70px;}
+.product .activebtn:hover { background-position: 0 -81px;}
+
+.present { height: 200px; color: #2d3e50;}
+.present_left { background-color: #fbfbfb; }
+.present_left dl { float: right; margin-right: 50px;}
+.present_left img { float: left; margin-left: 45px; }
+.present_right { background-color: #eee; }
+.present_right dl { float: left; margin-left: 45px; }
+.present_right img { float: right; margin-right: 70px;}
+.present dl {  width: 620px; }
+.present dl dt{ font-size: 26px; padding-top: 35px; padding-bottom: 20px;}
+.present dl dd { line-height: 20px;}
+.present img { margin-top: 20px;}
+
+.choose { height: 90px; line-height: 90px; background-color: #1e1f20; text-align: center; font-size: 32px; color: #fff;}
+
+.user { margin: 40px 0px; height: 160px;}
+.user dt{ float: left; width: 150px;  height: 210px; text-align: center;}
+.user dt img { margin-top: 28px;}
+.user dd { color: #2d3e50; width: 780px; float: left;}
+.user dd:nth-child(2){ font-size: 26px; padding-bottom: 30px; font-weight: 600;}
+.user dd:nth-child(3) { font-size: 16px; padding-bottom: 15px; font-weight: 600;}
+
+.footer { height: 60px; margin-bottom: 20px; border-top: solid #ccc 1px; text-align: center; line-height: 60px;}

@@ -1,0 +1,142 @@
+* {	margin:0;padding:0;}
+img {border:0;}
+body {font-family:Arial, Helvetica, sans-serif;font-size:13px;color:#333;background:#fff;}
+li {list-style:none;}
+.clear {clear:both;height:0;border:0;font-size:0;}
+@font-face {
+    font-family: 'MyriadProCondensed';
+    src: url('../fonts/myriadpro-cond-webfont.eot');
+    src: url('../fonts/myriadpro-cond-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/myriadpro-cond-webfont.woff') format('woff'),
+         url('../fonts/myriadpro-cond-webfont.ttf') format('truetype'),
+         url('../fonts/myriadpro-cond-webfont.svg#MyriadProCondensed') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}	
+@font-face {
+	font-family: 'MyriadProBold';
+    src: url('../fonts/myriadpro-bold-webfont.eot');
+    src: url('../fonts/myriadpro-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/myriadpro-bold-webfont.woff') format('woff'),
+         url('../fonts/myriadpro-bold-webfont.ttf') format('truetype'),
+         url('../fonts/myriadpro-bold-webfont.svg#MyriadProBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+a{color:#006699;}
+a:hover{color:#028bcf;}
+.mt5{margin-top:5px;}
+.ml10{margin-left:10px;}
+.mb10{margin-bottom:10px;}
+.right{float:right;}
+.center{text-align:center;}
+.red{color:#cc0000;}
+.del{text-decoration:line-through;}
+.f11{font-size:11px; color:#666;}
+.bf14{font-weight:bold; font-size:14px ;}
+.bf16{font-weight:bold; font-size:16px ;}
+h2{font-size:20px; line-height:26px;}
+h3{font-size:16px; line-height:24px;}
+.cyellow{color:#ff9900;}
+.c_orange{color:#ff6600;}
+#lang,#share { float:right; }
+#lang { position:relative; width:175px; height:20px; overflow:hidden; margin-right:10px; }
+#share {border-right: 1px solid #CCCCCC;   margin-right: 10px;   padding-right: 10px;}
+#google_translate_element { position:absolute; right:0; top:-4px; }
+#google_translate_element select { font-size:11px; width:160px; }
+.myfont{font-family:MyriadProCondensed; font-size:26px; color:#444;} 
+.hidden{display:none;}
+.show{display:block;}
+/*.checkbtn{width:238px; height:49px; display:block; font-size:18px; line-height:46px; text-transform:uppercase; color:#fff; text-align:center; text-decoration:none; text-shadow:0 -1px 0 #000; background:url(../img/checkbtn.png) 0 0 no-repeat;}
+.checkbtn:hover{background-position:0 -60px; color:#fff;}
+.price{ position:relative;}
+.price em{ width:55px; height:2px; display:block; background:#cc0000; position:relative; top:-11px; left:46px;}*/
+#main{width:1060px; margin:0 auto; background:#38a1d1 url(../img/charity_bg.png) 0 0 repeat-x; position:relative;}
+#main .head{width:1060px; height:96px; display:inline-block; background:url(../img/charity_head.png) 0 0 no-repeat; position:fixed; top:0;}
+#main .head .maintitle{ font-size:32px; line-height:96px; color:#fff; font-weight:bold; text-shadow:0 -1px 0 #000; margin-left:145px;}
+#main .head .toplink{width: 215px; height:44px; display:block; position:absolute; right:60px; top:30px;}
+
+#main #floatlayer{z-index:10; position:absolute; top:176px; width:974px; padding-left:43px; padding-right:43px; background:#38a1d1 /*url(../img/charity_bg.png) 0 0 repeat-x*/;}
+#main #floatlayer .wapper{ background:#fff;}
+#main .mbody{ width:974px; margin:0 auto; padding-bottom:10px;background:#fff; position:fixed; top:96px; padding-left:43px; padding-right:43px; background:#38a1d1 url(../img/charity_bg.png) 0 0 repeat-x;}
+#main .mbody .abs1{height:75px; background:#dceff7; display:block; padding-top:5px; }
+#main .mbody .abs1 .annonce{font-size:14px; clear:left; margin-left:15px; line-height:30px; float:left;}
+#main .mbody .abs1 .annonce dt{font-size:18px; font-weight:bold;}
+#main .mbody .abs1 .total{float:left; margin-left:45px;}
+#main .mbody .abs1 .total dt{font-size:34px; font-weight:bold; font-family:MyriadProBold; color:#cc0000; margin:0;}
+#main .mbody .abs1 .total dd{}
+
+#main .mbody .abs1 .tot{width:215px; float:left; margin-top:12px; margin-left:25px;}
+#main .mbody .abs1 .tot .progress{width:215px; height:18px; border:1px #c4d0d5 solid; display:block; background:#999; color:#fff; line-height:18px; font-weight:bold;}
+#main .mbody .abs1 .tot .progress .progressbar{ background:#333; float:left;}
+#main .mbody .abs1 .tot .progress span{float:right;}
+#main .mbody .abs1 .tot .xt1,#main .mbody .abs1 .tot .xt2{color:#ff6600; font-weight:bold; height:14px; display:block; margin-top:5px;}
+#main .mbody .abs1 .tot .xt1{float:left;}
+#main .mbody .abs1 .tot .xt2{float:right;}
+
+#main .mbody .abs1 .timer{width:171px; height:49px; display:block; background:url(../img/charity/timer.png) 0 0 no-repeat; float:right; margin-right:20px; margin-top:10px; color:#fff; font-family:MyriadProBold; font-size:24px; text-align:center; line-height:35px;}
+
+/*abs2*/
+#main .mbody .abs2{  background:#c0e2f1; display:block; padding:15px;}
+#main .mbody .abs2 .introtxt{width:470px; float:left;}
+#main .mbody .abs2 .introtxt p{line-height:24px; color:#333; margin-top:10px;}
+#main .mbody .abs2 .introtxt p strong{ display:block; font-size:14px; color:#666; text-transform:uppercase;}
+
+#main .mbody .abs2 .piclist{float:right;width:430px; margin-top:10px;}
+#main .mbody .abs2 .piclist .big{ width:430px; height:322px; display:block; border:1px #686868 solid;}
+#main .mbody .abs2 .piclist .big img{max-height:322px; max-width:430px; display:block;}
+#main .mbody .abs2 .piclist .smalllist{ margin-left:8px; margin-top:10px;}
+#main .mbody .abs2 .piclist .smalllist li{float:left; margin:10px 3px;}
+#main .mbody .abs2 .piclist .smalllist li a img{width:38px; height:38px; display:block; border:1px #ccc solid; opacity:0.5;}
+#main .mbody .abs2 .piclist .smalllist li a.selected img{width:38px; height:38px; display:block; border:1px #000 solid; opacity:1; cursor:default;}
+
+#main .mbody .abs2 .piclist .centerPhotos{width:430px; height:322px; display:block; overflow:hidden; border:1px #686868 solid;}
+#main .mbody .abs2 .piclist .centerPhotos .grid7PhotoHolder{text-align:center; vertical-align:middle;}
+/*#main .mbody .abs2 .piclist .centerPhotos .grid7PhotoHolder img{max-height:322px; max-width:430px; display:block;}*/
+.grid7PhotoHolder a.grid7Photo {
+    display: block;
+    text-align: center;
+    vertical-align: middle;
+}
+/*selectarea*/
+.selectarea{height:58px; width:900px; margin:0 auto; display:block; background:#fff url(../img/charity/selecticon.png) left center no-repeat;}
+.selectarea span{height:30px; line-height:30px; display:inline-block; margin-top:13px; margin-left:30px; padding:0 20px 0 10px; border:1px #fff solid; background:url(../img/charity/arrow.png) 99% center no-repeat; cursor:pointer;}
+.selectarea span:hover{border:1px #ccc solid; background:#ebebeb url(../img/charity/arrow.png) 99% center no-repeat;}
+
+/*procinfo*/
+.procinfo{background:#fff;border-top:1px #ccc solid; padding:35px 0 25px; margin:10px; margin-top:0}
+.procinfo .boxasc{width:670px; height:300px; float:left; margin-left:10px; background:url(../img/charity/boxasc.png) left center no-repeat;}
+
+.procinfo .boxasc dl{margin-left:220px; margin-top:30px;}
+.procinfo .boxasc dl dt{font-size:16px; font-weight:bold; line-height:30px;}
+.procinfo .boxasc dl dd{font-size:14px; padding-left:22px; line-height:30px; margin:20px 0; background:url(../../tpl/img/icon.png) 0 -82px no-repeat; position:relative;}
+
+.procinfo .boxasc dl dd span{font-size:11px; position:absolute; margin-left:3px; top:-5px; font-style:italic;}
+.procinfo .boxasc dl dd span.mblue{color:#006699;}
+.procinfo .boxasc dl dd span.mred{color:#ff0000;}
+
+.procinfo .payment{width:265px; float:right; margin-top:100px; font-family:Tahoma, Geneva, sans-serif;}
+.procinfo .payment .price{height:64px; background:url(../img/moneyback.png) right center no-repeat;}
+.procinfo .payment .price .newprice{color:#ff0000;font-size:18px; text-transform:uppercase; font-weight:bold; font-style:italic; margin-left:30px;}
+.procinfo .payment .price .newprice span{font-size:30px;}
+.procinfo .payment .price .oldprice{font-size:15px; font-weight:bold; font-style:italic;}
+.procinfo .payment .price .oldprice span{font-size:18px; text-decoration:line-through;}
+.procinfo .payment .price .oldprice em{font-size:13px; font-family:Arial, Helvetica, sans-serif; color:#ff0000;}
+
+.procinfo .payment .checkout{width:265px; margin-top:30px;}
+.procinfo .payment .checkout .btn_order{font-size:18px;}
+.procinfo .payment .checkout span{width:265px; margin-top:3px; display:block; font-size:12px;text-transform:uppercase; text-align:center;}
+/*imgshow*/
+.imgshow{margin:10px; background:#fff;}
+.imgshow ul{margin:10px auto; height:80px;}
+.imgshow ul li{float:left; margin-right:3px;}
+.imgshow ul li img{width:113px; height:74px; border:1px #666 solid;}
+
+/*fbfeedback*/
+.fbfeedback{margin:0 10px 20px; padding-top:20px; border-top:1px #ccc solid;}
+
+.btn_order{width:234px; height:44px; display:block; margin:0 auto; line-height:44px; text-align:center; color:#fff; font-size:20px; text-shadow:1px 1px 0 #000 ; background:url(../img/charity/orderbtn.png) 0 0 no-repeat; text-decoration:none; }
+.btn_order:hover{color:#fff; text-decoration:none; background-position:0 -44px;}
+
+#main .footer{width:1060px; height:10px; display:block; }

@@ -1,0 +1,284 @@
+@charset "utf-8";
+
+/* CSS Document */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  min-width: 1000px; 
+  font-size: 14px;
+  line-height: 1.4;
+  color: #000;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  outline: 0;
+  vertical-align: baseline;
+  font-weight: 500;
+}
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  color: #000;
+  outline: none;
+  text-decoration: none;
+  cursor: pointer;
+}
+a:hover { text-decoration: none; }
+del { text-decoration: line-through; }
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+ul,
+ul li { list-style-type: none; }
+img { border: none; }
+.clearfix:after {
+  clear: both;
+  display: block;
+  height: 0;
+  font-size: 0;
+  content: "";
+  visibility: hidden;
+}
+.clearfix { zoom: 1; }
+.fl { float: left; }
+.fr { float: right; }
+.wrapper {
+  position: relative;
+  width: 1000px;
+  min-width: 1000px;
+  margin: 0 auto;
+  zoom: 1;
+}
+.all-icons { 
+  display: inline-block;
+  vertical-align: middle;
+  text-indent: -9999px;
+  background: url(../images/all_icons.png) no-repeat 0 0;
+}
+
+.buybtn { display: block; margin: 0px auto; width: 275px; height: 47px; line-height: 47px; border-radius: 2px; background: #d00b1c; color: #fff; font-size: 18px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3),inset 0px -1px 0px 0px rgba(0, 0, 0, 0.35);
+}
+.buybtn:hover { background: #fa0b0b;}
+
+dl.price { text-align: center;}
+dl.price dt { font-size: 18px; color: #8b8b8b;}
+dl.price dt strong { font-size: 32px; color: #d00b1c;}
+dl.price dd { margin-top: 10px; font-size: 12px;}
+
+/* banner */
+.banner { min-width: 1000px; height: 650px; background: url(../images/banner.jpg) top center no-repeat;}
+.banner .logo { display: inline-block; width: 56px; height: 18px; margin-top: 25px; text-indent: -9999px; background: url(../images/logo.png);}
+.banner h1 { text-align: center; margin-top: 20px; font-size: 38px;}
+.banner h2 { margin-top: 15px; text-align: center; font-size: 20px;}
+.banner .left-message { float: left; width: 430px;}
+.banner .left-message img { margin-top: 40px; margin-bottom: 20px;}
+.banner .left-message p { width: 376px; padding-bottom: 5px; font-size: 12px; float: right; text-align: center; border-top: dashed #000 1px; border-bottom: dashed #000 1px; }
+.banner .left-message p span { display: block; width: 145px; background: #f0f0f0; margin: 0px auto; margin-top: -10px; margin-bottom: 5px;}
+.banner .left-message p strong { font-size: 18px; font-weight: 500;}
+.banner .left-message p strong.last{ display: inline-block; min-width: 37px;}
+
+.banner .right-message {float: right; padding: 0px 56px; width: 372px; height: 400px; margin-top: 50px; text-align: center; background: #fff; box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.15);}
+.banner .right-message h3 { margin-bottom: 20px; font-size: 22px; line-height: 92px; border-bottom: dashed #000 1px;}
+.banner .right-message p { line-height: 26px; text-align: left; padding-left: 30px;}
+.banner .right-message p i { display: inline-block; vertical-align: middle; width: 6px; height: 6px; margin-right: 5px; background: #000; border-radius: 50%;}
+.banner .right-message dl { margin-top: 20px; border-top: dashed #000 1px;}
+.banner .right-message dl dt {margin-top: 20px;}
+
+.db-message { margin-top: 70px; padding-bottom: 95px;}
+.db-message h2 { position: relative; text-align: center; font-size: 34px;}
+.db-message h2:after {position: absolute; content: ""; width: 80px; height: 4px; left: 0; right: 0; margin: auto; bottom: -50px; background: #ea292b;}
+.db-message .img-box { display: block; margin: 0px auto; margin-top: 150px;}
+
+.db-message dl { position: absolute;}
+.db-message dl dt { display: inline-block; vertical-align: top; margin-right: 5px;}
+.db-message dl dd { display: inline-block; line-height: 22px; color: #838383;}
+.db-message dl dd strong { display: block; margin-bottom: 5px; font-size: 16px; color: #000;}
+.db-message dl.list01 { left: 50px; top: 195px;}
+.db-message dl.list02 { right: 0px; top: 195px;}
+.db-message dl.list03 { left: 0px; top: 479px;}
+.db-message dl.list04 { right: 0px; top: 469px;}
+.db-message dl.list05 { bottom: 0px; left: 180px;}
+
+.gift-message { position: relative; min-height: 430px; margin-top: 120px; text-align: center; background: url(../images/gift-bg.png) no-repeat center;}
+.gift-message:after {position: absolute; content: ""; width: 100%; height: 82px; left: 0px; top: -41px; background: url(../images/line.png) no-repeat center;}
+.gift-message p { padding-top: 80px; font-size: 20px; line-height: 25px;}
+.gift-message p span { display: inline-block; vertical-align: middle; width: 138px; height: 25px; background: url(../images/rabatt.png);}
+.gift-message h2 { margin-top: 10px; font-size: 32px;}
+.gift-message h2 span { color: #d00b1c;}
+.gift-message dl { position: relative; float: left; width: 50%; margin-top: 50px; margin-bottom: 60px;}
+.gift-message dl.sd:after { position: absolute; content: ""; width: 1px; height: 166px; background: #d2d2d2; right: 0px; top: 0px;}
+.gift-message dl del { display: block; margin-top: 5px; margin-bottom: 10px; color: #828282;}
+.gift-message dl strong,.gift-message dl del { font-size: 18px;}
+.gift-message dl dd {font-size: 14px;}
+.gift-message .buybtn { clear: both; width: 275px;}
+
+/* media */
+.media { text-align: center; margin-top: 70px; border-top: solid #d2d2d2 1px;}
+.media h2 { margin-top: 60px; font-size: 36px;}
+.media p {font-weight: 600; margin-bottom: 30px;}
+
+
+.user-rev { margin-top: 90px;}
+/* user-rev */
+.user-rev h3 {
+  font-size: 26px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.user-rev .content {
+  background: #fff;
+  box-shadow: 0px 0px 7px 5px #efefef;
+  height: 190px;
+  padding: 20px 20px 20px 0;
+}
+.user-rev .content dl { display: none; }
+.user-rev .content dl.active { display: block; }
+.user-rev .content dd {
+  margin-left:60px;
+}
+.user-rev h4 {
+  font-size: 18px;
+  margin: 6px 0;
+  margin-bottom: 12px;
+  text-align: center;
+  color: #000;
+}
+.user-rev .users {
+  height: 140px;
+  margin: 24px auto 0;
+  width: 480px;
+}
+.user-rev .users li {
+  text-align: center;
+  float: left;
+  width: 100px;
+  font-size: 12px;
+  padding: 0 30px;
+  position: relative;
+  cursor: pointer;
+  list-style: none;
+}
+.user-rev .users li img {
+  width: 75px;
+  height: 75px;
+  display: block;
+  margin: 10px auto;
+}
+.user-rev .users li span { display: block; }
+.user-rev .users li.active:before { 
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 15px solid #fff;
+  position: absolute;
+  z-index: 1;
+  top: -25px;
+  left: 64px;
+}
+.user-rev .users li.active:after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 15px solid #ddd;
+  position: absolute;
+  z-index: 0;
+  top: -21px;
+  left: 64px;
+  -webkit-filter: blur(2px);
+  -moz-filter: blur(2px);
+  -ms-filter: blur(2px);
+  filter: blur(2px);
+}
+
+/* comparison-table */
+.comparison { display:block; margin-top: 50px; }
+.comparison table {
+  border:0;
+  border-collapse:separate;
+  border-spacing:0;
+}
+.comparison thead th { 
+  vertical-align: bottom;
+  border-bottom: 3px #ea292b solid;
+  line-height: 70px;
+  height: 70px;
+}
+.comparison thead .text { text-align: left; font-size: 20px; }
+.comparison tr td.virtue {
+  text-align:left;
+  width: 515px;
+}
+.comparison tr td.virtue span,
+.comparison tr td.virtue img { float: left; }
+.comparison tr td.virtue img {
+  float: right;
+  vertical-align: middle;
+}
+.comparison tr td.virtue span { max-width: 330px; }
+.comparison tr td.virtue .nuovo {
+  margin-top: 15px;
+  margin-right: 10px;
+}
+.comparison tr {
+  font-size: 13px;
+}
+.comparison .itema,
+.comparison .itemb {
+  color: #fff;
+  text-align: center;
+  width: 220px;
+}
+.comparison td.itemb { background: #eaeaea; }
+.comparison td.itema { background: #faf1f2; }
+.comparison thead th .bg { display: inline-block; vertical-align: bottom; width: 100%; color: #fff; border-top-left-radius: 10px; border-top-right-radius: 10px;}
+.comparison thead th.itemb .bg { background: #232323; height: 60px; line-height: 60px; font-size: 16px;}
+.comparison thead th.itema .bg { background: #ea292b; height: 70px; font-size: 20px;}
+.comparison td {
+  height: 54px;
+  vertical-align: middle;
+  border-bottom: 1px #ccc solid;
+}
+.comparison tr.last td { border-bottom: 3px #eaeaea solid; }
+.comparison td.icons {
+  text-align: left;
+  width: 45px;
+}
+.comparison th.awards { text-align: center; }
+.comparison td.buyarea { position:relative; }
+.comparison .size { font-size:12px; }
+.comparison td .blue,
+.comparison td .orange {
+  width: 16px;
+  height: 17px;
+}
+.comparison td .blue { background-position: 0 0px; }
+.comparison td .orange { background-position: -16px 0px; }
+.comparison td .close { width: 11px; height: 17px; background-position: -32px 0px; }
+
+.footer-buy { height: 457px; margin-top: 60px; text-align: center; background: url(../images/footer-buy-bg.jpg) no-repeat center;}
+.footer-buy .content { display: inline-block; width: 100%; height: 200px; margin-top: 52px; margin-bottom: 50px; background: #fff;}
+.footer-buy .content h2 { padding-top: 10px; padding-bottom: 10px; font-size: 20px;}
+.footer-buy dl.moneyback { float: left; width: 560px; border-right: solid #cfcfcf 1px; font-size: 12px; line-height: 24px; color: #686868; text-align: left;}
+.footer-buy dl.moneyback dt { float: left; margin-right: 15px;}
+.footer-buy dl.moneyback strong { display: block; color: #000;}
+.footer-buy ul { float: right; width: 365px; font-size: 12px; }
+.footer-buy ul li {float: left;}
+.footer-buy ul li.first { margin-right: 85px;}
+.footer-buy ul li span { display: block; height: 95px; line-height: 95px;}
+.footer-buy ul li span img { display: inline-block; vertical-align: middle;}
+
+
+/* footer */
+.footer { padding: 15px 0px; background: #2d2d2d; line-height: 24px; color: #808080; font-size: 12px;}
+.footer p { margin-top: 10px; text-align: center;}

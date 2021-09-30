@@ -1,0 +1,178 @@
+* {	margin:0;padding:0;}
+img {border:0;}
+body {font-size: 14px; font-family:'Open Sans', Arial, Helvetica, sans-serif; color:#333; background: #ca4343;}
+li {list-style:none;}
+a{color: #006699;}
+a:hover{text-decoration: underline;}
+/* float clearing for everyone else */
+.clearfix:after{clear: both;content: "";display: block; height: 0;visibility: hidden;font-size: 0;line-height: 0;}
+.clearfix {display: inline-block;}
+/* clear for single use */
+.clear{clear:both; border:0; height:0; font-size:0; line-height:0; }
+.wrapper{ width:990px; margin:0 auto; display:block; position:relative; height: inherit;}
+.show{display: block;}
+.hidden{display: none;}
+#main{position: relative; display: block; background: #ca4343 url(../img/bg.png) center top no-repeat;}
+#head{position: relative;display: block;height: 572px;}
+#head .discount{position: absolute; top: 170px; left: 220px; display: block; width: 164px; height: 81px;  background: url(../img/discount.png) no-repeat;}
+#head .discount.discount_70{background-position: 0 0;}
+#head .discount.discount_85{background-position: 0 -81px;}
+#head .discount.discount_90{background-position: 0 -162px;}
+#head .giftpack{float: left;width: 520px; height: 570px;}
+#head .headinfo{display:inline-block;float: right;width: 390px; margin-right: 40px; color: #fff;}
+
+#head .headinfo h1{display: block; width: 300px; margin: 0 auto; padding: 20px 0; font-size: 65px; font-weight: 300; text-align: center;line-height: 80px;text-transform: uppercase;}
+#head .headinfo .guarantee{display: block; width: 300px; margin: 0 auto; padding: 30px 0 10px;}
+#head .headinfo .guarantee dt{float: left; width: 74px; margin-right:10px; }
+#head .headinfo .purchase-info{display: block; width: 350px; margin: 0 auto; text-align: center;}
+#head .headinfo .purchase-info li{padding: 3px 0;}
+#head .headinfo .purchase-info li.price{font-size: 18px;}
+#head .headinfo .purchase-info li.price strong{font-size: 36px; font-weight: 600;}
+#head .headinfo .purchase-info li.countdown {padding-top: 10px;font-size: 30px; line-height: 30px;  font-family: tahoma;font-weight: bold;}
+#head .headinfo .purchase-info li.countdown span{margin: 10px;}
+#head .headinfo .purchase-info li.countdown em{ display: inline-block; margin: 10px; font-size: 18px; line-height: 24px; font-weight: normal;}
+#head .headinfo .purchase-info li.countdown sub{  display: inline-block; font-size: 12px; line-height: 12px;   vertical-align: baseline;}
+
+#main .intro{display: block; height: 436px;}
+#main .intro h3{ display: block; padding: 30px 0;font-size: 18px; font-weight: normal; line-height: 24px; text-align: center;}
+#main .intro .introimg{display: block; float: left; width: 460px; height: 320px; margin-left: 70px;}
+#main .intro .info{display: block; float: right; width: 350px; height: 320px; margin-right: 70px;}
+#main .intro .info dt{font-size: 18px;font-weight: 600;line-height: 24px;padding: 30px 0 10px;}
+#main .intro .info dt span{color: #9c1717; text-transform: uppercase;}
+#main .intro .info dd{display: inline-block; padding: 9px 0; }
+#main .intro .info dd.nobg{background: none;}
+#main .intro .info dd small{display:inline-block;width: 340px; text-align: right; padding-top: 10px;}
+
+#main .pack-intro{display: block; height: 212px; margin-top: 25px;}
+#main .pack-intro dl{display: inline-block; width: 430px; height: 140px; float: left;margin-top: 40px;margin-right: 25px;margin-left: 25px;}
+#main .pack-intro dl dt{float: left;	width: 150px; margin-right: 5px;text-align: center;}
+#main .pack-intro dl dd{padding: 2px 0; font-size: 12px;}
+#main .pack-intro dl dd.price{font-size: 30px; font-weight: 600; color: #9c1717;}
+#main .pack-intro dl dd.price del{font-size: 14px; font-weight: normal;color: #333;}
+#main .pack-intro dl dd strong{font-size: 14px;}
+
+#main .purchase-info.middle{display: block; height: 245px;padding-top: 15px;}
+
+#main .purchase-info.middle .discribe{position: relative; float: left; width: 520px; padding-top: 50px; text-align: left; color: #fff; }
+#main .purchase-info.middle .discribe dt{ line-height:20px; }
+#main .purchase-info.middle .discribe dd{ padding: 8px 0; }
+#main .purchase-info.middle .discribe dd.note{ font-size: 13px; font-weight: bold; }
+#main .purchase-info.middle .discribe dd.errmsg{ font-size:12px; color: #ffcc00;}
+.sntext { width: 400px; height: 26px; line-height: 26px; padding: 0 2px; border: 1px #ccc solid; margin-right: 10px; }
+.clickbtn { padding: 6px 8px; border-radius: 3px; border: none; cursor: pointer; background: #ccc; box-shadow: inset 0 0 1px #000;}
+
+#main .purchase-info.middle ul{float: right; width: 430px; margin: 30px auto; color: #fff; text-align: center;}
+#main .purchase-info.middle ul li{padding: 4px 0;}
+#main .purchase-info.middle ul li.price{font-size: 18px;}
+#main .purchase-info.middle ul li.price strong{font-size: 36px; font-weight: 600;}
+#main .purchase-info.middle ul li.countdown{font-size: 16px;}
+
+#main .reviews{padding-top: 22px;}
+#main .reviews h3{ font-size: 24px; display: inline-block;}
+#main .reviews h4{ font-size: 18px; line-height: 22px; margin: 12px 0; }
+#main .reviews dt{ float: left; width: 110px; }
+#main .reviews dd{ font-size: 14px; line-height: 24px; }
+#main .reviews dd span{ float: right; padding-top: 20px;}
+
+#main .reviews .media_rev,#main .reviews .user_rev{ width: 900px; height: 208px; margin:0 auto; }
+#main .reviews .media_rev h3{ margin-left: 120px; margin-top: 40px;}
+#main .reviews .media_rev dl{ padding: 10px 0; }
+#main .reviews .media_rev dd{ margin-left: 120px;}
+
+#main .reviews .user_rev {height: 400px;}
+#main .reviews .user_rev .content{ padding-top: 10px; height: 190px; }
+
+#main .reviews .user_rev .users{ height: 140px; margin: 25px auto 0; width: 340px;}
+#main .reviews .user_rev .users li{ text-align: center; float: left; width: 100px; font-size: 12px; padding: 0 30px; position: relative; cursor: pointer; list-style: none; }
+#main .reviews .user_rev .users li img{ width: 76px; height: 76px; display: block; border-radius: 50%; margin: 0 auto 10px; }
+#main .reviews .user_rev .users li.current:before{ position: absolute; top: -25px; left: 64px; z-index: 1; display: block; width: 0; height: 0;  content: "";border-left: 15px solid transparent; border-right: 15px solid transparent; border-top: 15px solid #f7e1c1; }
+#main .reviews .user_rev .users li.current:after{  position: absolute; top: -24px; left: 64px; display: block; width: 0; height: 0; content: "";  border-left: 15px solid transparent; border-right: 15px solid transparent; border-top: 15px solid #d9c7ae;}
+
+.comparison_table{margin: 16px 10px;}
+.comparison_table h4{display: inline-block;padding-top: 15px;font-size: 16px; line-height:28px;}
+.comparison_table .comtable{margin-top:14px;/* text-align:center; */}
+.comparison_table .comtable dt{font-size:20px; /* font-weight:bold; */ margin-bottom:15px;}
+.comparison_table .comtable dt span{color:#0790a5;}
+
+.comparison_table .comlist{margin-top: 25px;}
+.comparison_table .comlist dt{font-size:16px; line-height:20px; font-weight:bold; color:#006699; background: url(../img/compare-listicon.png)0 -3px  no-repeat; padding-left:30px;}
+.comparison_table .comlist dd{font-size:12px; line-height:16px; margin:10px 0; margin-left:30px;}
+
+#main .footer{ display: block; padding: 40px 0; height: 70px; width: 100%; line-height:30px; color: #fff; text-align:center;}
+
+.floatlayer{position:fixed; z-index:10; top:-120px; height:120px; width: 100%; background:#8e1414\9; -webkit-linear-gradient(to top, #8e1414, #9c1717); background-image:linear-gradient(to top,#8e1414, #9c1717);  visibility: hidden; transition:all 0.4s; -webkit-transition: all 0.4s; -moz-transition: all 0.4s; -o-transition: all 0.4s;}
+.floatlayer.on{ top: 0; visibility: visible; }
+.floatlayer .left{ width: 620px; float:left; text-align:center; margin:20px 0 0 0; color: #fff; font-weight: 300;}
+.floatlayer .left dt{ font-size: 18px; line-height: 30px; font-weight: 300; text-align:center;}
+.floatlayer .left dt span{ font-size:30px; }
+.floatlayer .left dd{ font-size: 18px; line-height: 26px;}
+.floatlayer .left dd.countdown{font-size: 14px;}
+.floatlayer .checkarea{ float: right; width: 220px; margin: 20px 60px 0 0; text-align: center; color: #fff;}
+.floatlayer .checkarea dt{ font-size: 12px; }
+.floatlayer .checkarea dt span{ font-size: 18px; font-weight: 600;}
+.floatlayer .checkarea dt .countdown{ font-size: 14px; display: inline-block; color: #333; font-weight: normal; }
+
+
+.annotation{ margin: 10px auto; font-size: 12px; color: #666; width: 980px;}
+.annotation dt{ font-size: 13px; display: inline-block; }
+
+.activebtn span{display: inline-block; padding: 4px 10px; color: #4c0303; font-weight: 600; border-radius: 4px; background: #ffa800; box-shadow: 0 3px 0px #6e2911;}
+.activebtn span i{display: inline-block; float: left; background: url(../img/cart.png) no-repeat;}
+.activebtn:hover span{background: #eb940f\9; background-image:-webkit-linear-gradient(to top, #d57300, #ffb21d);background-image:linear-gradient(to top,#d57300, #ffb21d);}
+
+.activebtn.large span{padding: 17px 33px; font-size: 30px;line-height: 34px;}
+.activebtn.large span i{width: 42px; height: 34px; background-position: 0 0;}
+
+.activebtn.large.middle span{padding: 17px 40px; font-size: 24px;line-height: 34px;}
+
+.activebtn.small span{padding: 3px 20px; margin: 8px 0; font-size: 18px;line-height: 34px;box-shadow: 0 1px 0px #6e2911;}
+.activebtn.small span i{width: 42px; height: 34px; background-position: 0 -32px;}
+
+.activebtn.small.top span{padding: 8px 20px;box-shadow: 0 3px 0px #6e2911;}
+.pop-up {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100001;
+    width: 100%;
+    height: 100%;
+    background: url(../img/pop.png) repeat;
+}
+.pop-main {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.pop-box {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -108px;
+    margin-left: -289px;
+    width: 578px;
+    height: 216px;
+    border: 1px solid #faf0bf;
+    background-color: #fff;
+}
+.pop-box h2,
+.pop-box p {
+    margin: 0 auto;
+    width: 410px;
+    text-align: left;
+}
+.pop-box h2 {
+    padding: 32px 0 10px;
+    font-size: 22px;
+    color: #e50403;
+}
+.pop-box p {
+    margin-bottom: 18px;
+    font-size: 16px;
+    line-height: 22px;
+    color: #010007;
+}
+.main {
+    position: relative;
+}

@@ -1,0 +1,198 @@
+@font-face {
+    font-family: 'MyriadProCondensed';
+    src: url('../fonts/myriadpro-cond-webfont.eot');
+    src: url('../fonts/myriadpro-cond-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/myriadpro-cond-webfont.woff') format('woff'),
+         url('../fonts/myriadpro-cond-webfont.ttf') format('truetype'),
+         url('../fonts/myriadpro-cond-webfont.svg#MyriadProCondensed') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}	
+@font-face {
+	font-family: 'MyriadProBold';
+    src: url('../fonts/myriadpro-bold-webfont.eot');
+    src: url('../fonts/myriadpro-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/myriadpro-bold-webfont.woff') format('woff'),
+         url('../fonts/myriadpro-bold-webfont.ttf') format('truetype'),
+         url('../fonts/myriadpro-bold-webfont.svg#MyriadProBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MyriadPro';
+    src: url('../fonts/MyriadPro-Regular.eot');
+    src: url('../fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/MyriadPro-Regular.woff') format('woff'),
+         url('../fonts/MyriadPro-Regular.ttf') format('truetype'),
+         url('../fonts/MyriadPro-Regular.svg#MyriadProBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+* {	margin:0;padding:0;-webkit-text-size-adjust:none;}
+img {border:0;}
+body {font-family:Arial, Helvetica, sans-serif;font-size:13px;color:#333;background:#fff;}
+li {list-style:none;}
+.clear {clear:both;height:0;border:0;font-size:0;}
+a{color:#006699;}
+a:hover{color:#028bcf;}
+.mt5{margin-top:5px;}
+.ml10{margin-left:10px;}
+.mb10{margin-bottom:10px;}
+.right{float:right;}
+.center{text-align:center;}
+.red{color:#cc0000;}
+.brownyellow{color: #cc0000;}
+.del{text-decoration:line-through;}
+.f11{font-size:11px; color:#666;}
+.bf14{font-weight:bold; font-size:14px ;}
+.bf16{font-weight:bold; font-size:16px ;}
+h2{font-size:20px; line-height:26px;}
+h3{font-size:16px; line-height:24px; margin:0 0 5px 0;}
+.cyellow{color:#ff9900;}
+#lang { float:right; }
+#lang { position:relative; width:175px; height:20px; overflow:hidden; margin-right:40px; }
+#google_translate_element { position:absolute; right:0; top:-4px; }
+#google_translate_element select { font-size:11px; width:160px; }
+.myfont{font-family:"MyriadProCondensed"; font-size:26px; color:#444;} 
+.iconsale{width: 67px; height: 67px; display:block; background:url(../img/icon_sale.png); position:absolute; right: -18px; top: -17px;}
+.iconfree{width: 62px; height: 36px; display:block; background:url(../img/icon_free.png); position:absolute; right: 0; top: 0;}
+
+.price{ position:relative;}
+.price em{ width:55px; height:2px; display:block; background:#cc0000; position:relative; top:-9px; left:32px;}
+#main{width:1060px; margin:0 auto; background: #760304 url(../img/bg.jpg) center top no-repeat; padding:0 0 10px 0; }
+#main .head{width:1060px; height: 220px; display:inline-block; background:url(../img/head.jpg) 0 0 no-repeat; position:relative;}
+#main .head .logo{ width:95px; height:45px; position:absolute; top:20px; left:40px;}
+#main .head .logo a{ display:block; width:95px; height:45px;}
+#main .head .valid{color:#fff; position: absolute; bottom: 70px; right: 40px;}
+#main .head .giftbox{width: 135px; height: 135px; display: block; position: absolute; right: 165px; bottom: 12px;}
+#main .head .countdown{width: 665px;position: absolute;top: 20px;left: 322px;}
+#main .head .countdown span{font-family:"tahoma"; font-size:40px;font-weight:bold;color: #890001;line-height: 60px;letter-spacing: 19px;}
+#main .head .countdown span.day{}
+#main .head .countdown span.hor{ margin-left: 56px; }
+#main .head .countdown span.min{ margin-left: 28px; }
+#main .head .countdown span.sec{ margin-left: 28px; }
+#main .head .countdown span.minsec{ margin-left: 0; color:#fff; letter-spacing: 0; font-size: 24px;}
+#main .mbody{ width: 976px; margin: 0 auto; background:#fff;}
+
+#main h1{color: #cc0000; font-size: 36px; font-family:"MyriadProCondensed"; text-align: center;font-weight: normal;line-height: 46px;}
+#main h1 span{font-size: 60px;}
+
+#main .intro{background: url(../img/box_bg.png) center center repeat-x; height: 360px;margin-top: -10px; position: relative;}
+#main .intro .ladybird{width: 92px; height: 105px; display: block; position: absolute; top: -60px; left: -30px;}
+
+#main .intro .boxgroup{width: 390px; height: 250px; display: block; float: left; margin-top: 10px; margin-left: 90px;}
+#main .intro .topbuy{width: 360px; float: right; margin-top: 30px; margin-right: 80px;}
+#main .intro .topbuy>dt{font-size: 16px; line-height: 22px;}
+#main .intro .topbuy .buyarea{width: 235px; float: left; position: relative; background: url(../img/countpurchesed.png) right 10px no-repeat;margin-top: 20px;}
+#main .intro .topbuy .count{width: 104px; font-size: 36px; color: #cc0000; font-family: "MyriadProCondensed"; line-height: 35px;font-weight: normal;text-align: right;}
+#main .intro .topbuy .buyarea span{text-align: center; font-size:14px;margin-left: 10px;margin-top: 4px;display: inline-block;}
+#main .intro .topbuy .buyarea span em{font-size: 24px;font-style: normal;margin-right: 10px;font-weight: bold;}
+#main .intro .topbuy .guarantee{margin-top: 32px;width: 120px;float: right;text-align: center;}
+#main .intro .buyarea .giftbox{width: 38px;height: 42px; display: block;position: absolute;top: 60px;left: -20px;}
+
+
+#main .conf{margin: 0px 0 20px 20px;}
+#main .conf dl dt{float: left;}
+#main .conf dl dd{font-size: 30px; color: #cc0000; font-family:"MyriadProCondensed"; display: inline-block;margin-top: 25px;margin-left: 0px;}
+#main .conf dl dd .countdown{font-size: 15px;display: inline-block;margin-left: 10px;}
+#main .conf dl dd .countdown span{font-size: 20px;}
+
+#main .pricebox{width: 920px; margin: 30px auto;height: 130px;}
+#main .pricebox .describe{width: 480px; float: left; font-size: 14px;line-height: 22px;margin-top: 25px;margin-right: 30px;}
+#main .pricebox .describe span{ text-align: right; display: inherit; font-size: 24px; font-weight: bold; line-height: 36px;}
+
+#main .pricebox .buyarea{width: 268px; float: left; position: relative; background: url(../img/countpurchesed.png) right 10px no-repeat;}
+#main .pricebox .buyarea .count{width: 132px; font-size: 36px; color: #da4300; font-family: "MyriadProCondensed"; line-height: 35px;font-weight: normal;text-align: right;}
+#main .pricebox .buyarea span{text-align: center; font-size:14px;margin-left: 50px;margin-top: 4px;display: inline-block;}
+#main .pricebox .buyarea span em{font-size: 24px;font-style: normal;margin-right: 10px; font-weight: bolder;}
+#main .pricebox .buyarea .giftbox{width: 38px;height: 42px; display: block;position: absolute;top: 60px;left: 20px;}
+#main .pricebox .buybtn{margin-left: 40px;}
+#main .pricebox .guarantee{width: 115px; text-align: center; font-size: 11px;float: right;margin-top: 18px;margin-right: 16px;}
+#main .pricebox .guarantee dd{margin-top: 8px; font-size: 12px;}
+
+#main .procdetail{margin: 20px; width: 920px;}
+#main .procdetail .salebox{width: 582px; padding: 10px 0; background: #f3f3f3; color: #595959; display: block; float: left; position: relative;}
+
+#main .procdetail .proc_asc h3{font-size: 20px; display: inherit;font-weight: normal;margin-top: 20px;margin-left: 15px;}
+#main .procdetail .proc_asc dl{float: left; width: 580px;margin-top: 20px;margin-bottom: 12px;}
+#main .procdetail .proc_asc dl dt{width: 250px;float: left;}
+#main .procdetail .proc_asc dl dd{ font-size: 14px; line-height: 30px; margin: 22px 0 20px 250px; padding-left: 42px; background: url(../img/icon.png) no-repeat;}
+
+#main .procdetail .proc_asc dl dd.icon_01{background-position: 0 2px;}
+#main .procdetail .proc_asc dl dd.icon_02{background-position: 0 -78px;}
+#main .procdetail .proc_asc dl dd.icon_03{background-position: 0 -161px;margin-bottom: 10px;}
+#main .procdetail .proc_asc dl dd.icon_04{background-position: 0 -240px;}
+
+#main .procdetail .proc_asc .txtlink{background: none; font-size: 12px;margin: 0 46px 0;text-align: right;}
+
+#main .procdetail .freebox{width: 310px; height: 106px;float: right; position: relative;background: #f3f3f3; color: #595959;}
+#main .procdetail .freebox dl{margin: 10px;}
+#main .procdetail .freebox dl dt{float: left; margin-right: 10px;}
+#main .procdetail .freebox dl dd{margin-top: 10px;float: right;width: 210px;}
+#main .procdetail .freebox dl dd strong{margin-bottom: 5px;display: inline-block;}
+#main .procdetail .freebox dl dd em{margin-bottom: 5px;display: inline-block; float: right;font-weight: bold;text-decoration: line-through;}
+.buybtn{width:204px; height:61px; display:block; font-size: 18px; line-height:61px; text-transform:uppercase; color:#fff; text-align:center; text-decoration:none; text-shadow: 0 -1px 1px #85652c; background:url(../img/buybtn.png) 0 0 no-repeat;text-indent: 27px;}
+.buybtn:hover{background-position:0 -61px; color:#fff;}
+
+.checkbtn{width:238px; height:49px; display:block; font-size:18px; line-height:46px; text-transform:uppercase; color:#fff; text-align:center; text-decoration:none; text-shadow:0 -1px 0 #000; background:url(../img/checkbtn.png) 0 0 no-repeat;}
+.checkbtn:hover{background-position:0 -60px; color:#fff;}
+
+.awards{ /*border-top: 1px solid #CCCCCC;*/ margin: 30px 20px 0; padding-top: 20px;}
+
+#main .footer{ display: block; height: 20px; width: 1060px;}
+
+
+.usersaying{margin: 20px 10px; padding:0 8px;}
+.usersaying .boxa{width:47%; float:left; margin:30px 0 0;}
+.usersaying .boxb{width:47%; float:right; margin:30px 0 0;}
+.usersaying h3{margin-bottom:23px;}
+.usersaying .user{float:left; color:#666; width:105px;}
+.usersaying .user dt{margin-bottom:12px;}
+.usersaying .user dd{line-height:20px; font-size:13px;}
+
+.usersaying .quit{ width:330px; float:right;}
+.usersaying .quit dt{float:left; display:block; width:24px; height:20px; margin-right:8px;}
+.usersaying .quit dd{margin-left:32px; height:auto; font-size:13px; line-height:20px;}
+
+#main .comparison_table{margin: 35px 20px 10px 20px;padding-bottom: 20px;}
+#main .comparison_table p{font-size: 16px; font-weight: bold; line-height: 22px;}
+#main .comparison_table table{}
+
+#main .comparison_table table {border:0; border-collapse:separate; border-spacing:0 ;}
+
+#main .comparison_table thead tr th{border-bottom:2px #fd6b00 solid; height: 60px; font-size: 15px;} 
+
+#main .comparison_table tfoot th{ height: 100px; font-weight: normal; font-size: 14px;border-bottom:2px #fd6b00 solid;}
+#main .comparison_table tfoot th span{font-weight: bold;}
+
+#main .comparison_table tr td.virtue{ text-align:left; width: 400px;}
+#main .comparison_table tr{text-align: center; font-size: 16px;}
+#main .comparison_table .itema{color: #000; background: #fbfae9; text-align: center;width: 180px;}
+#main .comparison_table .itemb{color: #000; background: #eef7ec; text-align: center;width: 180px;}
+#main .comparison_table td{height: 54px; vertical-align: middle; border-bottom: 1px #ccc solid;}
+#main .comparison_table td.icons{text-align: center; padding:0 10px;width: 50px;}
+#main .comparison_table th.awards{text-align: center;}
+#main .comparison_table td.buyarea{position:relative;}
+#main .comparison_table .discount{width: 63px;height: 63px; display: block;background: url(../img/discount.png) 0 0 no-repeat; position: absolute; z-index: 10; margin-top: -10px; margin-left: 180px;/* top:-10px; right: -10px;*/}
+
+.tbbuybtn{width: 150px; height: 34px; display: block; margin: 10px auto 0; line-height: 34px; font-size: 18px; color: #fff; text-decoration: none; background: #ff9204; text-shadow:0 1px 0 #a86003;}
+.tbbuybtn:hover{background: #fda82c; text-decoration: none; color: #fff;}
+
+
+.mlink{height:30px; text-align:center; margin-top:15px;}
+
+.floatlayer{height:110px; width: 970px; background:#fcffe0 url(../img/bg_float.png); border:3px #40ab00 solid; border-top:none; border-bottom-left-radius:20px; border-bottom-right-radius:20px;position:fixed; z-index:10; top:-110px;visibility: hidden; transition:all 0.4s; -webkit-transition: all 0.4s; -moz-transition: all 0.4s; -o-transition: all 0.4s;}
+.floatlayer.on{top: 0; visibility: visible;}
+.floatlayer .left{ width: 590px; float:left; text-align:center; margin:20px 0 0 0;}
+.floatlayer .left dt{ font-size:18px; line-height:30px;}
+.floatlayer .left dt span{ font-size:30px; color:#e31717;}
+.floatlayer .left dd{ font-size:14px; line-height:30px; color:#666;}
+.floatlayer .left dd span{ font-size:18px; color:#e31717; font-style:italic;}
+.floatlayer .price{ float:left; background:url(../img/btn_price.png) no-repeat; width:105px; height:48px; font-size:24px; font-style:italic; color:#e31717; text-align:center; line-height:40px; margin: 15px 0 0 0;}
+.floatlayer .right{ width:265px; float:left; margin:15px 0 0 0;}
+.floatlayer .right dt a{ background:url(../img/btn_buy.png) no-repeat; text-transform:uppercase; font-size:24px; color:#fff; display:block; line-height:64px; text-decoration:none; text-shadow:1px 0 0 #2f7e00; text-indent:50px;}
+.floatlayer .right dt a:hover{ background-position:0 -64px;}
+.floatlayer .right dd{ text-align:center; font-size:12px; line-height:15px;}
+.floatlayer .right dd em{ color:#40ab00;}
+
+.aboutdetail{font-size: 11px; color: #999; margin:0 20px;}

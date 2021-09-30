@@ -1,0 +1,178 @@
+@charset "utf-8";
+*{ margin:0; padding:0; border:0; outline:0; font-size:100%; vertical-align:baseline;}
+body { font-size: 14px; line-height:1.4; color: #000; font-family: 'Open Sans', Arial, Helvetica, sans-serif; font-weight: 600;}
+a { margin:0; padding:0; font-size:100%; vertical-align:baseline; background:transparent; outline: none; color: #000; text-decoration: none; cursor: pointer; }
+a:hover {  text-decoration:none; }
+del { text-decoration:line-through; }
+table { border-collapse:collapse; border-spacing:0; }
+ul,ul li { list-style-type:none;}
+.clear {display:block;height:0;overflow:hidden;clear:both;}
+.clearfix:after {content:'\20';display:block;height:0;clear:both;}
+.clearfix {*zoom:1;}
+.hidden { display: none; }
+.show { display: block; }
+.wrapper { width: 1000px; position: relative; height: inherit; overflow: visible; margin: 0 auto;}
+.left { float: left;}
+.right { float: right;}
+.all-icons { display: inline-block; text-indent: -9999px; background: url("../images/all-icons.png") no-repeat;}
+.buybtn { display: block; position: relative; border-radius: 50px; overflow: hidden; color: #fff; font-size: 19px; text-align: center; font-weight: 600; background: url(../images/buybtn.png);
+
+}
+.buybtn:before { content:'\20'; position: absolute; display: block;
+    width: 19px;
+    height: 16px;
+    right: -126px;
+    top: 28px;
+    background: url(../images/arrow.png);
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.buybtn:hover:before { right: 26px; top: 28px;}
+
+.banner { height: 610px; min-width: 1000px;color: #fff; background: url(../images/banner.jpg) no-repeat center;}
+.banner .logo { display: inline-block; width: 42px; height: 15px; margin-top: 24px; background: url(../images/logo.png); text-indent: -9999px;}
+.banner .title { height: 73px; background: url(../images/title.png) no-repeat center; text-indent: -9999px;}
+
+.banner .content { margin-top: 35px; border-top: solid rgba(255,255,255,0.2) 1px;}
+.banner .content .left { width: 491px; text-align: center; color: #004a66; font-size: 12px;}
+.banner .content .left >img { margin-top: 35px;}
+.banner .content .left strong { font-size: 14px; }
+.banner .content .left p img { margin-right: 5px;}
+
+.banner .content .right { width: 435px; margin-top: 40px;}
+.banner .content .right p.now { color: rgba(255,255,255,0.6);}
+.banner .content .right p span { float: left;}
+.banner .content .right p span.text { margin-top: 75px;}
+.banner .content .right p span.price {width: 125px; height: 116px; background: url(../images/price.png) center no-repeat; text-indent: -9999px;}
+.banner .content .right dl dt { font-size: 18px; line-height: 30px; font-weight: 700;}
+.banner .content .right dl dd { padding-left: 15px; line-height: 20px; font-size: 12px; background: url(../images/choose.png) no-repeat 0 4px;}
+.banner .content .right p.leaving { height: 26px; margin-top: 30px; background: url(../images/leaving.png) no-repeat; text-indent: -9999px;}
+.banner .content .right .buybtn { width: 330px; height: 70px; box-shadow: 0 10px 20px 0 #086d8a; margin-top: 30px; line-height: 70px; background-position: 0 0;  }
+.banner .content .right .buybtn:hover { background-position: 0 -76px;}
+
+.trial { height: 82px; background-color: #05304c; min-width: 1000px; color: #526576; font-size: 13px;}
+.trial dl dt { padding-top: 15px;}
+.trial dl dt,.trial dl dd { padding-left: 15px;}
+.trial dl dd { font-size: 12px;}
+
+.enjoy { margin-top: 80px;}
+.enjoy h2 { margin-bottom: 20px; font-size: 24px; text-align: center;}
+.enjoy dl { width: 50%; height: 120px; float: left; margin-top: 25px;}
+.enjoy dl dt { float: left; margin-right: 25px; width: 47px; text-align: left;}
+.enjoy dl:nth-child(odd) dt{ margin-left: 15px;}
+.enjoy dl dd strong { display: block; margin-bottom: 15px; font-size: 16px; color: #000}
+.enjoy dl dd { width: 410px; float: left; line-height: 18px; font-size: 12px; color: #3e3e3e; }
+
+.main .opt-out{ margin-top: 50px; text-align: center;}
+.main .opt-out dt span { display: inline-block; vertical-align: bottom; font-size: 16px;}
+.main .opt-out dt span.price { width: 65px; height: 56px; margin-right: 31px; margin-left: 5px; background: url(../images/bottom-price.png) center no-repeat; text-indent: -9999px;}
+.main .opt-out dd .buybtn { width: 340px; height: 70px; margin: 15px auto; font-size: 17px; line-height: 70px; box-shadow: 0 10px 20px 0 #eba1ba; background-position: 0 -152px;}
+.main .opt-out dd .buybtn:hover { background-position: 0 -226px;}
+.main .opt-out dd .buybtn:hover:before { right: 18px; right: 13px\0; top: 28px;}
+.main .opt-out dd span { display: inline-block; margin-right: 15px; font-size: 12px; background: url(../images/black-choose.jpg) no-repeat 0 2px; text-indent: 15px;}
+
+.main .media { margin-top: 50px; padding-top: 50px; border-top: solid #ccc 1px;}
+.main .media h2 { margin-bottom: 45px; font-size: 32px; text-align: center; }
+.main .media dl { width: 485px; margin-right: 10px; padding-top: 30px;  float: left;}
+.main .media dl.last { margin-right: 0;}
+.main .media dl dt { float: left; width: 73px;}
+.main .media dl:nth-child(odd) { float: right;}
+.main .media dl dt img { width: 73px; height: 73px; margin-top: 70px;}
+.main .media dl dd { float: right; width: 408px; line-height: 20px;}
+.main .media dl dd strong { font-size: 16px; text-transform:uppercase;}
+.main .media dl dd p { position: relative; width: 378px; padding-left: 15px; padding-right: 15px; padding-top: 15px; height: 112px; margin-top: 10px; font-size: 12px; background-color: #f1f1f1; border-radius: 5px 5px 5px 0; }
+.main .media dl dd p:before {content:'\20';display:block; position: absolute; bottom: 0; left: -31px; width: 31px; height: 68px; background: url(../images/review.png);}
+.main .media dl dd img { float: left; margin-right: 20px; border-radius: 50%;}
+
+/* comparison */
+.comparison {
+  width: 100%;
+  padding: 102px 0 66px;
+  text-align: center;
+  background: #fff;
+}
+.comparison h2 {
+  margin: 0 0 39px 0;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 42px;
+  text-align: center;
+  color: #000;
+}
+.comparison table,
+.comparison table thead,
+.comparison table thead tr,
+.comparison table thead tr th,
+.comparison table thead tr th p,
+.comparison table tbody,
+.comparison table tbody tr,
+.comparison table tbody tr td {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.comparison table {
+  width: 1016px;
+  margin: 0 auto;
+  border-collapse: collapse;
+  border-spacing: 0;
+  background: url("../images/table-bg-new-8.png") top center no-repeat;
+}
+.comparison table thead th {
+  height: 91px;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: -0.3px;
+}
+.comparison table thead th.item-a {
+  width: 265px;
+}
+.comparison table thead th.item-a p {
+  padding-top: 11px;
+  line-height: 80px;
+  color: #545353;
+}
+.comparison table thead th.item-b {
+  width: 472px;
+}
+.comparison table thead th.item-c {
+  width: 279px;
+}
+.comparison table thead th.item-c p {
+  height: 91px;
+  line-height: 91px;
+  color: #14b390;
+}
+.comparison table tbody td {
+  height: 50px;
+  line-height: 50px;
+}
+.comparison table tbody td i {
+  width: 15px;
+  height: 15px;
+}
+.comparison table tbody td.item-a i {
+  background-position: 0 -15px;
+  margin-right: 3px;
+}
+.comparison table tbody td.item-c i {
+  background-position: -15px -15px;
+}
+.comparison td > span {
+  display: block;
+  line-height: 20px;
+}
+
+.bottom-buy { height: 205px; margin-top: 50px; min-width: 1000px; background: url(../images/bottom-banner.jpg) no-repeat bottom;}
+.bottom-buy img { float: left;}
+.bottom-buy ul { float: left; margin-left: 15px; margin-top: 110px; color: #fff;}
+.bottom-buy ul li { background: url(../images/bottom-choose.png) no-repeat 0 5px; text-indent: 25px; line-height: 25px;}
+.bottom-buy .buybtn { width: 300px; height: 60px; background-position: 0 -301px; box-shadow: 0 10px 20px 0 #086d8a; float: right; margin-right: -30px; margin-top: 103px; line-height: 60px; font-size: 18px; }
+.bottom-buy .buybtn:hover { background-position: 0 -367px;}
+.bottom-buy .buybtn:hover:before { right: 20px; right: 13px\0; top: 22px;}
+
+.product { padding-top: 50px; min-width: 1000px; background-color: #ededed; text-align: center;}
+.product h2 { margin-bottom: 20px; font-size: 22px; color: #6c6c6c;}
+.product img { margin-bottom: 25px;}
+.footer { height: 80px; line-height: 80px; border-top: solid #ccc 1px;}

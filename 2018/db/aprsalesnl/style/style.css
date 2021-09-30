@@ -1,0 +1,330 @@
+@charset "utf-8";
+
+/* CSS Document */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  min-width: 1000px; 
+  font-size: 14px;
+  line-height: 1.4;
+  color: #212121;
+  font-weight: 400;
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+  outline: 0;
+  vertical-align: baseline;
+}
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  color: #212121;
+  outline: none;
+  text-decoration: none;
+  cursor: pointer;
+}
+a:hover { text-decoration: none; }
+del { text-decoration: line-through; }
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+ul,
+ul li { list-style-type: none; }
+img { border: none; }
+.clearfix:after {
+  clear: both;
+  display: block;
+  height: 0;
+  font-size: 0;
+  content: "";
+  visibility: hidden;
+}
+.clearfix { zoom: 1; }
+.wrapper {
+  position: relative;
+  width: 1000px;
+  min-width: 1000px;
+  margin: 0 auto;
+  zoom: 1;
+}
+.all-icons { 
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px;
+  text-indent: -9999px;
+  background: url(../images/all_icons.png) no-repeat 0 0;
+}
+.buybtn { display: block; margin: 0px auto; width: 298px; height: 68px; line-height: 68px; border-radius: 5px; font-size: 24px; color: #c20c0c; background: rgb(255,161,0); font-weight: 700;
+  background-image: -moz-linear-gradient( 90deg, rgb(255,161,0) 0%, rgb(255,234,14) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(255,161,0) 0%, rgb(255,234,14) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(255,161,0) 0%, rgb(255,234,14) 100%);
+  border-bottom: solid #e56e25 3px; box-shadow: 0px 14px 16px 0px rgba(109, 12, 9, 0.84); text-shadow: 0.799px 0.602px 3px rgba(255, 255, 255, 0.4);
+}
+.buybtn i { width: 43px; height: 43px; margin-top: -2px; background-position: 0px -67px;}
+.buybtn:hover { background: #ffe40d;}
+
+.price { margin-top: 15px;}
+.price dt { margin-bottom: 15px; line-height: 18px; font-size: 20px; color: #dd9f9f;}
+.price dt strong { display: inline-block; vertical-align: bottom; width: 95px; height: 45px; text-indent: -9999px; background: url(../images/price.png);}
+.price dt del { position: relative;  text-decoration: none;}
+.price dt del:after { position: absolute; content: ""; width: 68px; height: 10px; left: 0px; top: 5px; background: url(../images/del-bg.png);}
+.price dd { margin-bottom: 10px; color:#ffdfdf; font-size: 12px;}
+.price dd.last i { width: 17px; height: 12px; background-position: 0px -54px;}
+
+/* banner */
+.banner { width: 100%; min-width: 1000px; height: 650px; text-align: center; background: #b22108 url(../images/banner.jpg) no-repeat center;}
+.banner .logo { float: left; width: 46px; height: 15px; margin-top: 20px; margin-left: 3px; text-indent: -9999px; background: url(../images/logo.png);}
+.banner .title { float: left; width: 584px; margin-top: 30px; margin-left: 153px; background: url(../images/title-bg.png) no-repeat 0px 32px;}
+.banner .title h1 { height: 57px; text-indent: -9999px; background: url(../images/title.png) no-repeat center; }
+.banner .title h2 { font-size: 17px; font-weight: 400; color: #fcd8d5; font-style: italic;}
+.banner .title ul li { display: inline-block; margin-top: 15px; margin-right: 5px; width: 61px; height: 33px; line-height: 33px; color: #fcc8c8; border-radius: 3px; background: #9f2217;}
+.banner .title ul li span { font-weight: 700; font-size: 20px;}
+.banner .title ul li span:last-child{ font-size: 18px;}
+.banner .img-box { position: relative; clear: both; padding-top: 33px;}
+.banner .img-box img { float: left; margin-left: -24px;}
+.banner .img-box span { position: absolute; display: inline-block; width: 25px; bottom: 19px; right: 413px; font-size: 13px; font-weight: 700; color: #fff; font-style: italic;}
+.banner .price { margin-top: 25px;}
+
+.payment { height: 80px; background: #f5f5f5; line-height: 80px; text-align: center;}
+.payment img { display: inline-block; vertical-align: middle;}
+
+.db-message { margin-top: 70px;}
+.db-message h2 { text-align: center; font-size: 32px;}
+.db-message .img-box { float: left; margin-top: 31px; margin-left: 66px;}
+.db-message ul { float: left; margin-left: 70px; margin-top: 70px;}
+.db-message ul li { padding-left: 25px; margin-top: 20px; font-weight: 700; background: url(../images/hook.png) no-repeat 0px 5px;}
+.db-message p { clear: both; text-align: right; font-size: 16px;}
+.db-message p a { color: #0681ea; text-decoration: underline;}
+
+.gift-message { height: 313px; margin-top: 60px; background: url(../images/gift-bg.jpg) no-repeat center;}
+.gift-message img { float: left; margin-left: 83px; margin-top: 41px;}
+.gift-message dl { float: left; margin-left: 50px; margin-top: 100px;}
+.gift-message dl dt { margin-bottom: 10px; font-weight: 700; font-size: 24px;}
+.gift-message dl dt strong { font-size: 36px; color: #df2d3b;}
+.gift-message dl dt del { font-weight: 400;}
+.gift-message dl dd { padding-left: 25px; line-height: 34px; font-size: 16px; background: url(../images/hook.png) no-repeat 0px 12px;}
+
+/*review*/
+.review{ padding: 40px 0; margin-top: 35px; }
+.review h2 { text-align: center; font-size: 26px;}
+
+
+.review .review-message { position: relative; height: 434px; margin-top: 30px; background: url(../images/map.jpg) no-repeat center;}
+.review .review-message dl { position: absolute; width: 115px; height: 101px;}
+.review .review-message dl dt { position: relative; height: 101px; text-align: center;}
+.review .review-message dl dt .img-box { position: relative; z-index: 30; width: 115px; height: 101px; cursor: pointer;}
+.review .review-message dl h4 { padding-top: 30px; font-size: 12px; color: #d82029}
+.review .review-message dl img {position: relative; z-index: 5; width: 38px; height: 38px; margin-top: 2px; border-radius: 50%; border: solid #d82029 2px;     
+  -webkit-transition: all ease .4s;
+    transition: all ease .4s;
+  }
+.review .review-message dl .line { position: absolute; background: url(../images/line.png);}
+.review .review-message dl dd { filter:alpha(opacity=0); opacity: 0; position: absolute; z-index: 8; left: 108px; top: 5px; width: 310px; padding: 15px 15px; border-radius: 5px; color: #Fff; background: rgba(232,26,19,.65); box-shadow: 0px 6px 15px 0px rgba(216, 32, 41, 0.39);   
+  -webkit-transition: all ease .2s;
+    transition: all ease .2s;
+  }
+.review .review-message dl dd:after {position: absolute; content: ""; width: 10px; height: 17px; top: 50%; left: -10px; margin-top: -9px; background: url(../images/arrow.png);}
+.review .review-message dl .line:after { position: absolute; content: ""; width: 6px; height: 6px; top: 114px; left: 93px; border-radius: 50%; background: #ababab;    }
+.review .review-message dl .line:before { position: absolute; content: ""; width: 12px; height: 12px; border-radius: 50%; top: 111px; left: 90px; background: rgba(171,171,171,.35);}
+
+.review .review-message dl.active dd { z-index: 35; filter:alpha(opacity=100); opacity: 1;}
+.review .review-message dl.active h4 {padding-top: 0px; font-size: 16px;}
+.review .review-message dl.active img { width: 77px; height: 77px; border: solid #d82029 3px;}
+.review .review-message dl.active.wayne .line { background-position: -96px 0px;}
+.review .review-message dl.active.myo .line { background-position: -251px 0px;}
+.review .review-message dl.active.pcmag .line { background-position: -374px 0px;}
+.review .review-message dl.active.chip .line { background-position: -473px 0px;}
+.review .review-message dl.active.fabio .line { background-position: -533px 0px;}
+.review .review-message dl.active.vector .line { background-position: -644px 0px;}
+.review .review-message dl.active.adam .line { background-position: -62px -147px;}
+
+.review .review-message dl.active.olnet .line { background-position: -227px -135px; }
+.review .review-message dl.active.olorin .line { background-position: -382px -135px; }
+.review .review-message dl.active.html .line { background-position: -518px -134px; }
+.review .review-message dl.active .line:after,.review .review-message dl.active .line:before {  animation: round 1s;  }
+@keyframes round
+{
+from { 
+  -webkit-transform: scale(2);
+    -ms-transform: scale(2);
+    transform: scale(2);
+  }
+to { 
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+}
+.review .review-message dl.red-round .line:after { background: #d82029;}
+.review .review-message dl.red-round .line:before { background: rgba(211,50,50,.3);}
+
+.review .review-message dl.wayne { top: 10px; left: 17px;}
+.review .review-message dl.wayne .line { width: 94px; height: 115px; left: 54px; bottom: -89px;  }
+
+.review .review-message dl.myo {top: 30px; left: 164px;}
+.review .review-message dl.myo .line { width: 58px; height: 83px; left: 53px; bottom: -75px; background-position: -192px 0px; }
+.review .review-message dl.myo .line:after { top: 81px; left: 57px;}
+.review .review-message dl.myo .line:before { top: 78px; left: 54px;}
+
+.review .review-message dl.pcmag {top: 21px; left: 287px;}
+
+.review .review-message dl.pcmag .line { width: 62px; height: 87px; left: -7px; bottom: -68px; background-position: -311px 0px; }
+.review .review-message dl.pcmag .line:after { top: 83px; left: -3px;}
+.review .review-message dl.pcmag .line:before { top: 80px; left: -6px;}
+
+.review .review-message dl.chip {top: 30px; left: 401px;}
+.review .review-message dl.chip .line { width: 35px; height: 68px; left: 55px; bottom: -57px; background-position: -438px 0px; }
+.review .review-message dl.chip .line:after { top: 68px; left: 35px;}
+.review .review-message dl.chip .line:before { top: 65px; left: 32px;}
+
+.review .review-message dl.fabio {top: 19px; left: 487px;}
+.review .review-message dl.fabio .line { width: 24px; height: 77px; left: 35px; bottom: -66px; background-position: -509px 0px; }
+.review .review-message dl.fabio .line:after { top: 75px; left: -6px;}
+.review .review-message dl.fabio .line:before { top: 72px; left: -9px;}
+
+.review .review-message dl.vector {top: 60px; left: 677px;}
+.review .review-message dl.vector .line { width: 83px; height: 79px; left: 56px; bottom: -69px; background-position: -559px 0px; }
+.review .review-message dl.vector .line:after { top: 76px; left: 78px;}
+.review .review-message dl.vector .line:before { top: 73px; left: 75px;}
+
+.review .review-message dl.olnet dd,.review .review-message dl.adam dd,.review .review-message dl.olorin dd,.review .review-message dl.html dd { top: 30px; left: 117px;}
+.review .review-message dl.adam h4,.review .review-message dl.olnet h4,.review .review-message dl.olorin h4,.review .review-message dl.html h4 { padding-top: 0px;}
+.review .review-message dl.adam img,.review .review-message dl.olnet img,.review .review-message dl.olorin img,.review .review-message dl.html img { margin-top: 30px;}
+
+
+.review .review-message dl.adam {top: 294px; left: 77px;}
+.review .review-message dl.adam .line { width: 61px; height: 85px; left: 56px; bottom: 71px; background-position: 0px -147px; }
+.review .review-message dl.adam .line:after { top: -3px; left: 63px;}
+.review .review-message dl.adam .line:before { top: -6px; left: 60px;}
+
+.review .review-message dl.olnet {top: 272px; left: 323px;}
+.review .review-message dl.olnet .line { width: 97px; height: 98px; left: 58px; bottom: 71px; background-position: -130px -135px; }
+.review .review-message dl.olnet .line:after { top: -6px; left: 96px;}
+.review .review-message dl.olnet .line:before { top: -9px; left: 93px;}
+
+.review .review-message dl.olorin {top: 247px; left: 393px;}
+.review .review-message dl.olorin .line { width: 47px; height: 74px; left: 58px; bottom: 68px; background-position: -335px -135px; }
+.review .review-message dl.olorin .line:after { top: -6px; left: 47px;}
+.review .review-message dl.olorin .line:before { top: -9px; left: 44px;}
+
+.review .review-message dl.html {top: 277px; left: 529px;}
+.review .review-message dl.html .line { width: 82px; height: 85px; left: -22px; bottom: 68px; background-position: -435px -134px; }
+.review .review-message dl.html .line:after { top: -5px; left: -6px;}
+.review .review-message dl.html .line:before { top: -8px; left: -9px;}
+
+.review .review-message dl.pcmag dd { left: -335px;}
+.review .review-message dl.pcmag dd:after { width: 9px; height: 16px; top: 50%; right: -9px; left: initial; margin-top: -8px; background: url(../images/right-arrow.png);}
+
+
+/* comparison */
+.comparison table {
+  border: 0;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+.comparison th { 
+  height: 102px; 
+  font-size: 18px;
+  vertical-align: middle;
+  text-shadow: 0px 3px 3px rgba(255, 255, 255, 0.92);
+}
+.comparison th.itemb,
+.comparison th.itema {
+  background-color: #fac508;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.comparison th.itemb { 
+  color: #757575; 
+  background-color: #e0e0e0;
+
+}
+.comparison th.text { 
+  text-align: left; 
+  font-size: 20px;
+}
+.comparison th b {
+  display: block;
+  font-size: 30px;
+}
+.comparison td {
+  height: 38px;
+  color: #757575;
+  font-weight: 700;
+  border-bottom: 1px solid #e3e3e3;
+}
+.comparison tr.tall td { padding-top: 10px; }
+.comparison tr.bottall td { 
+  padding-bottom: 10px; 
+  border-bottom: 0;
+}
+.comparison tr.title td { 
+  height: 29px; 
+  color: #212121;
+  border-bottom: 0;
+}
+.comparison td.icons {
+  text-align: center;
+  width: 50px;
+}
+.comparison tr.title .icons {
+  background-image: url(../images/icon-arrow.png);
+  background-position: left center;
+  background-repeat: no-repeat;
+}
+.comparison tr.title .virtue { font-size: 18px; }
+.comparison .space {
+  width: 14px;
+  border-bottom: #fff;
+}
+.comparison .itemb,
+.comparison .itema {
+  width: 186px;
+  text-align: center;
+  background-color: #fefcf6;
+  box-shadow: 0px 4px 12px 0px rgba(252, 217, 92, 0.4);
+}
+.comparison .itemb {
+  background-color: #fff;
+  box-shadow: 0px 4px 12px 0px rgba(224, 224, 224, 0.4);
+}
+.comparison td.gray { background-color: #f5f5f5; }
+.comparison td.orange { background-color: #fdf7e6; }
+.comparison td i {
+  width: 13px;
+  height: 12px;
+  background-position: 0 0;
+}
+.comparison td i.orange { background-position: 0 -12px; }
+
+
+.bottom-buy { display: inline-block; width: 100%; height: 320px; margin-top: 70px; background: url(../images/bottom-buy-bg.jpg) no-repeat center;}
+.bottom-buy h2 {  width: 100%; height: 60px; text-indent: -9999px; margin-top: -30px; background: url(../images/bottom-title.png) no-repeat center;}
+.bottom-buy h3 { text-align: center; font-style: italic; font-size: 20px;}
+.bottom-buy h3 strong { color: #c6201a;}
+.bottom-buy .img-box { float: left; margin-top: -10px; margin-left: 52px; margin-right: 129px;}
+.bottom-buy dl { float: left; margin-top: 85px; text-align: center;}
+.bottom-buy dl dd { font-size: 14px; font-weight: 700;}
+
+.footer { padding: 20px 0px; background: #f5f5f5;}
+.footer .service dl{ float: left; width: 33.3%; text-align: center;}
+.footer .service dl dt { height: 68px; line-height: 68px;}
+.footer .service dl dt img { display: inline-block; vertical-align: middle;}
+.footer .service dl dd { margin-top: 10px;}
+.footer .service dl h3 { font-size: 16px;}
+/* annotation */
+.annotation {
+  padding-top: 10px;
+  border-top: solid #c8c8c8 1px;
+  margin-top: 20px;
+  color: #555a5f; 
+  font-size: 12px;
+}
+
+/* footer */
+.footer p{  padding-top: 15px; font-size: 16px; text-align:center; }

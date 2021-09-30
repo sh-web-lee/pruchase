@@ -1,0 +1,217 @@
+function PrefixInteger(num, length) {
+  return (Array(length).join('0') + num).slice(-length);
+}
+
+var comma_separator_number_step = $.animateNumber.numberStepFactories.separator(' ');
+
+function animateNumber(select, number) {
+  $(select).prop('number',  10).animateNumber({      
+    number: number,
+    numberStep:  comma_separator_number_step
+  }, 2000);
+}
+
+function flipNum(num, length) {
+  var num = PrefixInteger(num, length);
+  var len = String(num).length;
+  var str = num.toString();
+  var list = '';
+  var arr = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+  for (var j = 0; j < arr.length; j++) {
+    list += '<span>' + arr[j] + '</span>';
+  }
+  $(".banner .countdown .scroll-tick").html(list);
+  $(".floatlayer .countdown .scroll-tick").html(list);
+  for (var i = 0; i <= len; i++) {
+    var curNum = str.substring(i, i + 1);
+    $(".banner .countdown .scroll-tick").eq(i).animate({
+      marginTop: -curNum * 35,
+    }, "slow");
+  }
+  for (var i = 0; i <= len; i++) {
+    var curNum = str.substring(i, i + 1);
+    $(".floatlayer .countdown .scroll-tick").eq(i).animate({
+      marginTop: -curNum * 35,
+    }, "slow");
+  }
+}
+
+function soldOut() {
+  var aff = MApp(2.2).url.getParameters('aff');
+  $(".price").addClass("soldout")
+  $(".price strong").html("<b>16</b>,99€");
+  $('.banner .price strong').after("<del>49,99€</del>");
+  $(".banner .number").html("La précommande gratuite se termine. Ne manquez plus cette réduction <br> exclusive de <strong>70%</strong> !").addClass("soldout");
+  $(".floatlayer .number").html("Ne manquez plus cette réduction exclusive de <strong>70%</strong>!").addClass("soldout");
+  $(".buybtn").attr({
+    "href": 'https://www.iobit.com/buy.php?product=fr-asc13preorder1699&ref=fr_asc13preorderexpired1699' + refStr + '&aff=' + aff + '&refs=fr_purchase_asc&tw=-8',
+    "onclick": "ga('send', 'event', 'asc1699buy', 'buy', 'asc13predorderexpired-fr');"
+  });
+}
+// soldOut();
+
+var c = 0;
+var d = 0;
+var e = 0;
+$(window).on('scroll', function() {
+  $(".floatlayer").removeClass("on");
+  if ($(window).scrollTop() > $(".intro").offset().top - 100) {
+    $(".intro .besom").removeClass("on").addClass("on");
+  }
+
+  if ($(window).scrollTop() > $(".enjoy .arrow").offset().top - 140) {
+    $(".enjoy .forbid").removeClass("on").addClass("on");
+  }
+
+  if ($(window).scrollTop() > $(".feature h2").offset().top - 280) {
+    $(".feature dl").removeClass("on").addClass("on");
+  }
+
+  if ($(window).scrollTop() > $(".feature dl").offset().top) {
+    animateNumber('.present h4.first', 30000000);
+    animateNumber('.present h4.two', 2666667);
+  }
+
+  clearTimeout($.data(this, 'scrollTimer'));
+  $.data(this, 'scrollTimer', setTimeout(function() {
+    if ($(window).scrollTop() < $(".banner .buybtn").offset().top) {
+      $('.floatlayer').removeClass('on');
+    } else {
+      $('.floatlayer').addClass('on');
+    }
+  }, 1000));
+});
+
+$(".dg-next").click(function() {
+  $(".review .reviews dd p").removeClass("on");
+  var message = $('.dg-container ul li:eq(0)');
+  $('.dg-container ul li').removeClass("first")
+
+  $('.dg-container ul li:eq(0)').removeClass("first")
+  $('.dg-container ul li:eq(1)').removeClass("two")
+  $('.dg-container ul li:eq(2)').removeClass("three")
+  $('.dg-container ul li:eq(3)').removeClass("active")
+  $('.dg-container ul li:eq(4)').removeClass("four")
+  $('.dg-container ul li:eq(5)').removeClass("five")
+
+
+
+
+  $('.dg-container ul').find('li:first').appendTo($('.dg-container ul'));
+
+  $('.dg-container ul li:eq(0)').addClass("first")
+  $('.dg-container ul li:eq(1)').addClass("two")
+  $('.dg-container ul li:eq(2)').addClass("three")
+  $('.dg-container ul li:eq(3)').addClass("active")
+  $('.dg-container ul li:eq(4)').addClass("four")
+  $('.dg-container ul li:eq(5)').addClass("five")
+
+  $('.dg-container ul li:eq(6)').addClass("first")
+
+  var num = $('.dg-container ul li.active').attr("data-num");
+  $('.review .reviews').eq(num).addClass("active").siblings().removeClass("active");
+  setTimeout(function() {
+        $('.dg-container ul li:eq(6)').removeClass("first");
+   }, 100);
+  setTimeout('$(".review .reviews dd p").eq(' + num + ').addClass("on");', 100);
+});
+$(".dg-prev").click(function() {
+
+  var message = $('.dg-container ul li:last');
+  $(".review .reviews dd p").removeClass("on");
+  var index = $(".dg-container ul li").length;
+
+  $('.dg-container ul li:eq(0)').removeClass("first")
+  $('.dg-container ul li:eq(1)').removeClass("two")
+  $('.dg-container ul li:eq(2)').removeClass("three")
+  $('.dg-container ul li:eq(3)').removeClass("active")
+  $('.dg-container ul li:eq(4)').removeClass("four")
+  $('.dg-container ul li:eq(5)').removeClass("five")
+  $('.dg-container ul li').removeClass("last");
+
+
+  $('.dg-container ul li:eq(0)').before(message);
+
+  setTimeout(function() {
+        $('.dg-container ul li:eq(0)').addClass("first")
+   }, 100);
+
+
+  //$('.dg-container ul li:eq(0)').addClass("first").addClass("on")
+  $('.dg-container ul li:eq(1)').addClass("two")
+  $('.dg-container ul li:eq(2)').addClass("three")
+  $('.dg-container ul li:eq(3)').addClass("active")
+  $('.dg-container ul li:eq(4)').addClass("four")
+  $('.dg-container ul li:eq(5)').addClass("five")
+  // $('.dg-container ul li').eq(6).addClass("last");
+  // setTimeout("$('.dg-container ul li').eq(6).addClass('last');", 300);
+
+  var num = $('.dg-container ul li.active').attr("data-num");
+  $('.review .reviews').eq(num).addClass("active").siblings().removeClass("active");
+ 
+  setTimeout('$(".review .reviews dd p").eq(' + num + ').addClass("on");', 100);
+});
+
+function packsInit() {
+  var cName = "frascexd_p";
+  packs = cGet(cName);
+  if (packs === 0) {
+    soldOut();
+  } else {
+    getSales();
+  }
+}
+
+function cGet(name) {
+  var exp = new Date();
+  name = name + exp.getDate();
+  var arr, reg = new RegExp("(^| )" + name + "=([^;]*)(;|$)");
+  if (arr = document.cookie.match(reg))
+    return unescape(arr[2]);
+  else
+    return null;
+}
+
+function getSales(isInit) {
+  var date = new Date();
+  $.ajax({
+    type: "GET",
+    url: "asc13preorderexpired.php",
+    data: "action=getPacks&d=" + date.getDate(),
+    success: function(res) {
+      var sales = JSON.parse(res);
+      if (sales.packsNum != packs) {
+        packs = sales.packsNum;
+        if (isInit) {
+          flipNum(sales.packsNum, 4, 1000);
+        } else {
+          flipNum(sales.packsNum, 4, 100);
+        }
+      }
+      if (packs > 0) {
+        setTimeout('getSales(0)', 6000);
+      } else {
+        if (!$(".price").hasClass("soldout")) {
+          soldOut();
+        }
+      }
+    }
+  });
+}
+
+function getViewNum() {
+  $.ajax({
+    type: "GET",
+    url: "asc13preorderexpired.php",
+    data: "action=getViewNum",
+    success: function(res) {
+      $('.viewNum').html(res);
+    }
+  });
+  setTimeout('getViewNum()', 15000);
+}
+
+$(function() {
+  packsInit(1);
+  setTimeout('getViewNum()', 15000);
+});

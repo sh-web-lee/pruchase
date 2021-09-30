@@ -1,0 +1,131 @@
+* {	margin:0;padding:0;}
+img {border:0;}
+body {font-size: 14px; font-family:'Open Sans', Arial, Helvetica, sans-serif; color: #4c4c4c;}
+li {list-style:none;}
+a{color: #006699;text-decoration: none;}
+a:hover{text-decoration: none;}
+.clearfix:after,.wrapper:after {clear:both;display:block;height:0;font-size:0;content:".";visibility:hidden;}
+.clearfix{zoom:1;}
+.left{ float: left;}
+.right{ float: right;}
+.hidden{display: none;}
+.wrapper{ width: 1000px; margin:0 auto;zoom:1;}
+
+.buybtn{ display: inline-block; width: 239px; height: 52px; line-height: 50px; background-image: url(../images/btn.png);background-position: 0 0; text-align: center; font-size: 22px; color: #fff; font-weight: 400; }
+.buybtn:hover{ background-position: 0 -53px;}
+
+.banner{ height: 771px; background: url("../images/bg-banner.jpg") no-repeat center top;}
+.banner>.wrapper{ position: relative;}
+.banner .logo{ display: block; width: 64px; height: 22px; background: url("../images/logo.png") no-repeat; position: absolute; top: 30px; left: 20px; text-indent: -999px; z-index: 11;}
+.banner h1{ width: 835px; height: 116px; background: url("../images/bg-title.png") no-repeat center bottom; margin: 0 auto 20px; text-indent: -9999px;}
+.banner .time{ width: 299px; *width: 233px;height: 55px; background: url("../images/bg-time.png") no-repeat left top; position: absolute; top: 53px; right: 103px; padding-left: 64px; *padding-left: 66px; padding-top: 8px; box-sizing: border-box;}
+.banner .time ul li{ float: left; font-size: 30px; font-weight: 400; line-height: 30px; color: #fff; padding-left: 10px; *padding-left: 5px; font-style: italic;}
+.banner .time ul li.first{ padding-left: 10px;}
+.banner .time ul li.last{ font-size: 18px;}
+.banner .time ul li.last sup{ position: absolute; top: 5px; right: -10px; display: block;}
+.banner .time ul.jour li{ font-size: 12px; line-height: 16px; width: 45px; margin-right: 15px; text-align: center; margin-top: -5px; padding-left: 0;}
+.banner .time ul.jour li.last{  margin-right: 0;}
+.banner h2{ padding-left: 136px; font-size: 20px; color: #fff; font-weight: 400; margin-bottom: 25px;}
+.banner h2 strong{ font-size: 22px;}
+.banner .container{ width: 748px; margin: 0 auto; text-align: center;}
+.banner .container dl.left{ width: 316px; height: 508px; margin-top: 39px;}
+.banner .container dl.right{ width: 397px; height: 547px;}
+.banner .container dl dt{ font-size: 20px; color: #fff; line-height: 32px; padding: 15px 0;}
+.banner .container dl .first{ padding: 15px 0 0;}
+.banner .container dl dd span{ font-size: 24px; color: #3c3c3c; font-weight: 600;}
+.banner .container dl dd span strong{ font-size: 36px; font-weight: 600;}
+.banner .container dl dd.last{ padding-top: 22px;}
+.banner .container dl .last p{ font-size: 12px; text-align: left; line-height: 22px; padding-left: 78px;}
+.banner .container dl .last p img{ margin-right: 8px;}
+.banner .container dl.left .first{ padding-top: 25px;}
+.banner .container dl.left .buybtn{ width: 186px; height: 42px; line-height: 40px; font-size: 18px; background-position: 0 -106px;}
+.banner .container dl.left .buybtn:hover{background-position: 0 -149px;}
+.banner .container dl.right .last{ padding-top: 17px;}
+.banner .container .right span,.banner .container .right del,.banner .container .right b,.banner .container .right strong{ color: #ea3235;}
+.banner .container .right .last strong{font-size: 15px;}
+.banner .container .right dt span{font-size: 18px; color: #fff;}
+.banner .container .right .last p del{ color: #434343;}
+.banner .container .left .last p.no{ color: #909090;}
+
+.product{padding: 56px 0 62px;}
+.product h2{ width: 890px; height: 47px; line-height: 47px; background: url("../images/bg-h2.png") no-repeat; margin: 0 auto 61px; text-align: center; font-weight: 400;}
+.product .wrapper{ height: 285px; background: url("../images/bg-product.jpg") no-repeat;}
+.product .left{ width: 570px;}
+.product .left dt img{ margin-top: -15px; float: left; margin-right: 5px;}
+.product .right{ width: 415px;}
+.product .right dt img{ margin-top: 4px; float: left; margin-right: 20px;}
+.product dl dt{ height: 112px; margin-bottom: 7px;}
+.product dl dt strong{ float: left; font-weight: 400; padding-top: 40px; font-size: 22px; color: #fff;}
+.product dl dd{ font-size: 16px; color: #fff; line-height: 36px;}
+.product dl dd img{ margin-right: 13px;}
+.product dl.left dd{ padding-left: 82px;}
+.product dl.right dt{ margin-bottom: 30px;}
+.product dl.right dt strong{ padding-top: 60px;}
+
+.awards{height: 212px; background: #e0e0e0; text-align: center;}
+.awards dl dt{font-size: 20px; font-weight: 300; color: #737373; padding: 60px 0 20px;}
+
+.windows{line-height: 36px;font-size: 12px; color: #737373;text-align: center;padding: 60px 0 55px;}
+.windows img{vertical-align: middle; margin-right: 10px;}
+
+.foot-banner{height: 150px;background: url("../images/bg-foot.jpg") no-repeat;}
+.foot-banner dl{font-size: 24px;color: #fff; text-align: center;}
+.foot-banner .left{width: 643px;padding-left: 46px;}
+.foot-banner .left dt{font-style: italic;padding-top: 27px;}
+.foot-banner .left dt strong{color: #fff000; font-weight: 400;}
+.foot-banner .left dd{color: #fff; font-size: 45px;}
+.foot-banner .right{width: 240px;padding-right: 46px;}
+.foot-banner .right dt{padding-top: 20px;}
+.foot-banner .right dt b{font-size: 18px; font-weight: 400;}
+.foot-banner .right dd{font-size: 12px;font-weight: 600;}
+.foot-banner .right dd .buybtn{font-size: 22px; font-weight: 400; margin: 2px 0 10px;}
+
+.annotation{font-size: 12px; font-weight: 300;line-height: 24px;padding-top: 36px;}
+.copyright{text-align: center;padding: 25px 0 72px;}
+.pop-up {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100001;
+    width: 100%;
+    height: 100%;
+    background: url(../images/pop.png) repeat;
+}
+.pop-main {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.pop-box {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -108px;
+    margin-left: -289px;
+    width: 578px;
+    height: 216px;
+    border: 1px solid #faf0bf;
+    background-color: #fff;
+}
+.pop-box h2,
+.pop-box p {
+    margin: 0 auto;
+    width: 410px;
+    text-align: left;
+}
+.pop-box h2 {
+    padding: 32px 0 10px;
+    font-size: 22px;
+    color: #e50403;
+}
+.pop-box p {
+    margin-bottom: 18px;
+    font-size: 16px;
+    line-height: 22px;
+    color: #010007;
+}
+.main {
+    position: relative;
+}

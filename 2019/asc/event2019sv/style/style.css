@@ -1,0 +1,104 @@
+@charset "utf-8";
+
+/* CSS Document */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  min-width: 1000px; 
+  margin: 0px auto;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #fff;
+  background: #286bea;
+  font-weight: 400;
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+  outline: 0;
+  vertical-align: baseline;
+}
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  color: #21222a;
+  outline: none;
+  text-decoration: none;
+  cursor: pointer;
+}
+a:hover { text-decoration: none; }
+del { text-decoration: line-through; }
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+ul,
+ul li { list-style-type: none; }
+img { border: none; }
+.clearfix:after {
+  clear: both;
+  display: block;
+  height: 0;
+  font-size: 0;
+  content: "";
+  visibility: hidden;
+}
+.clearfix { zoom: 1; }
+.fl { float: left; }
+.fr { float: right; }
+.wrapper {
+  position: relative;
+  width: 1000px;
+  min-width: 1000px;
+  margin: 0 auto;
+  z-index: 2;
+  zoom: 1;
+}
+.buybtn { display: block; margin: 0px auto; width: 310px; height: 64px; line-height: 64px; color: #fff; font-size: 20px; border-radius: 45px; font-weight: 700; background: #ff7200;
+  background-image: -moz-linear-gradient( 90deg, rgb(255,114,0) 0%, rgb(255,143,0) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(255,114,0) 0%, rgb(255,143,0) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(255,114,0) 0%, rgb(255,143,0) 100%);
+  box-shadow: 0px 23px 34px 0px rgba(255, 107, 0, 0.4);
+}
+.buybtn strong { font-size: 24px;}
+.buybtn:hover { background: #ff8f00;
+  background-image: -moz-linear-gradient( 90deg, rgb(255,143,0) 0%, rgb(252,161,3) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(255,143,0) 0%, rgb(252,161,3) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(255,143,0) 0%, rgb(252,161,3) 100%);
+}
+.price { text-align: center;}
+.price dt { margin-bottom: 25px;}
+.price dd { font-size: 16px; color: #3a2b1f}
+.price dd p { font-size: 12px; color: #8c8c8c;}
+
+
+.header { height: 435px; background: url(../images/banner.jpg) no-repeat center; color: #b1b1bb;}
+.header .logo { display: inline-block; width: 42px; height: 14px; margin-top: 20px; text-indent: -9999px; background: url(../images/logo.png);}
+.header h3,.header  p strong { color: #f4f4fc;}
+.header h3,.header p,.asc-message >p { width: 928px; margin: 0px auto;}
+.header h3 { margin: 25px auto 15px; font-size: 18px; font-weight: 400;}
+.header p { line-height: 24px;}
+
+.asc-message { height: 470px; margin-top: -190px; background: #fff; box-shadow: 0px 17px 51px 0px rgba(22, 75, 173, 0.4); border-radius: 10px;}
+.asc-message >p { padding: 30px 0px; font-size: 16px; color: #212121; line-height: 28px;}
+.asc-message >p strong { color: #286bea;}
+.asc-message .buy-content { float: right; width: 756px; height: 249px; margin-right: 40px; border-bottom-right-radius: 135px; border-top-right-radius: 135px; border: solid #dcdddf 3px;}
+.asc-message .buy-content .asc-box { float: left; margin-left: -162px; margin-top: -3px;}
+.asc-message .buy-content dl { float: right; margin-top: 60px; width: 450px;}
+
+.asc-introduce { padding-bottom: 25px;}
+.asc-introduce h3 { margin-top: 40px; margin-bottom: 25px; font-size: 20px; text-align: center; font-weight: 400;}
+.asc-introduce ul { padding-bottom: 40px; border-bottom: solid #1254d2 1px;}
+.asc-introduce ul li { float: left; width: 33.3%}
+.asc-introduce ul li img,.asc-introduce ul li p { display: inline-block; vertical-align: middle; margin-left: 15px;}
+.asc-introduce ul li img { border-radius: 50%; box-shadow: 0px 23px 34px 0px rgba(44, 47, 76, 0.4);}
+.asc-introduce ul li p { width: 220px; line-height: 20px;}
+
+.asc-introduce .price .buybtn { box-shadow: 0px 23px 34px 0px rgba(44, 47, 76, 0.4);}
+.asc-introduce .price dd { color: #fff;}
+.asc-introduce .price dd p { color: rgba(255,255,255,.4);}
+
+.footer { padding: 15px 0px; background: #2d2d45; text-align: center; color: #6e6e7f; font-size: 12px; line-height: 20px;}
+.footer p { font-size: 14px;}

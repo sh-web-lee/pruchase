@@ -1,0 +1,8 @@
+<?php
+header('location:index.php'.(empty($_SERVER['QUERY_STRING'])?'':('?'.$_SERVER['QUERY_STRING'])));exit();
+session_start();
+error_reporting(0);
+$include = true;
+$pResUrl = '../../2019/imf/maysaledk/';
+$pRootUrl = '../../';
+include $pResUrl.'index.php';

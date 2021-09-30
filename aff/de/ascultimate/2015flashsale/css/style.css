@@ -1,0 +1,139 @@
+* {	margin:0;padding:0;}
+img {border:0;}
+body {font-size: 14px; font-family:'Open Sans', Arial, Helvetica, sans-serif; color:#333; background:#fff; }
+li {list-style:none;}
+/* float clearing for everyone else */
+.clearfix:after{clear: both;content: ".";display: block; height: 0;visibility: hidden;font-size: 0;line-height: 0;}
+.clearfix {display: inline-block;}
+/* clear for single use */
+.clear{clear:both; border:0; height:0; font-size:0; line-height:0; }
+
+
+.warpper{ width:990px; margin:0 auto; display:block; position:relative;}
+
+.header { background:#9d1218 url(../img/background.jpg) no-repeat center top; display: inline-block; width: 100%; height:590px; }
+.header .logo{ background:url(../img/logo_iobit.png) no-repeat; width:82px; height:39px; margin:10px 0 0 0;}
+.header .logo a{ display:block; width:82px; height:39px;}
+.header .title{ margin: 10px 0 0 0; font-size:50px; color:#fff; text-shadow: 2px 4px 2px rgba(0, 0, 0, 0.157); line-height:45px; font-weight:600; text-align:center;}
+.header .title span{ display:block; font-size:36px;}
+
+.header .content{ margin:20px 0 0 0; display:inline-block; width:100%;}
+
+.header .content .arealeft{ background:#fff; width:655px; height:360px; box-shadow:2px 4px 2px rgba(0, 0, 0, 0.157); border-radius:5px; float:left; padding:20px 0 20px 20px;}
+.header .content .arealeft h2{ font-size:18px;}
+.header .content .arealeft h2 span{ font-size:30px; color:#9d1218;}
+.header .content .arealeft h3{ font-size:18px; font-weight:600; line-height:26px;}
+.header .content .arealeft h3 strong{ color:#9d1218; font-size:26px;}
+.header .content .arealeft h3 span{ color:#9d1218; }
+.header .content .arealeft .intro{ text-align:center; margin:20px 0 0 0;}
+
+.header .content .arearight{ background:#fff; width:260px; height:360px; box-shadow:2px 4px 2px rgba(0, 0, 0, 0.157); border-radius:5px; float:right; padding:20px;}
+.header .content .arearight .countdown{ display: inline-block; }
+.header .content .arearight .countdown dt{ font-size:18px; color:#9d1218; font-weight:400; text-align:center;}
+.header .content .arearight .countdown dd{ margin:10px 0 0 0; }
+.header .content .arearight .countdown dd span{ font-size:28px; line-height:45px; height:45px; display: inline-block; background:#9d1218; color:#fff; padding:0 5px; float:left;}
+.header .content .arearight .countdown dd i{ float:left; line-height:75px; margin:0 8px ; font-style:normal;}
+.header .content .arearight .countdown dd em{  font-size:18px; line-height:45px; height:45px; display: inline-block; background:#9d1218; color:#fff; padding:0 3px; float:left;}
+.header .content .arearight .countdown dd sub{ font-size:12px; line-height:75px; margin:0 0 0 5px; display: inline-block;  float:left; }
+
+.header .content .arearight .checkarea{ width:100%; margin: 0 auto; }
+.header .content .arearight .checkarea dd.ultimate{ font-size:16px; margin:0 0 20px 0;}
+.header .content .arearight .checkarea dd.price{ font-size:16px; }
+.header .content .arearight .checkarea dd.price span{ font-weight: bold; color: #9d1218; font-size: 35px; }
+.header .content .arearight .checkarea dd.old{ text-align:center; font-size:14px;}
+
+.header .content .arearight .checkarea dt{ margin:20px 0;}
+.header .content .arearight .checkarea dd{ font-size: 15px; text-align:center; line-height:25px;}
+.header .content .arearight .checkarea dd em{ font-size: 14px; color: #9d1218; margin:0 5px;}
+
+.header .content .arearight .checkarea dd.pcs{ text-align:center; font-size:14px;}
+.header .content .arearight .checkarea dd.pcs span{ color:#9d1218; }
+
+.middle .corssname{ font-size:24px; color:#9d1218; line-height:30px; margin:20px 0; text-align:center;}
+
+.middle .whatdo{ background:#f2f2f2; width:100%; display:inline-block;}
+.middle .whatdo .left{ width:624px; border-right:1px solid #fff; float:left; display:inline-block;}
+.middle .whatdo .left .boxshot{ background:url(../img/boxshot_ascu.jpg) no-repeat; width:200px; height:240px; float:left; margin:20px 0 20px 20px;}
+.middle .whatdo .left dl{ float:right; width:370px; margin:20px 20px 20px 0; position:relative;}
+.middle .whatdo .left dl dt{ font-size:20px; height:30px; line-height:30px;}
+.middle .whatdo .left dl dd{ font-size:14px; color:#666; line-height:20px; margin:10px 0;}
+.middle .whatdo .left dl dd img{ margin:20px 0;}
+.middle .whatdo .left dl dd.edition a{ color:#279fda; text-decoration:underline;}
+.middle .whatdo .left dl dd.edition a:hover{ color:#1282ba;}
+.middle .whatdo .left dl dd.sale{ background:url(../img/sale.png) no-repeat; width:50px; height:50px; position:absolute; top: -26px; right:-15px;}
+.middle .whatdo .right{ float:left; width:365px;}
+.middle .whatdo .right dl{ position:relative; border-bottom:1px solid #fff; display:inline-block; width:365px; height: 150px;}
+.middle .whatdo .right dl.end{ border-bottom:0;}
+.middle .whatdo .right dl dt{ float:left; width:100px; height:100px; margin: 22px 10px;}
+.middle .whatdo .right dl dd.name{ font-size:14px; line-height: 24px; color:#000; margin:20px 0 0 0;}
+.middle .whatdo .right dl dd{ font-size:12px; color:#666; line-height:18px; width: 250px; margin-left: 110px;}
+.middle .whatdo .right dl dd.price{ text-align:right; text-decoration:line-through; font-style:italic; font-size:14px; width:350px;}
+.middle .whatdo .right dl dd.free{ background:url(../img/free.png) no-repeat; width:61px; height:36px; position:absolute; top:-1px; right:-1px;}
+
+.middle .cross{ border-bottom:1px solid #eee;}
+.middle .cross .left{ float:left; width:510px; margin:20px 0 0 0;}
+.middle .cross .left .discribe{text-align: left;margin-top: 20px;}
+.middle .cross .left .discribe dt{font-size:24px; color: #9d1218;text-align: right;}
+.middle .cross .left .discribe dd{margin: 8px 0;}
+
+.middle .cross .link{ float:left; width:270px; margin:30px 0 30px 30px; }
+.middle .cross .link dt{ font-size:14px; background: url(../img/arrow_down.png) no-repeat 0px 0; text-indent: 40px; line-height:21px; margin:0 0 5px 0;}
+.middle .cross .link dt span{ font-size:18px; font-style:italic; color:#9d1218;}
+.middle .cross .link dd a{ background:url(../img/btn_buy.png) no-repeat; text-transform:uppercase; font-size: 22px; color:#fff; display:block; line-height: 55px; text-decoration:none; text-shadow:1px 0 0 #2f7e00; text-indent:50px; height: 60px;}
+.middle .cross .link dd a:hover{ background-position:0 -64px;}
+.middle .cross .right{ float:left; width:160px; text-align:right; margin:55px 0 0 0;}
+.middle .cross .right dt{ font-size:18px; line-height:36px;}
+.middle .cross .right dt span{ font-size:36px; color:#9d1218;}
+.middle .cross .right dd{ color:#666; font-size:14px;}
+.middle .cross .right dd span{ text-decoration:line-through; font-weight:bold;}
+
+.middle .awards{ border-bottom:1px solid #eee;}
+.middle .awards dt{ font-size:24px; line-height:30px; margin:30px 0 0 0;}
+.middle .awards dd{ margin:30px 0;}
+
+.middle .usersaying{ margin:30px 0;}
+.middle .usersaying h2{ font-size:24px; line-height:30px; text-align:left; color:#000; text-indent:0;}
+.middle .usersaying .boxa{width:47%; float:left; margin:30px 0 0;}
+.middle .usersaying .boxb{width:47%; float:right; margin:30px 0 0;}
+.middle .usersaying h3{margin-bottom:23px;}
+.middle .usersaying .user{float:left; color:#666; width:105px;}
+.middle .usersaying .user dt{margin-bottom:12px;}
+.middle .usersaying .user dd{line-height:20px; font-size:13px;}
+.middle .usersaying .quit{ width:360px; float:right;}
+.middle .usersaying .quit dt{float:left; display:block; width:24px; height:20px; margin-right:8px;}
+.middle .usersaying .quit dd{margin-left:32px; height:auto; font-size:13px; line-height:20px;}
+
+.middle .comparison_table{margin: 16px 10px;}
+.middle .comparison_table h4{font-size: 16px; line-height:28px;}
+.middle .comparison_table .comtable{margin-top:14px;/* text-align:center; */}
+.middle .comparison_table .comtable dt{font-size:20px; /* font-weight:bold; */ margin-bottom:15px;}
+.middle .comparison_table .comtable dt span{color:#0790a5;}
+
+.middle .comparison_table .comlist{margin-top: 25px;}
+.middle .comparison_table .comlist dt{font-size:16px; line-height:20px; font-weight:bold; color:#006699; background: url(../img/listicon.png)0 -3px  no-repeat; padding-left:30px;}
+.middle .comparison_table .comlist dd{font-size:12px; line-height:16px; margin:10px 0; margin-left:30px;}
+
+.copy{ line-height:25px; margin:0 auto 30px auto; text-align:center;}
+
+.floatlayer{ height:120px; width: 980px; background:#fff; border:5px solid #9d1218; border-top:none; border-bottom-left-radius:10px; border-bottom-right-radius:10px; position:fixed; z-index:10; top:-120px; visibility: hidden; transition:all 0.4s; -webkit-transition: all 0.4s; -moz-transition: all 0.4s; -o-transition: all 0.4s; }
+.floatlayer.on{ top: 0; visibility: visible; }
+.floatlayer .left{ width: 700px; float:left; text-align:center; margin:30px 0 0 0;}
+.floatlayer .left dt{ font-size: 14px; line-height: 30px; text-align:center; margin:0 0 10px 0;}
+.floatlayer .left dt em{ font-size:18px; color:#9d1218; margin:0 5px;}
+.floatlayer .left dd{ font-size: 18px; line-height: 26px; color:#555;}
+.floatlayer .left dd span{ color:#9d1218; font-size:25px; }
+.floatlayer .checkarea{ float: right; margin: 0 20px 0 0; text-align: center; }
+.floatlayer .checkarea dt{ font-size:18px;  font-weight: bold;}
+.floatlayer .checkarea dt span{ font-size: 30px; color: #9d1218; font-weight: bold;}
+.floatlayer .checkarea dt .countdown{ font-size: 14px; display: inline-block; color: #333; font-weight: normal; }
+.floatlayer .checkarea dd sub{ margin:0 0 0 5px;}
+
+.annotation{ margin: 30px auto; font-size: 12px; color: #666; width: 940px;}
+.annotation dt{ font-size: 13px; display: inline-block; }
+
+.checkbtn{ color:#fff; background:url(../img/checkbtn.png) no-repeat; text-decoration: none; }
+.checkbtn:hover{ color:#fff; background-position:0 -58px; text-decoration: none;}
+
+.checkbtn.mainbtn{ width:210px; height:58px; display:block; font-size: 16px; line-height: 58px; text-indent: 45px; position:relative;}
+.checkbtn.floatbtn{ width:210px; height:58px; display: block; font-size: 16px; line-height: 58px; }
+.checkbtn.mainbtn em{ background:url(../img/moneyback.png) no-repeat; width:100px; height:100px; position:absolute; top:-25px; right:-70px;}

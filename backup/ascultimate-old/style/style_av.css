@@ -1,0 +1,117 @@
+* {	margin:0;padding:0;}
+img {border:0;}
+body {font-family:Arial, Helvetica, sans-serif;font-size:13px;color:#333;background:#fff;}
+li {list-style:none;}
+.clear {clear:both;height:0;border:0;font-size:0;}
+@font-face {
+    font-family: 'MyriadProCondensed';
+    src: url('../fonts/myriadpro-cond-webfont.eot');
+    src: url('../fonts/myriadpro-cond-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/myriadpro-cond-webfont.woff') format('woff'),
+         url('../fonts/myriadpro-cond-webfont.ttf') format('truetype'),
+         url('../fonts/myriadpro-cond-webfont.svg#MyriadProCondensed') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}	
+@font-face {
+	font-family: 'MyriadProBold';
+    src: url('../fonts/myriadpro-bold-webfont.eot');
+    src: url('../fonts/myriadpro-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/myriadpro-bold-webfont.woff') format('woff'),
+         url('../fonts/myriadpro-bold-webfont.ttf') format('truetype'),
+         url('../fonts/myriadpro-bold-webfont.svg#MyriadProBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+a{color:#006699;}
+a:hover{color:#028bcf;}
+.mt5{margin-top:5px;}
+.ml10{margin-left:10px;}
+.mb10{margin-bottom:10px;}
+.right{float:right;}
+.center{text-align:center;}
+.red{color:#cc0000;}
+.del{text-decoration:line-through;}
+.f11{font-size:11px; color:#666;}
+.bf14{font-weight:bold; font-size:14px ;}
+.bf16{font-weight:bold; font-size:16px ;}
+h2{font-size:20px; line-height:26px;}
+h3{font-size:16px; line-height:24px;}
+.cyellow{color:#ff9900;}
+.c_orange{color:#ff6600;}
+#lang { float:right; }
+#lang { position:relative; width:175px; height:20px; overflow:hidden; margin-right:10px; }
+#google_translate_element { position:absolute; right:0; top:-4px; }
+#google_translate_element select { font-size:11px; width:160px; }
+.myfont{font-family:MyriadProCondensed; font-size:26px; color:#444;} 
+.iconsale{width:63px; height:62px; display:block; text-indent:-10000px; background:url(../img/icon_sale.png); position:absolute; right:-10px; top:-7px;}
+.iconfree{width:63px; height:62px; display:block; text-indent:-10000px; background:url(../img/icon_free.png); position:absolute; right:-10px; top:-7px;}
+.checkbtn{width:238px; height:49px; display:block; font-size:18px; line-height:46px; text-transform:uppercase; color:#fff; text-align:center; text-decoration:none; text-shadow:0 -1px 0 #000; background:url(../img/checkbtn.png) 0 0 no-repeat;}
+.checkbtn:hover{background-position:0 -60px; color:#fff;}
+.price{ position:relative;}
+.price em{ width:55px; height:2px; display:block; background:#cc0000; position:relative; top:-11px; left:32px;}
+#main{width:1060px; margin:0 auto; background: #a20000 url(../img/bg.png) top center no-repeat;}
+#main .head{width:1060px; height:69px; display:inline-block; background:url(../img/head.png) 0 0 no-repeat; position:relative;}
+#main .head .maintitle{ font-size:60px; color:#fff; font-family:MyriadProBold; text-shadow:0 -1px 0 #000; position:absolute; top:12px; left:330px;}
+#main .head .savepoint{font-size:38px; color:#fff; font-family:MyriadProCondensed; text-shadow:0 -1px 0 #000;position:absolute; top:10px; left:400px;}
+#main .head .promotion_date{font-size:12px; color:#fff; font-weight:bold; text-shadow:0 -1px 0 #000; position:absolute; top:104px; left:520px; }
+
+#main .mbody{ width:956px; margin:0 auto; padding:0 9px 10px; background:#fff;}
+#main .intro{height:235px;}
+#main .intro .salebox{width:470px; min-height:235px; display:inline-block; position:relative; float:left; background:#ffffcc; border:1px #cccc66 solid;}
+#main .intro .freebox{width:458px; min-height:235px; display:inline-block; position:relative; background:#cefcce; border:1px #66cc66 solid; float:right;}
+#main .intro .freebox dl{font-size:14px; margin:10px;}
+#main .intro .freebox dl dt{ font-weight:bold;}
+#main .intro .freebox dl dd{margin:10px 0; padding-left:24px; line-height:28px; background:url(../../tpl/img/icon.png) 0 -148px no-repeat;}
+#main .intro .textconn{margin:15px 12px 0px; line-height:18px; min-height:195px;}
+#main .intro .textconns{margin:5px 8px; min-height:200px;}
+#main .intro .textconn img,#main .intro .textconns img{float:left; margin-right:10px;}
+/*#main .intro .link{ position:absolute; right:10px; bottom:10px;}*/
+#main .intro .link{float:right; margin-right:5px;}
+#main .intro .link span{color:#ff0000; font-size:18px;}
+#main .pricebox{margin:0 10px;}
+#main .pricetab{margin-top:5px;}
+#main .pricetab td{padding:0px;}
+#main .pricetab .topborder{border-top:1px #ccc solid;}
+#main .pricetab .tlborder{border-top:1px #ccc solid; border-left:1px #ccc solid;}
+#main .pricetab .rborder{border-right:1px #ccc solid;}
+#main .pricetab .bborder{border-bottom:1px #ccc solid;}
+#main .pricetab .gryborder{border: 1px #ccc solid; background:#efefef;}
+#main .pricetab .grybg{background:#efefef;}
+#main .checkout{margin-top:35px;}
+#main .checkout .moneyback{width:600px; height:65px; padding-left:70px; padding-top:12px; margin-top:-10px; float:left;font-size:11px; line-height:18px; color:#666; background:url(../img/moneyback.png) 0 0 no-repeat;}
+#main .checkout .btn{width:250px; float:right;}
+#main .checkout .btn span{width:238px; display:inline-block; text-align:center;}
+
+#main .checkout .moneyback2{width:600px; height:65px; padding-left:70px; padding-top:12px; margin-top:-10px; float:left;font-size:11px; line-height:18px; color:#666; background:url(../img/60days-moneyback.png) 0 0 no-repeat;}
+
+.avintro{margin:15px 0; text-align:center; font-weight:bold;}
+.avintro dt{font-size:48px;}
+.avintro dd{font-size:22px; margin:15px 0;}
+.avintro dd.big{font-size:28px;}
+.avintro dd.big span{color:#ff6600;}
+
+.avarea{background:url(../img/avbg.png) left bottom repeat-x; border:1px #ccc solid;}
+.detail{margin:45px 0;}
+.detail .boxintro{width:572px; float:left; margin-left:30px;}
+.detail .boxintro dt{float:left; width:231px; height:348px; display:block; background:url(../img/avboxshot.png) 0 0 no-repeat;}
+.detail .boxintro dd{margin-left:265px;}
+.detail .boxintro dd.timg{margin-top:20px; margin-bottom:20px; margin-left:270px;}
+.detail .boxintro dd.title{font-size:30px; margin-bottom:40px;}
+.detail .boxintro dd.title span{font-size:26px; color:#ff6600;}
+.detail .boxintro dd ul{}
+.detail .boxintro dd ul li{ line-height:24px; margin:6px 0; padding-left:10px; background:url(../img/point.png) 0 10px no-repeat; font-weight:bold;}
+
+.ocrlist{width:310px; float:right; text-align:center; margin-bottom:20px;}
+.ocrlist .pricelist{margin:30px auto; width:217px; height:169px; display:inline-block; background:url(../img/av_pricebg.png) 0 0 no-repeat; position:relative;}
+.ocrlist .pricelist .blanklink{width:215px; height:160px; display:block; position:absolute;}
+.ocrlist .pricelist ul{ margin-top:30px;}
+.ocrlist .pricelist ul li{font-size:24px; font-family:MyriadProCondensed;color:#fff; margin:10px 0;}
+.ocrlist .pricelist ul li em{ text-decoration:line-through;}
+.ocrlist .pricelist ul li span{font-size:26px; color:#ffff00;}
+.moneyback60{width:80px; height:80px; display:block; background:url(../img/60days.png) 0 0 no-repeat; position:absolute;right:-30px; top:-20px;}
+.ocrlist .btn{ width:240px; margin:0 auto;}
+.ocrlist .btn span{font-size:12px; color:#666; text-shadow:none;}
+
+#main .footer{width:1060px; height:61px; display:block; background:url(../img/footer.png) 0 0 no-repeat;}

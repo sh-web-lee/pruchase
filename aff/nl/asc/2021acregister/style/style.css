@@ -1,0 +1,474 @@
+@charset "utf-8";
+
+/* CSS Document */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  min-width: 1000px; 
+  font-size: 14px;
+  line-height: 1.4;
+  color: #000;
+  font-weight: 400;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  outline: 0;
+  vertical-align: baseline;
+}
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  color: #000;
+  outline: none;
+  text-decoration: none;
+  cursor: pointer;
+}
+a:hover { text-decoration: none; }
+del { text-decoration: line-through; }
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+ul,
+ul li { list-style-type: none; }
+img { border: none; }
+.clearfix:after {
+  clear: both;
+  display: block;
+  height: 0;
+  font-size: 0;
+  content: "";
+  visibility: hidden;
+}
+h1,h2,h3,h4{
+  font-weight: 500;
+}
+.clearfix { zoom: 1; }
+.fl { float: left; }
+.fr { float: right; }
+.wrapper {
+  position: relative;
+  width: 1000px;
+  min-width: 1000px;
+  margin: 0 auto;
+  zoom: 1;
+}
+.all-icons { 
+  display: inline-block;
+  text-indent: -9999px;
+  vertical-align: middle;
+  background: url(../images/all_icons.png) no-repeat;
+}
+
+/* banner */
+.banner {
+  display: inline-block;
+  width: 100%;
+  min-width: 1000px;
+  height: 577px;
+  text-align: center;
+  background: url(../images/banner.jpg) top center no-repeat;
+  background-size: 100% 577px;
+}
+.banner .logo {
+  display: block;
+  margin-top: 50px;
+  width: 42px;
+  height: 14px;
+}
+.banner .title h1 {
+  margin-top: -28px;
+  font-size: 42px;
+  font-weight: 400;
+}
+.banner .title p { font-size: 16px; }
+.banner .offer > img {
+  display: block;
+  margin-top: 40px;
+  margin-left: -35px;
+}
+.banner .offer .discount {
+  margin-top: 61px;
+  margin-left: -50px;
+  width: 480px;
+  height: 221px;
+  background: url(../images/offer-bg.png) top center no-repeat;
+}
+.banner .offer .discount h2 {
+  font-weight: 400;
+  font-size: 30px;
+  color: #ff3333;
+  text-align: left;
+}
+.banner .offer .discount h2 b{
+  font-size: 88px;
+  display: block;
+  font-weight: 500;
+  line-height: 70px;
+  text-indent: 127px;
+}
+.banner .offer .discount h2 span{
+  display: block;
+  text-indent: 150px;
+}
+.banner .offer .discount p { display: none; }
+
+/* purchase */
+.price p{
+  font-size: 18px;
+  line-height: 46px;
+  font-weight: 500;
+}
+.price p strong {
+  font-weight: 500;
+  font-size: 42px;
+}
+.price p del {
+  position: relative;
+  font-size: 18px;
+  text-decoration: none;
+}
+.price p del:after {
+  content: '';
+  position: absolute;
+  top: 4px;
+  left: -3px;
+  width: 63px;
+  height: 14px;
+  background: url(../images/del.png) 0 0 no-repeat;
+}
+.footbuy .price { margin-top: 20px; }
+.footbuy .price p strong { color: #ff3333; }
+.floatlayer .pricebox .price { margin-right: 44px; }
+.floatlayer .pricebox .price dt { 
+  line-height: 44px; 
+}
+.floatlayer .pricebox .price dt strong { font-size: 26px; font-weight: 500;}
+.floatlayer .pricebox .price dt del { font-size: 16px; }
+.floatlayer .pricebox .price dt del:after { background-position: 0 -14px; }
+
+/* buybtn */
+.buybtn {
+  display: block;
+  margin: 0 auto;
+  color: #fff;
+  cursor: default;
+  text-shadow: 3px 3px 5px rgba(96,0,0,.54);
+  background: url(../images/btn.png) no-repeat;
+}
+.bigbtn {
+  position: relative;
+  margin-top: -10px;
+  margin-bottom: -36px;
+  width: 314px;
+  height: 118px;
+  line-height: 62px;
+  font-size: 20px;
+  background-position: 0 0;
+}
+.bigbtn .inner {
+  display: inline-block;
+  margin: 0 auto;
+  margin-top: 4px;
+  width: 280px;
+  height: 62px;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 31px;
+}
+.bigbtn:after {
+  content: '';
+  position: absolute;
+  top: 5px;
+  right: -60px;
+  width: 64px;
+  height: 64px;
+  background: url(../images/60daysmoneyback.png) no-repeat;
+}
+.smallbtn {
+  margin-top: -12px;
+  width: 225px;
+  height: 85px;
+  line-height: 46px;
+  font-size: 20px;
+  cursor: pointer;
+  background-position: 0 -236px;
+}
+.smallbtn .inner {
+  display: inline-block;
+  margin: 0 auto;
+  width: 210px;
+  height: 46px;
+  overflow: hidden;
+  border-radius: 23px;
+}
+.buybtn span { 
+  display: inline-block; 
+  vertical-align: middle; 
+  margin-left: -2px;
+  -webkit-transform: translate3d(-16px, 0, 0);
+          transform: translate3d(-16px, 0, 0); 
+  -webkit-transition: -webkit-transform 0.3s;
+          transition: transform 0.3s; 
+  -webkit-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1); 
+          transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+}
+.buybtn i { 
+  margin-top: 3px;
+  margin-right: 12px;
+  width: 32px; 
+  height: 23px;
+  background-position: 0 0;
+  -webkit-transform: translate3d(-20px, 3.5em, 0); 
+          transform: translate3d(-20px, 3.5em, 0); 
+  -webkit-transition: -webkit-transform 0.3s; 
+          transition: transform 0.3s; 
+  -webkit-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1); 
+          transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+}
+.smallbtn i {
+  margin-right: 4px;
+  width: 29px;
+  height: 21px;
+  background-position: 0 -23px;
+}
+.buybtn .inner:hover i, 
+.buybtn .inner:hover span { 
+  -webkit-transform: translate3d(0, 0, 0); 
+          transform: translate3d(0, 0, 0); 
+}
+.bigbtn.active { background-position: 0 -118px; }
+.smallbtn.active { background-position: 0 -321px; }
+
+
+/* feature */
+.feature-h2 {
+  margin-top: 68px;
+  margin-bottom: 70px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 38px;
+}
+.feature dl {
+  margin-bottom: 34px;
+  float: left;
+  width: 480px;
+  overflow: hidden;
+}
+.feature dl.right {
+  float: right;
+  width: 430px;
+}
+.feature dl dt {
+  float: left;
+  width: 85px;
+  height: 70px;
+}
+.feature dl dt img { margin-top: 5px; }
+.feature dl h3 {
+  margin-bottom: 8px;
+  font-weight: 400;
+  color: #ff3333;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.feature dl dd { 
+  float: left;
+  width: 390px; 
+}
+.feature dl.right dd { width: 340px; }
+
+/* awards */
+.awards {
+  margin-top: 44px;
+  padding: 30px 0 34px;
+  text-align: center;
+  background: #f2f2f2;
+}
+.awards h2 {
+  margin-bottom: 17px;
+  font-size: 32px;
+  color: #969696;
+  font-weight: 400;
+}
+
+/*review*/
+.review { 
+  position: relative; 
+  height: 670px;
+}
+.dg-container { 
+  position: relative;
+  width: 100%;
+  height: 620px; 
+}
+.dg-wrapper { 
+}
+.dg-wrapper .dg-transition { 
+  -webkit-transition: all 0.5s ease-in-out;
+          transition: all 0.5s ease-in-out; 
+}
+.dg-container .nav {
+  position: relative;
+  width: 100%;
+}
+.dg-container .nav span {
+  position: absolute;
+  top: 462px;
+  width: 22px;
+  height: 41px;
+  display: block;
+  overflow: hidden;
+  cursor: pointer;
+  background: url("../images/review-control.png") no-repeat;
+}
+.dg-container .nav .dg-prev {
+  left: 0;
+  background-position: 0 0;
+  z-index: 5;
+}
+.dg-container .nav .dg-prev:hover {
+  background-position: 0 -41px;
+}
+.dg-container .nav .dg-next {
+  right: 0;
+  background-position: -22px 0;
+}
+.dg-container .nav .dg-next:hover{
+  background-position: -22px -41px;
+}
+.inner { 
+  display: block; 
+  margin: 0 auto;
+  width: 660px; 
+  height: 300px; 
+}
+.content { 
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  padding-top: 88px;  
+  height: 310px; 
+  text-align: center;
+}
+.content .reviews { display: none;}
+.content .reviews dd {
+  height: 240px;
+}
+.content .reviews h2 { 
+  margin-bottom: 40px;
+  font-size: 30px;  
+  font-weight: 600;
+}
+.content .reviews  h4 {
+  font-size: 14px;
+  line-height: 24px;
+}
+.content .reviews dd {
+  color: #7b7b7b;
+  font-size: 14px;
+  line-height: 24px; 
+}
+.content .reviews cite {
+  display: block; 
+  margin-top: 30px; 
+  color: #000;
+  font-style: normal; 
+  font-size: 16px; 
+}
+.review ul { position: relative; width: 513px; line-height: 240px; height: 240px; margin: 0px auto; overflow: hidden; text-align: center}
+.review ul li { position: absolute; height: 130px; display: inline-block; vertical-align: middle; opacity: 0.3; z-index: 3; filter:alpha(opacity=0); transform: scale(0.7);
+   -webkit-transition: all .5s;  
+   transition: all .5s;
+}
+.review ul li.first { left: -120px;}
+.review ul li.two { left: 0; z-index: 1;}
+.review ul li.three { left: 91px;  }
+.review ul li img { border-radius: 50%; }
+.review ul li.active { left:200px; transform: scale(1); opacity: 1; filter:alpha(opacity=100); z-index: 10;}
+.review ul li.active img{ width: 130px; height: 130px; border: solid #fff 6px; box-shadow: 0 40px 40px rgba(92, 95, 101, 0.3); }
+.review ul li.four { left: 313px;   }
+.review ul li.five { left: 403px; z-index: 1; }
+.review ul li {left: 493px;}
+.content .reviews.active{ display: block;}
+
+/* footbuy */
+.footbuy {
+  display: inline-block;
+  margin-top: 32px;
+  width: 100%;
+  min-width: 1000px;
+  height: 300px;
+  text-align: center;
+  background: url(../images/footbuy.jpg) top center no-repeat;
+  background-size: 100% 300px;
+}
+.footbuy h2 {
+  margin-top: 50px;
+  font-size: 28px;
+}
+
+/* bottom */
+.bottom {
+  font-size: 12px;
+  color: #575757;
+  background: #212121;
+}
+.annotation {
+  padding: 12px 0 8px;
+  border-bottom: 1px solid #333;
+}
+.footer { 
+  margin-top: 6px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;  
+}
+
+/* floatlayer */
+.floatlayer { 
+  display: inline-block;
+  position: fixed; 
+  z-index: 10; 
+  top: -100px; 
+  height: 97px; 
+  width: 100%; 
+  background: #fff; 
+  border-bottom: 3px solid #ff3333;
+  background: url(../images/floatlayer.jpg) top center no-repeat;
+  background-size: cover;
+  visibility: hidden; 
+  text-align: center;
+  -webkit-transition: all 0.4s; 
+     -moz-transition: all 0.4s; 
+       -o-transition: all 0.4s;
+          transition: all 0.4s;  
+}
+.floatlayer.on { 
+  top: 0; 
+  visibility: visible; 
+}
+.floatlayer .left { 
+  float: left;
+  width: 680px;
+  font-size: 16px;
+}
+.floatlayer .left h2 { 
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: -2px;
+  height: 26px;
+  line-height: 28px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffb200;
+  background: url(../images/float_title.png) top center no-repeat;
+}
+.floatlayer .left p strong { 
+  font-size: 30px;
+  font-weight: 400;
+  color: #ff3333; 
+}

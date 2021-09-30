@@ -1,0 +1,241 @@
+@charset "utf-8";
+
+*{
+  position: relative;
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+  text-decoration: none;
+  list-style-type: none;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+body {
+  min-width: 1100px;
+  font-size: 14px;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  line-height:1.4;
+  color: #000;
+  letter-spacing: -.5px\9;
+}
+a {
+  margin:0;
+  padding:0;
+  font-size:100%;
+  vertical-align:baseline;
+  background:transparent;
+  outline: none;
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+a:hover {
+  text-decoration:none;
+}
+del {
+  text-decoration:line-through;
+}
+table {
+  border-collapse:collapse;
+  border-spacing:0;
+}
+ul,ul li {
+  list-style-type:none;
+}
+img {
+  border: 0;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.clear {
+  clear:both;
+  zoom: 1;
+}
+.clearfix:after {
+  content:'';
+  display:block;
+  clear:both;
+}
+.clearfix {
+  *zoom:1;
+}
+.hidden {
+  display: none;
+}
+.show {
+  display: block;
+}
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: visible;
+}
+
+.price { text-align: center;}
+.price del { margin-right: 10px; color: #8b8b8b; font-weight: 600;}
+.price strong { font-size: 32px;}
+.price dd { font-size: 12px; margin-top: 10px;}
+
+/*
+ * buybtn
+ */
+.buybtn { display: block; margin: 0 auto; text-align: center; border-radius: 4px; font-size: 18px; font-weight: 500; color: #000;}
+
+
+
+/*
+ * banner
+ */
+.banner { width: 100%; height: 753px; overflow: hidden; background: url("../images/banner.jpg") #171116 top center no-repeat; background-size: cover;}
+.banner a.logo {position: absolute; top: 42px; left: 7px; display: block; z-index: 1; width: 50px; height: 16px; text-indent: -9999px; background: url("../images/logo.png") left center no-repeat; position: relative;}
+
+.banner h1 { font-size: 42px; color: #dc0000; text-align: center; margin-top: 70px; line-height: 1.2; font-weight: 500;}
+.banner .wrapper>p { font-size: 18px; color: #ffffff; text-align: center; margin-top: 10px; line-height: 1.6; font-weight: 500;}
+.banner_box{ margin-top: 140px;}
+.banner_cont1{ width: 546px; display: inline-block; vertical-align: bottom;}
+.banner_cont2{ width: 646px; display: inline-block; vertical-align: bottom;}
+.banner_cont1>img{ display: inline-block; vertical-align:top; margin: 20px 8px 0 22px;}
+.banner_cont2_price>img{ display: inline-block; vertical-align:top; margin: 20px 8px 0 0;}
+.banner_cont1_text{ display: inline-block; vertical-align: top; width: 231px;}
+.banner_cont1_text h5{ font-size: 20px; color: #ffffff; font-weight: 600; text-align: center;}
+.banner_showdow1{ width: 231px; height: 118px; margin-top: 30px; overflow: hidden; background: url("../images/shadowbg1.png") top center no-repeat; background-size: cover; text-align: center;}
+.banner_showdow1>span{ font-size: 14px; color: #e0e0e0; margin-top: 15px; display: block;}
+.banner_showdow1>p{font-size: 36px; color: #fff; margin-top: 5px; text-shadow: 0 2px 5px rgba(0,0,0,0.8);}
+.banner_showdow1>p em{ font-style: normal; font-size: 26px;}
+.banner_showdow1>p del{ font-size: 14px; color: #aaaaaa; margin-left: 8px; text-shadow:none;}
+.banner_cont1_text .buybtn{ width: 198px; height: 52px; line-height: 52px; color: #ff8a00; border: 1px solid #ff8a00; margin-top: 23px;}
+.banner_cont1_text .buybtn:hover{background: #ff8a00; box-shadow:0 0 26px 5px rgba(255,165,8,0.3); color: #ffffff;}
+
+.banner_cont2>img{ display: inline-block; vertical-align:top;}
+.banner_cont2_text{ display: inline-block; vertical-align: top; width: 290px;}
+.banner_cont2_text h4{ font-size: 26px; color: #ffffff; font-weight: 600; text-align: center;}
+.banner_showdow2{width: 231px; height: 210px; margin: 30px auto 0; overflow: hidden; background: url("../images/shadowbg2.png") top center no-repeat; background-size: cover; text-align: center;}
+.banner_showdow2>span{ font-size: 14px; color: #ffffff; margin-top: 25px; display: block;}
+.banner_showdow2>ul{ margin-top: 23px;}
+.banner_showdow2>ul li{ font-size: 14px; color: #ffffff; position: relative; margin-left: 26px; padding-left: 30px; margin-top: 15px; text-align: left;}
+.banner_showdow2>ul li:before{ width: 24px; height: 24px; content: ""; display: block; position: absolute; left: 0; top: -5px; background: url("../images/giftico.png") top center no-repeat; background-size: cover;}
+.banner_showdow2>p{font-size: 36px; color: #ffcc00; margin-top: 10px; text-shadow: 0 1px 4px rgba(0,0,0,0.18);}
+.banner_showdow2>p em{ font-style: normal; font-size: 26px;}
+.banner_showdow2>p del{ font-size: 14px; color: #bbbbbb; margin-left: 8px; text-shadow:none;}
+
+.banner_price{ margin-top: 23px;}
+.banner_price p{ font-size: 16px; color: #ff4800; display: inline-block; vertical-align: middle;}
+.banner_price p span{ width: 51px; height: 28px; font-size: 18px; color: #ff1a1e; background: url("../images/timebg.png") top center no-repeat; background-size: cover; display: inline-block; vertical-align: middle; letter-spacing: 16px; padding-left: 7px; line-height: 28px;}
+.banner_price img{ display: inline-block; vertical-align: middle; margin-left: 10px; margin-right: 11px;}
+.banner_price .buybtn{ width:220px; height: 54px; line-height: 54px; color: #fff; background: #ff8a00; display: inline-block; vertical-align: middle;}
+.banner_price .buybtn:hover{background: #ffb400; box-shadow: 0 2px 5px 0 rgba(0,0,0,0.6),0 0 26px 5px rgba(255,165,8,0.3);}
+.drive_booster{ padding-bottom: 50px; overflow: hidden;}
+.drive_booscnt{ position: relative;}
+.drive_booscnt h2{ font-size: 28px; color: #000000; margin-top: 70px; text-align: center; line-height: 1.5; font-weight: 600;}
+.drive_boosct{ margin-top: 70px;}
+.drive_boosimg{ width: 543px; float: left; position: relative; z-index: 5;}
+.drive_boost{ width: 1017px; height: 669px; background: url("../images/illustration.png") left center no-repeat; background-size: cover; margin-left: -474px; }
+.drive_descrp{ width: 459px; float: right;}
+.drive_despoint{ margin-bottom: 70px; margin-top: 30px; position: relative;}
+.drive_despoint h5{ font-size: 16px; color: #000000; font-weight: 600; line-height: 1.5; margin-top: 10px;}
+.drive_despoint p{ font-size: 14px; color: #000000; line-height: 1.9; font-weight: 400; margin-top: 11px;}
+.drive_despoint1:before{ width: 216px; height: 98px; content: ""; display: block; background: url("../images/icon1.png") left center no-repeat; background-size: cover; z-index: 2; left: -247px; top: 0; position: absolute;}
+.drive_despoint2:before{ width: 202px; height: 64px; content: ""; display: block; background: url("../images/icon2.png") left center no-repeat; background-size: cover; z-index: 2; left: -233px; top: -5px; position: absolute;}
+.drive_despoint3:before{ width: 215px; height: 105px; content: ""; display: block; background: url("../images/icon3.png") left center no-repeat; background-size: cover; z-index: 2; left: -246px; top: -50px; position: absolute;}
+
+
+.giveaway{ width: 100%; height: 499px; background: url("../images/vsbg.jpg") top center no-repeat; background-size: cover; overflow: hidden;}
+.giveaway h2{height: 59px; font-size: 28px; color: #ffffff; margin-top: 40px; text-align: center; font-weight: 600; background: url("../images/flags.png") 254px center no-repeat; line-height: 60px; position: relative;}
+.giveaway h2:before{ width: 24px; height: 16px; content: ""; display: inline-block; vertical-align: middle; background: url("../images/arr-before.png") left center no-repeat; background-size: cover; margin: -5px 8px 0 0;}
+.giveaway h2:after{ width: 27px; height: 16px; content: ""; display: inline-block; vertical-align: middle; background: url("../images/arr-after.png") right center no-repeat; background-size: cover; margin: -5px 0 0 5px;}
+.giveaway_cont{ margin-top: 20px;}
+.giveaway_pf{ width: 330px; float: left; margin-left: 130px;}
+.giveaway_sdp{ width: 430px; float: right;}
+.giveaway_pro img{ margin: 10px 0 10px 65px; display: block;}
+.giveaway_pro h5{font-size: 18px; color: #ffffff; line-height: 1.5; font-weight: 500; margin-bottom: 15px;}
+.giveaway_pro h5 span{ font-size: 24px; color: #ffde02;}
+.giveaway_pro ul li{font-size: 14px; color: #f0eaea; line-height: 1.6; font-weight: 400; margin-bottom: 7px; position: relative;}
+.giveaway_pro ul li:before{ width: 12px; height: 12px; content: ""; background: url("../images/trig.png") left center no-repeat; background-size: cover; position: absolute; left: -23px; top: 4px;}
+
+.comparison-area{ width: 100%; background: #f7f8fa; padding-bottom: 136px; overflow: hidden;}
+.comparison-area h2{font-size: 28px; color: #000000; font-weight: 600; margin-top: 70px; text-align: center;}
+.comparison-table{ margin-top: 80px; box-shadow: 0 10px 25px 0 rgba(0,0,0,0.12); position: relative;}
+.comparison-table:after{ width: 234px; height: calc(100% + 81px); position: absolute; content: ""; display: block; right: 0; top: -23px; box-shadow: 0 2px 45px 0 rgba(255,23,23,0.2); z-index: 1;}
+.free-version{ width: 220px; background: #f5f6f7;}
+.comparison-table thead tr th.free-version{height: 92px; background: #e8e9eb; padding-bottom: 0; font-size: 18px; font-weight: 500;}
+.comparison-table thead tr td.free-version{ position: relative;}
+.comparison-table tr td.free-version:after{ width: 100%; height: 1px; content: ""; display: block; left: 0; bottom: 0; position: absolute; z-index: 3; background: #dddddd;}
+.icon-right:before{ width: 22px; height: 22px; background: url("../images/correct.png") center center no-repeat; position: relative; content: ""; display: block; margin: 0 auto; text-align: center;}
+.icon-wrong:before{ width: 22px; height: 22px; background: url("../images/wrong.png") center center no-repeat; position: relative; content: ""; display: block; margin: 0 auto; text-align: center;}
+.comparison-table tr td.des-text{padding: 15px 11px 17px 41px; position: relative; font-weight: 600; color: #656565;}
+.comparison-table tr td.des-text:after{width: calc(100% - 72px); height: 1px; content: ""; display: block; left: 31px; bottom: 0; position: absolute; z-index: 3; background: #dddddd;}
+.comparison-table thead tr th.des-text:after{width: 66px; height: 26px; background: url("../images/vs.png") center center no-repeat; position: relative; content: ""; display: block; margin: 0 auto; text-align: center;}
+.pro-version{ width: 234px; border-left: 1px solid #ff2c2c; border-right: 1px solid #ff2c2c;}
+.comparison-table tr td.pro-version:after{width:100%; height: 1px; content: ""; display: block; left: 0; bottom: 0; position: absolute; z-index: 3; background: #f7dfdf;}
+.pro-head{height: 115px; background: #f32424; position: absolute; bottom: 0; left:-1px; z-index: 3; width: 235px; border-radius: 3px;}
+.pro-head span{ font-size: 24px; color: #ffffff; font-weight: 500; margin-top: 25px; text-align: center; display: block;}
+.pro-head h5{width: 110px; height: 18px; line-height: 18px; font-size: 14px; color: #f32424; font-weight: 500; text-align: center; margin: 10px auto 0; background-color: #ffba00; border-radius: 20px; position: relative;}
+.pro-head h5:after{ width: calc(100% + 4px); height: 100%; border: 1px solid #ffb601; border-radius: 22px; left: -3px; top: -1px; content: ""; display: block; position: absolute;}
+
+
+.pro-foot{height: 80px; background: #f12929; position: absolute; bottom: -60px; left:-1px; z-index: 3; width: 235px; border-radius: 3px;}
+.compare-buybtn{ width: 180px; height: 42px; text-align: center; line-height: 42px; border-radius: 5px; background: #ff9600; font-size: 16px; color: #ffffff; margin-top: 18px;}
+.compare-buybtn:hover{ background: #ffb400;}
+/* reviews*/
+.reviews { height: 790px; text-align: center; background: url(../images/reviews.jpg) no-repeat top center; background-size: cover;}
+.reviews h2 { font-size: 28px; font-weight: 600;}
+.reviews p { font-size: 16px; color: #333333; margin-top: 5px;}
+.reviews .content { margin: 45px auto 0; width: 1107px; height: 363px; background: url(../images/reviewsbg.png) no-repeat top center; background-size: cover;}
+.reviews .content .media { float: left; width: 470px; }
+.reviews .content .media img { margin-top: 50px; margin-left:20px;}
+.reviews .reviews-box { float: left; width: 630px; height: 360px;}
+.reviews .reviews-box ul.message { width: 535px; height: 160px; margin: 38px 0 0 51px; text-align: left; color: #333333; font-size: 12px; line-height: 2; font-weight: 600;}
+.reviews .reviews-box ul.message li { display: none;}
+.reviews .reviews-box ul.message li.active { display: block;}
+.reviews .reviews-box ul.img-box{ margin-left: 51px; text-align: left;}
+.reviews .reviews-box ul.img-box li { height: 133px; display: inline-block; vertical-align: middle;  width: 104px; text-align: center;}
+.reviews .reviews-box ul.img-box li div { height: 104px; margin-bottom: 10px; line-height: 104px;}
+.reviews .reviews-box ul.img-box li img {display: inline-block; vertical-align: middle; width: 60px;  cursor: pointer; border-radius: 50%;}
+.reviews .reviews-box ul.img-box li p { opacity: 0; font-size: 14px; white-space: nowrap; -webkit-transition: all .4s ease-out; transition: all .4s ease-out; font-weight: 600;}
+.reviews .reviews-box ul.img-box li.active img {width: 104px; height: 104px;}
+.reviews .reviews-box ul.img-box li.active { position: relative;}
+.reviews .reviews-box ul.img-box li.active p { opacity: 1;}
+.service { margin-top: 50px; position: relative;}
+.service:before{ width: 100%; height: 1px; content: ""; display: block; position:absolute; top: 0; background: url(../images/service-line.png) no-repeat top center; background-size: cover;}
+.service p{ font-size: 12px; color: #666; padding-top: 50px; font-weight: 600;}
+.service dl{ float: left; width: 33%; padding-top: 25px; text-align: center;}
+.service dl dt { height: 68px; line-height: 68px; font-size: 16px;}
+.service dl dt img { display: inline-block; vertical-align: middle;}
+.service dl dd {margin: 10px auto 0;font-size: 12px;}
+.service dl h3 { font-size: 12px; font-weight: 500; color: #333333; font-weight: bold;}
+
+
+.bottom-buy {width: 100%; height: 178px; background: url(../images/footbaner.jpg) #1d1313 top center no-repeat; background-size: cover; overflow: hidden; position: fixed; bottom: -178px; left: 0; -webkit-transition: all .3s ease-in-out; transition: all .3s ease-in-out; z-index: 5;}
+.bottom-buy.on{bottom: 0;}
+.bottom-buy-cont{ width: 1000px; margin: 0 auto;}
+.bottom-buy .left-img { float: left; width: 229px; height: 177px; background: url(../images/banner-box3.png); margin: 10px 0 0 5px;}
+.bottom-buy .bottom-shadow{width: 316px; height: 128px; background: url(../images/shadowbg3.png) top center no-repeat; background-size: cover; float: left; margin: 30px 0 0 25px; text-align: center; overflow: hidden;}
+.bottom-buy .bottom-shadow h3{ font-size: 22px; color: #ffffff; font-weight: 600; margin-top: 10px;}
+.bottom-buy .bottom-shadow em{ font-size: 14px; color: #eee9e9; font-weight: 500; margin-top: 10px; display: block; font-style: normal;}
+.bottom-buy .bottom-shadow p{ font-size: 18px; color: #ff4800; display: inline-block; vertical-align: middle; margin-top: 12px;}
+.bottom-buy .bottom-shadow p span{ width: 51px; height: 28px; font-size: 18px; color: #ff1a1e; background: url("../images/timebg.png") top center no-repeat; background-size: cover; display: inline-block; vertical-align: middle; letter-spacing: 16px; padding-left: 7px; line-height: 28px;}
+.bottom-buy .bottom-price{ width: 220px; float: left; margin-top: 20px; text-align: center; margin: 29px 0 0 85px;}
+.bottom-buy .bottom-price p{font-size: 38px; color: #ffcc00; font-weight: 600;}
+.bottom-buy .bottom-price p em{ font-style: normal; font-size: 26px;}
+.bottom-buy .bottom-price p del{ font-size: 14px; color: #bbbbbb; margin-left: 5px; text-shadow:none; font-weight: normal;}
+.bottom-buy .bottom-buybtn{width: 220px; height: 54px; text-align: center; line-height: 54px; border-radius: 5px; background: #ff8a00; font-size: 18px; color: #ffffff; margin-top: 5px; box-shadow: 0 2px 5px 0 rgba(0,0,0,0.6), 0 0 20px 6px rgba(255,136,8,0.3);}
+.bottom-buy .bottom-buybtn:hover{background: #ffb400; box-shadow: 0 2px 5px 0 rgba(0,0,0,0.6),0 0 20px 5px rgba(255,165,8,0.3);}
+.bottom-buy .right-img{ width: 88px; height: 80px; float: left; background: url(../images/arrow2.png) top center no-repeat; background-size: cover; margin: 72px 0 0 30px;}
+
+/*
+ * footer
+ */
+.footer { position: relative; padding: 20px 0; background: #14151d; margin-bottom: 170px;}
+
+/* annotation */
+.annotation { padding-top: 20px; margin-top: 40px;}
+.annotation dd,.annotation dt {font-size: 12px; line-height: 16px; color: #ababab;}
+/* footer */
+.footer p{  padding-top: 15px; font-size: 14px; font-weight: 600; text-align:center; color: #3c3c3c;}

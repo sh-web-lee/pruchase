@@ -1,0 +1,159 @@
+* {	margin:0;padding:0;}
+img {border:0;}
+body {font-family:Arial, Helvetica, sans-serif;font-size:13px;color:#333;background:#fff;}
+li {list-style:none;}
+.clear {clear:both;height:0;border:0;font-size:0;}
+a{color:#006699;}
+a:hover{color:#028bcf;}
+.mt5{margin-top:5px;}
+.ml10{margin-left:10px;}
+.mb10{margin-bottom:10px;}
+.right{float:right;}
+.center{text-align:center;}
+.red{color:#cc0000;}
+.del{text-decoration:line-through;}
+.f11{font-size:11px; color:#666;}
+.bf14{font-weight:bold; font-size:14px ;}
+.bf16{font-weight:bold; font-size:16px ;}
+h2{font-size:20px; line-height:26px;}
+h3{font-size:16px; line-height:24px;}
+.cyellow{color:#ff9900;}
+.corange{color:#ff6600;}
+.cgray{color:#333;}
+.cnormal{color:#000;}
+#lang { float:right; }
+#lang { position:relative; width:175px; height:20px; overflow:hidden; margin-right:10px; }
+#google_translate_element { position:absolute; right:0; top:-4px; }
+#google_translate_element select { font-size:11px; width:160px; }
+.myfont{font-family:MyriadProCondensed; font-size:26px; color:#444;} 
+
+.wrapper{width:800px; margin:0 auto;}
+#head{height:80px; background:#041b30 url(../img/download_head.png) center center no-repeat;}
+#head .frname{margin-top:30px; margin-left:140px; display:inline-block; font-weight:bold;}
+#head .frname dt{font-size:18px; color:#fff;}
+#head .frname dd{font-size:13px; color:#ccc;}
+
+#head h2{font-size:24px; color:#fff; height:24px; line-height:24px; float:left; margin-top:40px; margin-left:140px;}
+
+#head .cnettr{float:right;width:320px;height:80px;margin-top:15px;color:#fff;text-align:right;font-size:11px;}
+#head .cnettr dt{float:right;width:81px;margin-top:15px;}
+#head .cnettr dd{float:left;text-align:right;line-height:16px;width:234px;margin-top:10px;}
+#main{ }
+#main .shadow{height:18px; background:url(../img/download_shadow.png) top center no-repeat;}
+
+#main .intro{height:300px; margin:20px 0;}
+
+#main .intro .txtlist{width:400px; float:left;}
+/*#main .intro .txtlist dl{ margin-bottom:10px;}
+#main .intro .txtlist dl dt{font-size:20px; line-height:24px; margin-bottom:10px;}
+#main .intro .txtlist dl dd{text-align:right; font-size:13px;}
+
+#main .intro .txtlist ul{ margin:20px 0;}
+#main .intro .txtlist ul li{ font-size:14px; line-height:36px; padding-left:18px; background:url(../img/listicon.png) 0 10px no-repeat; }
+*/
+#main .intro .txtlist dl{ margin-top:20px; margin-bottom:10px; font-weight:bold;}
+#main .intro .txtlist dl dt{font-size:20px; font-style:italic; line-height:36px; height:42px;}
+#main .intro .txtlist dl dt span{font-size:36px; color:#ff6600;}
+#main .intro .txtlist dl dt em{font-size:16px;}
+#main .intro .txtlist dl dd{font-size:16px; margin-bottom:10px;}
+#main .intro .txtlist dl dt img{margin:0 10px;}
+#main .intro .txtlist dl dd.ctime{font-size:14px; margin-bottom:0;}
+#main .intro .txtlist dl dd.ctime .t1{float:left;}
+#main .intro .txtlist dl dd.ctime .t2{margin-left:90px;}
+
+#main .intro .txtlist h3{margin-top:20px; font-size:15px;}
+#main .intro .txtlist ul{ margin:0px 0 20px;}
+#main .intro .txtlist ul li{background:url(../img/listicon.jpg) no-repeat; font-size:14px; height:20px; line-height:20px; padding-left:25px; margin:15px 0;}
+
+#main .intro .txtlist ul li.icon_01{ background-position:0 0;}
+#main .intro .txtlist ul li.icon_02{ background-position:0 -40px;}
+#main .intro .txtlist ul li.icon_03{ background-position:0 -80px;}
+#main .intro .txtlist ul li.icon_04{ background-position:0 -120px;}
+
+#main .intro .boxshot{width:400px; float:right;}
+
+#main .intro .gallery {width:380px; float:right;}
+
+/*screen shot*/
+#img-select {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0 0 0 20px;
+}
+#img-select li {
+    float: left;
+}
+#img-select span {
+    background: none repeat scroll 0 0 #333333;
+    border: 1px solid #C0C0C0;
+    color: #FFFFFF;
+    float: left;
+    height: 17px;
+    margin: 0 2px 0 0;
+    padding: 1px 0 0;
+    text-align: center;
+    text-decoration: none;
+    width: 18px;
+}
+#img-select a {
+    background: none repeat scroll 0 0 #CECECE;
+    border: 1px solid #E7E7E7;
+    color: #FFFFFF;
+    float: left;
+    height: 17px;
+    margin: 0 2px 0 0;
+    padding: 1px 0 0;
+    text-align: center;
+    text-decoration: none;
+    width: 18px;
+}
+#img-select {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0 2px 0 2px;
+}
+#img-select #img-caption, .gallery #img-caption-1, .gallery #img-caption-2, .gallery #img-caption-3, .gallery #img-caption-4 {
+    float: right;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 0 20px 0 0;
+}
+.gallery #screen-gal-2, .gallery #screen-gal-3, .gallery #screen-gal-4, .gallery #img-caption-2, .gallery #img-caption-3, .gallery #img-caption-4 {
+    display: none;
+}
+
+
+#main .promise{}
+#main .promise h2{font-size:22px; font-weight:bold; margin-bottom:30px;}
+#main .promise h2 span{color:#0099cc;}
+#main .promise .leftbox{width:520px; float:left;}
+
+#main .promise .leftbox .crlist{width:230px; float:left; margin-right:30px; margin-bottom:30px;}
+#main .promise .leftbox .crlist dl{border-bottom:1px #ccc solid; padding-bottom:8px; margin-bottom:10px;}
+#main .promise .leftbox .crlist dl dt{width:37px; height:37px; display:block; background:url(../img/avtrial/icons.png)  no-repeat; float:left; margin-right:10px;}
+#main .promise .leftbox .crlist dl dd{ font-size:14px; font-weight:bold;}
+
+#main .promise .leftbox .crlist dl dt.pro01{ background-position:0 0 ;}
+#main .promise .leftbox .crlist dl dt.pro02{ background-position:0 -60px ;}
+#main .promise .leftbox .crlist dl dt.pro03{ background-position:0 -120px ;}
+#main .promise .leftbox .crlist dl dt.pro04{ background-position:0 -180px ;}
+
+#main .promise .leftbox .crlist p{ line-height:18px;}
+
+
+#main .promise .review{width:265px; float:right; line-height:24px; position:relative;}
+#main .promise .review span{float:left; width:20px; height:17px; display:block; margin-right:10px; background:url(../img/quote.png) 0 0 no-repeat;}
+#main .promise .review .awpic{float:right; width:90px; position:absolute; bottom:0; right:0;}
+#main .promise .review img{ width:87px; height:104px;}
+
+#main .awards{width:620px; height:73px; margin:30px 90px; display:inline-block; background:url(../img/awards.jpg) 0 0 no-repeat;}
+
+.bttombuy{width:430px; margin:40px auto;}
+.bttombuy dt{float:left; margin-top:-10px;}
+.bttombuy dd{margin-left:130px; margin-bottom:10px;}
+.bttombuy dd .tips{color:#cc0000; text-align:center; font-size:11px;-webkit-text-size-adjust:none;}
+.buybtn{width:295px; height:66px; line-height:66px; display:block; margin:0 auto;text-align:center; background:url(../img/btnbuy.jpg) 0 0 no-repeat; color:#fff;font-size:20px; font-weight:bold; text-align:center; text-decoration:none; text-align:1px 1px 0 #000;}
+.buybtn:hover{ background-position:0 -66px; color:#fff;}
+
+#footer{height:55px; line-height:55px; background:url(../img/download_shadow.png) center top no-repeat;}
+#footer .wrapper{text-align:center; font-size:11px; color:#999;}

@@ -1,0 +1,177 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0; padding:0; }
+body { min-width: 1000px; font-size: 14px; line-height:1.4;  min-width: 1000px;color: #141414; font-family:"Open Sans", Arial, Helvetica, sans-serif; outline:0; vertical-align:baseline; }
+a { margin:0; padding:0; font-size:100%; vertical-align:baseline; background:transparent; color: #535353; outline: none; text-decoration: none; cursor: pointer; }
+a:hover { text-decoration:none; }
+del { text-decoration:line-through; }
+table { border-collapse:collapse; border-spacing:0; }
+ul,ul li { list-style-type:none; }
+img{ border: none;}
+.clearfix:after,.wrapper:after {clear:both;display:block;height:0;font-size:0;content:".";visibility:hidden;}
+.clearfix{zoom:1;}
+.left{ float: left;}
+.right{ float: right;}
+.hidden{display: none;}
+.wrapper{ width: 1000px; margin:0 auto;zoom:1;}
+.buybtn { width: 264px; height: 60px; display: block; background-image:url("../images/btn.png"); text-indent: -9999px;}
+.buybtn:hover{background-position: 0 -61px;}
+
+/*header*/
+.header { height: 780px; background: url(../images/banner-bg.jpg) no-repeat center top; }
+.header .wrapper{position: relative;}
+.header .logo { position: absolute; display: block; top: 37px; left: 0; width: 44px; height: 15px; background: url(../images/logo.png) no-repeat; }
+.header h1 { width: 582px; height: 166px; text-indent: -9999px; background: url(../images/title.png) no-repeat center 16px; margin: 0 auto 18px;}
+.header .container { background: url(../images/contair-bg.png) no-repeat center top; height: 524px; color: #262626; font-style: italic; text-align: center;}
+.header .left { width: 651px; padding-top: 50px;}
+.header .left dt { height: 125px;}
+.header .left h2 { font-size: 24px;}
+.header .left h2 strong { color: #e2312b;}
+.header .left ul { float: left;}
+.header .left ul.big { width: 213px; margin-top: 1px; margin-left: 2px;}
+.header .left ul.big strong { font-weight: 600; padding: 10px 0 3px; display: inline-block;}
+.header .left ul.small { width: 137px; margin-right: 7px; position: relative;}
+.header .left ul.small .ico { display: block; width: 40px; height: 53px; background: url("../images/banner-free.png") no-repeat; position: absolute; top: 9px; right: 0;}
+.header .left ul.amc { margin-right: 0;}
+.header .left ul.small span{ font-weight: 300; font-size: 20px; display: inline-block; line-height: 20px;}
+.header .left ul.small span del{ font-size: 14px;}
+.header .left ul.small a{ display: block; width: 127px; height: 34px; line-height: 34px; text-align: center; font-size: 16px; color: #e2312b; background: #fea785; border-radius: 3px; font-weight: 600; margin: 10px auto;}
+.header .left ul.small a:hover{ background: #fc8370;}
+.header .left ul.small a.on{ background: #a0a0a0; color: #5a5a5a;}
+.header .left ul.small .last{ color: #4d4d4d; font-size: 13px;}
+.header .left ul.small img{ width: 120px;}
+.header .right{ width: 336px; padding-top: 55px;}
+.header .right .date{ width: 188px; height: 46px; background: url("../images/time.png") no-repeat; margin: 0 auto 56px; text-align: center;}
+.header .right .date li{ width: 45px; font-size: 20px; font-family: Arial; font-weight: 600; color: #3f3f3f; margin-right: 2px; float: left; font-style: normal; line-height: 30px;}
+.header .right .date li.last{ font-size: 14px; font-weight: 400; margin-right: 0; line-height: 45px; position: relative;}
+.header .right .date li.last sup{ position: absolute; top: 0; right: -8px; display: block; width: 5px; height: 10px; line-height: 10px;}
+.header .right .date li span { font-size: 12px; display: block; margin-top: -5px; line-height: 20px; font-weight: 400;}
+.header .right dd em { font-size: 16px; font-weight: 600;}
+.header .right dd span { color: #585858;}
+.header .right dd strong { font-size: 24px; line-height: 24px; font-weight: 400;}
+.header .right dd.total { font-size: 16px;}
+.header .right dd.last { color: #7c7c7c; padding-top: 35px;}
+.header .right dd.add { padding: 10px 0 5px;}
+.header .right dd .buybtn { margin: 10px auto;}
+
+/*awarded*/
+.awarded { text-align: center; margin-top: 34px;}
+.awarded dt{ text-align: center; font-size: 20px; font-weight: 300; color: #737373;}
+
+/*asc-message*/
+.asc-message { margin-top: 45px;}
+.asc-message h2 { height: 39px; line-height: 39px; background: url(../images/h2-bg.png) no-repeat center; text-align: center; color: #fff; font-size: 21px; font-style: italic; font-weight: 400; margin-bottom: 47px;}
+.asc-message dl { width: 490px; float: left; margin-left: 35px; padding-top: 27px;}
+.asc-message >img { float: right; margin-right: 25px;}
+.asc-message dl dd { position: relative; line-height: 30px; height: 30px; font-size: 16px;}
+.asc-message dl dd img { margin-right: 8px;}
+.asc-message dl dd img.new { margin-right: 0;}
+.asc-message dl dd img.improved { position: absolute; top: -8px; right: -2px;}
+.asc-message dl dt a{display: inline-block; margin-top: 5px; margin-left: 24px; color: #2e7fb4; text-decoration: underline;}
+
+/*banner-center*/
+.banner-center{ margin-top: 35px; background: url("../images/center-bg.jpg") no-repeat center bottom; height: 179px; padding-left: 24px; overflow: hidden;}
+.banner-center dl{ float: left; font-size: 16px; color: #fff;}
+.banner-center dl em{ font-style: normal; font-weight: 600;}
+.banner-center dl strong{ font-size: 26px;}
+.banner-center dl dt{ float: left; height: 173px; position: relative;}
+.banner-center dl dt .ico{ display: block; width: 107px; height: 34px; background: url("../images/center-free.png") no-repeat; position: absolute; left: 18px; bottom: 0;}
+.banner-center dl.asc{ width: 308px; margin-right: 66px; position: relative; }
+.banner-center dl.asc:after{ display: block; height: 40px; width: 40px; z-index: 2; content: "+"; font-size: 80px; font-weight: 600; color: #fff; position: absolute; right: -40px; bottom: 72px; }
+.banner-center dl.asc img{ margin-right: 35px;}
+.banner-center dl.gift{ width: 284px; }
+.banner-center dl.gift img{ height: 128px; margin-top: 43px; margin-right: 23px; }
+.banner-center dl .first{ padding: 78px 0 12px; }
+.banner-center dl.last .first{ padding: 67px 0 5px; text-align: center; font-style: italic; }
+
+/*payment*/
+.payment { height: 140px; margin: 55px auto; color: #000; font-weight: 400; font-size: 18px; border: solid #eee 1px;}
+.payment li { float: left; text-align: center; width: 325px; line-height: 40px;}
+
+/*review*/
+.review{ background: #e7e7e7; padding: 40px 0;}
+.review h3{ font-size: 24px; display: inline-block; margin-left: 120px; }
+.review h4{ font-size: 18px; line-height: 22px; margin: 12px 0; }
+.review dt{ float: left; width: 110px; }
+.review dd{ font-size: 14px; line-height: 24px; margin-left: 120px; }
+.review dd span{ float: right; }
+
+.user_rev{ margin-top: 40px; }
+.user_rev .content{ background: #f5f5f5; box-shadow: 0px 0px 5px 3px #ddd; padding: 20px 20px 20px 0; }
+.user_rev .users{ height: 140px; width: 640px; margin: 25px auto 0; }
+.user_rev .users li{ text-align: center; float: left; width: 100px; font-size: 12px; margin: 0 30px; position: relative; cursor: pointer; }
+.user_rev .users li img{ width: 76px; height: 76px; display: block; border-radius: 50%; margin: 0 auto 10px; }
+.user_rev .users li.current:before{ content: ""; display: block; width: 0; height: 0; border-left: 15px solid transparent; border-right: 15px solid transparent; border-top: 15px solid #f5f5f5; position: absolute; top: -25px; left: 34px; z-index: 1;}
+.user_rev .users li.current:after{ content: ""; display: block; width: 0; height: 0; border-left: 17px solid transparent; border-right: 17px solid transparent; border-top: 17px solid #ddd; position: absolute; top: -21px; left: 32px; z-index: 0;  -webkit-filter: blur(2px); -moz-filter: blur(2px); -o-filter: blur(2px); -ms-filter: blur(2px); filter: blur(2px);}
+.user_rev dl { padding-left: 30px;}
+.user_rev dd { margin-left: 0px;}
+.user_rev h3 { margin-left: 30px;}
+
+.comparison_table{margin:50px auto 30px;}
+.comparison_table p em{ font-size: 18px; font-weight: 600; font-style: normal;}
+.comparison_table table {border:0; border-collapse:separate; border-spacing:0 ;}
+.comparison_table thead tr th{border-bottom:2px #fd6b00 solid; font-size: 15px; text-align: left; font-weight: 400; }
+.comparison_table tfoot th{ font-weight: normal; font-size: 14px;border-bottom:2px #fd6b00 solid;}
+.comparison_table tr td.virtue{ text-align:left; width: 400px;}
+.comparison_table tr{text-align: center;}
+.comparison_table .itema,.comparison_table .itemb{color: #000; background: #fbfae9; text-align: center;width: 230px;}
+.comparison_table .itemb{ background: #eef7ec;}
+.comparison_table td{height: 54px; vertical-align: middle; border-bottom: 1px #ccc solid;  font-size: 15px;}
+.comparison_table td.icons{text-align: center; width: 50px;}
+.comparison_table .itema span,.comparison_table .itemb span{margin-top: 15px;display: inline-block; font-weight: 400; font-size: 16px;}
+.comparison_table th.itema p,.comparison_table .itemb p{font-size: 14px; font-weight: 400; line-height: 34px;}
+.tbbuybtn{width: 150px; height: 34px; display: block; margin: 7px auto 0; line-height: 34px; font-size: 18px; color: #fff; text-decoration: none; background: #ff9204; text-shadow:0 1px 0 #a86003;font-weight: 400;}
+.tbbuybtn:hover{background: #fda82c; text-decoration: none; color: #fff;}
+
+.annotation{margin: 30px 0; font-size: 12px; color: #666;}
+.annotation dt{font-size: 13px; display: inline-block;}
+
+.footer {border-top:1px #eee solid;padding-top: 10px; line-height:25px; margin: 0 auto 20px auto; text-align:center;}
+
+.pop-up {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100001;
+    width: 100%;
+    height: 100%;
+    background: url(../images/pop.png) repeat;
+}
+.pop-main {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.pop-box {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -108px;
+    margin-left: -289px;
+    width: 578px;
+    height: 216px;
+    border: 1px solid #faf0bf;
+    background-color: #fff;
+}
+.pop-box h2,
+.pop-box p {
+    margin: 0 auto;
+    width: 410px;
+    text-align: left;
+}
+.pop-box h2 {
+    padding: 32px 0 10px;
+    font-size: 22px;
+    color: #e50403;
+}
+.pop-box p {
+    margin-bottom: 18px;
+    font-size: 16px;
+    line-height: 22px;
+    color: #010007;
+}
+.main {
+    position: relative;
+}

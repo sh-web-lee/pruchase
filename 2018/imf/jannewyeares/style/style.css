@@ -1,0 +1,148 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0; padding:0; border:0; outline:0; font-size:100%; vertical-align:baseline; }
+body { min-width: 1000px; font-size: 14px;font-family: "Lato", Arial, Helvetica, sans-serif; color: #000;}
+a { margin:0; padding:0; font-size:100%; vertical-align:baseline; background:transparent; outline: none; text-decoration: none; cursor: pointer; }
+a:hover {text-decoration:none; }
+del { text-decoration:line-through; }
+table { border-collapse:collapse; border-spacing:0; }
+ul,ul li { list-style-type:none;}
+.clear {display:block;height:0;overflow:hidden;clear:both;}
+.clearfix:after {content:'\20';display:block;height:0;clear:both;}
+.clearfix {*zoom:1;}
+.fl { float: left; }
+.fr { float: right; }
+.wrapper { width:1000px; margin:0 auto; display:block; position:relative;}
+
+.buybtn { display: block; position: relative; width: 270px; height: 60px; line-height: 60px; margin: 0px auto; text-align: center; border-radius: 8px; font-size: 22px; font-weight: 700; color: #fff; border-radius: 10px; background: url(../images/buybtn.png); box-shadow: 0px 8px 7.84px 0.16px rgba(58, 37, 66, 0.84); }
+.buybtn:hover { background-position: 0px -60px; }
+
+dl.buy-message dt { font-size: 18px; color: #857615; }
+dl.buy-message dt strong { font-size: 74px; color: #fdbe21; }
+dl.buy-message dt strong b { font-size: 30px;}
+dl.buy-message dd { font-size: 12px; color: #8a878b; line-height: 18px;}
+dl.buy-message dd img { display: inline-block; vertical-align: top; margin-right: 5px;}
+dl.buy-message dd .buybtn { margin-bottom: 15px;}
+
+
+.header { height: 42px; background: #1c1327;}
+.header .logo { display: block; width: 36px; padding-top: 10px;}
+.header span { display: block; margin-right: 35px; height: 42px; line-height: 42px; color: #2494eb;}
+.header span img { display: inline-block; vertical-align: middle; margin-right: 5px;}
+
+.banner { height: 655px; text-align: center; background:url(../images/bg.jpg) no-repeat top center; background-size: cover; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/bg.jpg', sizingMethod='scale');}
+.banner h1 { margin: 14px auto 0; height: 84px; text-indent: -9999px; background: url(../images/title-new.png) top center no-repeat; }
+.banner h2 { font-size: 24px; font-weight: 400; color: #c9c8ca;}
+.banner h2 span { color: #c7a226; font-size: 24px; font-weight: 700;}
+
+.banner .content { margin-top: 24px; height: 456px; background: url(../images/content.png) top center no-repeat;}
+
+
+.banner .img-box { display: block; margin: 12px 0 0 70px; }
+
+.banner .right-message { width: 560px; margin-top: 70px; margin-right: 32px; color: #fff; }
+.banner .right-message h3 { font-size: 24px;}
+.banner .right-message h3 span { display: block; width: 104px; height: 19px; margin: 15px auto 22px; line-height: 19px; vertical-align: middle; background: #3d2945; color: #cecece; border-radius: 10px; font-size: 12px;}
+.banner .right-message p {  font-size: 18px; color: #b7b7b7;}
+.banner .right-message p span { display: block; margin-top: 10px; font-weight: 700; margin-bottom: 5px; font-size: 18px; color: #faac16;}
+.banner .right-message dl { margin-top: 30px;}
+
+/* payment */
+.payment { height: 71px; line-height: 71px; text-align: center; background: #f4f4f4;}
+.payment img { display: inline-block; vertical-align: middle;}
+
+/* imf-message*/
+.imf-content { margin-top: 40px;}
+.imf-content h2 { margin-bottom: 35px; text-align: center; font-size: 24px; white-space:nowrap;}
+.imf-content img.imf-box { position: absolute; left: 50%; top: 90px; margin-left: -215px; display: block;}
+
+.imf-content dl { float: left; margin-top: 45px; width: 320px; text-align: left; line-height: 20px;}
+.imf-content dl dd { margin-top: 6px;      
+     opacity: 0;
+     text-align: left;
+    -webkit-transform: translate(50px, 0);
+    -moz-transform: translate(50px, 0);
+    -ms-transform: translate(50px, 0);
+    transform: translate(50px, 0);
+    -webkit-transition: opacity 1s,transform 1s ease;
+    -moz-transition: opacity 1s,transform 1s ease;
+    -ms-transition: opacity 1s,transform 1s ease;
+    transition: opacity 1s,transform 1s ease;
+}
+.imf-content dl.three dd { margin-left: 15px;}
+.imf-content dl dt { position: relative; z-index: 5; float: right; margin-bottom: 10px; margin-right: 14px;}
+.imf-content dl.right { width: 350px; line-height: 52px; margin-left: 335px; margin-right: -20px;}
+.imf-content dl.right dt { float: left; margin-right: 10px; margin-left: 30px;}
+.imf-content dl.right dd { margin-top: 0px;  
+    margin-right: 0px;
+  -webkit-transform: translate(-50px, 0);
+    -moz-transform: translate(-50px, 0);
+    -ms-transform: translate(-50px, 0);
+    transform: translate(-50px, 0);
+}
+.imf-content dl.on dd {
+    opacity: 1 !important;
+    -webkit-transform: translate(0, 0) !important;
+    -moz-transform: translate(0, 0) !important;
+    -ms-transform: translate(0, 0) !important;
+    transform: translate(0, 0) !important;
+}
+.imf-content p { padding-top: 55px; clear: both; text-align: center;}
+.imf-content p a {color: #426ff0; text-decoration: underline;}
+.awrad { margin-top: 150px; padding: 35px 0px; text-align: center; border-top: solid #ccc 1px; border-bottom: solid #ccc 1px;}
+.awrad h2 { width: 520px; margin: 0px auto; margin-bottom: 25px; margin-top: -51px; font-size: 24px; background: #fff;}
+
+/* review */
+.review { margin-top: 40px; margin-bottom: 70px;  }
+.review h2 { padding: 30px 0px; font-size: 24px; text-align: center; background: url(../images/commit.png) no-repeat center;}
+.review div { padding: 20px 20px; margin-top: 30px; float: left; width: 453px; height: 310px; background: #fefefe url(../images/smail-commit.png) no-repeat 395px bottom; border: solid #f4f4f4 1px;}
+.review div dl { margin-bottom: 30px;}
+.review div dl dt { float: left; margin-right: 15px;}
+.review div dl dd { font-weight: 700;}
+.review div dl p {margin-top: 5px; line-height: 21px;}
+.review div p { color: #302d2d; line-height: 28px;}
+.review div.right { float: right;}
+
+.comparison{display:block; margin-top: 40px; }
+.comparison table{border:0;border-collapse:separate;border-spacing:0}
+.comparison tfoot th,.comparison thead th{ font-size:14px; font-weight: 400; vertical-align:middle;}
+.comparison thead th{ padding:10px 0px; border-top:1px #ccc solid; }
+.comparison thead th.itema,.comparison tfoot th.itema { background: #9a9999; color: #fff;}
+.comparison thead th.itemb,.comparison tfoot th.itemb { background: #d00119; color: #fff;}
+
+.comparison thead .text{text-align:left; font-size: 20px; border-bottom:1px #ccc solid;}
+.comparison .space { width: 10px; border: none !important;}
+
+.comparison tr td.virtue{text-align:left; width:590px; font-size: 13px; font-weight: 500}
+.comparison tr td.virtue sup { display: inline-block; vertical-align: top; margin-top: -2px; font-size: 10px; font-weight: 400; color: #e10000;}
+.comparison tr td.virtue sup.green { color: #00a21e}
+.comparison tr{text-align:center;font-size:14px}
+.comparison .itema,.comparison .itemb{ color:#000;border-bottom:1px #ccc solid; text-align:center; width:170px}
+.comparison .itemb{background:#fdf9fa}
+
+.comparison td{ padding:10px 0px; vertical-align:middle;border-bottom:1px #ccc solid}
+.comparison td.icons{text-align:center;width:40px}
+
+.bottom-buy { display: inline-block; width: 100%; min-width: 1000px; text-align: center; margin-top: 80px; height: 275px; background: #29273e url(../images/bottom-bg.jpg) no-repeat center;}
+.bottom-buy h2 { margin-top: -24px; height: 48px; text-indent: -9999px; background: url(../images/bottom-title.png) top center no-repeat; }
+.bottom-buy h2 span { font-style: italic; font-weight: 700;}
+.bottom-buy .imf-box { display: block; margin-top: 16px; margin-left: 140px;}
+.bottom-buy .buy-message {margin-top: 25px; width: 295px; margin-right: 200px; text-align: center;}
+.bottom-buy .buy-message dt strong { font-size: 50px;}
+.bottom-buy .buy-message dt strong b { font-size: 32px;}
+.bottom-buy dl.buy-message dt { color: #888682; font-size: 20px; }
+.bottom-buy .buy-message .buybtn { margin-top: 8px;}
+.bottom-buy .buy-message dd { color: #dbced4; font-size: 13px;}
+.bottom-buy .buy-message dd img { display: inline-block; vertical-align: middle;}
+
+.annotation {padding-top: 15px; margin-bottom: 15px; border-top: solid #ccc 1px; line-height: 20px; margin-top: 50px; font-size:12px}
+
+.visa  { margin-top: 40px;}
+.visa dl { float: left; width: 25%; text-align: center;}
+.visa dl dt { margin-bottom: 30px; height: 72px; line-height: 72px;}
+.visa dl dt img { display: inline-block; vertical-align: middle;}
+.visa dl strong { display: block; margin-bottom: 15px; font-weight: 400; font-size: 16px;}
+.visa dl dd { font-size: 12px; line-height: 22px;}
+
+.footer{ padding: 20px 0px; background: #f5f5f5;}
+.footer p { text-align: center;  color: #3c3c3c;}

@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'MyriadProCondensed';
+    src: url('../../../tpl/fonts/myriadpro-cond-webfont.eot');
+    src: url('../../../tpl/fonts/myriadpro-cond-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../../tpl/fonts/myriadpro-cond-webfont.woff') format('woff'),
+         url('../../../tpl/fonts/myriadpro-cond-webfont.ttf') format('truetype'),
+         url('../../../tpl/fonts/myriadpro-cond-webfont.svg#MyriadProCondensed') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}	
+@font-face {
+	font-family: 'MyriadProBold';
+    src: url('../../../tpl/fonts/myriadpro-bold-webfont.eot');
+    src: url('../../../tpl/fonts/myriadpro-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../../tpl/fonts/myriadpro-bold-webfont.woff') format('woff'),
+         url('../../../tpl/fonts/myriadpro-bold-webfont.ttf') format('truetype'),
+         url('../../../tpl/fonts/myriadpro-bold-webfont.svg#MyriadProBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {	margin:0;padding:0;}
+img {border:0;}
+body {font-family:Arial, Helvetica, sans-serif;font-size:13px;color:#333;-webkit-text-size-adjust: none;}
+li {list-style:none;}
+.clear {clear:both;height:0;border:0;font-size:0;}
+a{color:#006699;text-decoration: none;}
+a:hover{color:#028bcf;}
+.mt5{margin-top:5px;}
+.ml10{margin-left:10px;}
+.mb10{margin-bottom:10px;}
+.right{float:right;}
+.center{text-align:center;}
+.red{color:#cc0000;}
+.del{text-decoration:line-through;}
+.f11{font-size:11px; color:#666;}
+.f12{font-size:11px; color:#666;}
+.bf14{font-weight:bold; font-size:14px ;}
+.bf16{font-weight:bold; font-size:16px ;}
+.cyellow{color:#ff9900;}
+.corange{color:#ff6600;}
+.cgray{color:#333;}
+.cnormal{color:#000;}
+#lang { float:right; }
+#lang { position:relative; width:175px; height:20px; overflow:hidden; margin-right:-12px; }
+#google_translate_element { position:absolute; right:0; top:-4px; }
+#google_translate_element select { font-size:11px; width:160px; }
+.wrapper{width:800px; margin:0 auto; position:relative;}
+
+#main{width:880px; margin:0 auto; background:#c35f8e url(../img/bg.png) center top no-repeat; padding:0 0 10px 0; }
+#main .head{height: 106px; width: 880px; display: block; background: url(../img/head.jpg) center top no-repeat;}
+#main .head .countdown{width:249px; height:57px; display:block; position:absolute; right:0; top:30px; background:url(../img/timer.png) 0 0 no-repeat;}
+#main .head .countdown ul{width:249px; height:57px;}
+#main .head .countdown ul li{width:51px; float:left; color:#7b0303; font-family:"MyriadProCondensed"; font-size:44px; text-align:center; margin-right:14px;}
+#main .head .countdown ul li.last{margin-right:0;}
+
+#main .head .homelink{width:112px; height:58px; margin-top: 30px; display:block; float:left;text-indent:-9999px;}
+#main .head h2{color: #fff; font-size: 46px; margin-left: 125px; line-height: 118px; text-shadow:0 0 1px #000; position: absolute; font-family: "MyriadProCondensed";}
+#main .head h2 span{font-size: 40px;}
+
+
+#main h3{font-size: 20px; line-height: 30px; color: #666;text-align: center;}
+#main h3 span{color: #cc0000;}
+#main h4{font-size: 18px; line-height: 22px; }
+#main .mainbody{background:#fff url(../img/bg_main.png) no-repeat 647px -102px; width: 800px; margin: 0 auto; padding-top:15px;}
+#main .proinfo{ height: 240px; width: 740px; margin:0 auto;}
+#main .proinfo .boxshot{width: 249px; height: 260px; display: block; float: left; background: url(../img/boxshot.png) center center no-repeat;}
+
+#main .benifits{ float:left; width: 340px; height: 225px; display: block; margin: 15px 0 0 55px; background: url(../img/screenshot.jpg) 0 0 no-repeat; }
+#main .benifits dt{font-size: 24px; margin: 15px 0;}
+#main .benifits dd{font-size: 15px; line-height: 22px; padding-left: 25px; margin:15px 0; background: url(../img/bluemark.jpg) 0 0 no-repeat;}
+#main .moneyback{width: 83px; height: 83px; display: block; float: left; margin-top: 150px; background: url(../img/moneyback.png) center center no-repeat;}
+
+#main .upgrade h4{ font-size:27px; color:#000; font-family:Georgia; font-style:italic; text-align:center; line-height:30px; text-indent:-30px; margin:0 0 30px 0; line-height:20px;}
+#main .upgrade h4 span{ font-size:70px; color:#c20058; margin:0 10px;}
+
+#main .upgrade .offer{float:left; width:350px; display:block; margin:0 0 30px 20px;}
+#main .upgrade .offer dt{ background:url(../img/moneyback.png) no-repeat; height:73px; text-align:center; font-size:20px; font-weight:bold; font-style:italic; padding:10px 0 0 55px;}
+#main .upgrade .offer dt span{ color:#c20058; display:block; font-size:40px;}
+#main .upgrade .offer dt span em{ font-size:18px; color:#666; text-decoration:line-through; margin:0 10px 0 0;}
+#main .upgrade .offer dd.content{ background:url(../img/img_quto.png) no-repeat 0 0; padding:0 0 0 25px; font-size:15px; line-height:24px; margin:15px 0;}
+#main .upgrade .offer dd.content strong{ font-style:italic;}
+#main .upgrade .offer dd.content span{ color:#0C0;}
+#main .upgrade .offer dd.content em{ color:#c20058; font-size:18px;}
+#main .upgrade .offer dd.rolling{ border:2px solid #c20058; background:url(../img/bg_list.png) repeat-x; height:85px; overflow:hidden; margin:0 0 0 10px; padding:0 10px;}
+#main .upgrade .offer dd.rolling li{ height:28px; line-height:28px; overflow:hidden; text-align:right; display:block; color:#000;}
+#main .upgrade .offer dd.rolling li span{ float:left;}
+
+#main .upgrade .arrbtn{ background:url(../img/arrbtn.png) no-repeat; width:46px; height:38px; float:left; margin:25px 10px 0 10px ;}
+
+#main .upgrade .gifts{ float:left; width:330px; display:block; margin:0 0 60px 20px;}
+#main .upgrade .gifts .btn{ width:318px; height:52px; margin:20px auto 0 auto}
+#main .upgrade .gifts .btn .upgradebtn{ background:url(../img/btn.png) no-repeat; width:318px; height:52px; display:block; font-size:24px; font-weight:bold; text-decoration:none; line-height:52px; text-indent:70px; color:#fff;}
+#main .upgrade .gifts .btn .upgradebtn:hover{ background-position:0 -52px;}
+#main .upgrade .gifts .giftstab{ margin:10px 0 0 0;}
+#main .upgrade .gifts .giftstab tr{ position:relative; display:block;}
+#main .upgrade .gifts .giftstab .tipbox{ background:url(../img/bg_tipbox.png) no-repeat; width:253px; height:51px; font-size:12px; line-height:16px;text-align:left; position:absolute; top:0; left:45px; padding:5px 10px 0 15px; visibility: hidden; cursor:default;}
+#main .upgrade .gifts .giftstab .gifts_pic{ text-align:center; cursor:pointer; width:45px}
+#main .upgrade .gifts .giftstab .gifts_name{ font-weight:bold; font-size:14px; text-indent:10px; width:235px;  cursor:pointer;}
+#main .upgrade .gifts .giftstab .gifts_price{ font-family:Georgia; color:#c20058; font-size:18px; text-align:right; padding:0 10px 0 0; font-style:italic; width:50px; cursor:pointer;}
+
+.awards{width: 746px; margin: 0 auto;}
+.awards img{margin:10px auto;}
+
+.review{width: 746px; margin: 15px auto 35px; padding-bottom: 50px;}
+.review h4{margin-bottom: 15px;}
+.review .personal_info{width: 95px; float: left; text-align: center; margin-top:10px; }
+.review .personal_info dd{color: #666; text-align: center; font-size: 11px;}
+.review .quote{width: 630px; float: right; margin-top:8px; }
+.review .quote dt{width: 22px; height: 22px ;float:left; margin-right: 10px;}
+.review .quote dd{font-size: 14px; line-height: 26px;}
+.review .clearbox{margin: 15px 0; padding: 15px 0; min-height: 90px; clear: both;}
+
+#footer .wrapper{background: #fff;}
+#footer .merchant{width: 520px; height: 52px; display: block; margin: 10px auto;}
+#footer p{text-align: center; font-size: 11px; color: #666;}

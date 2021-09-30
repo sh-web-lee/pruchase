@@ -1,0 +1,172 @@
+* { margin:0; padding:0; }
+img { border:0; }
+body { font-size: 14px; font-family:'Open Sans', Arial, Helvetica, sans-serif; color:#333; background:#fff url(../img/background.jpg) top center no-repeat; }
+li { list-style:none; }
+/* float clearing for everyone else */
+.clearfix:after{ clear: both; content: "."; display: block; height: 0; visibility: hidden; font-size: 0; line-height: 0; }
+.clearfix { display: inline-block; }
+/* clear for single use */
+.clear{ clear:both; border:0; height:0; font-size:0; line-height:0; }
+.warpper{ width:990px; margin:0 auto; display:block; position:relative; }
+
+.header { height: 120px; display: inline-block; margin-top: 56px; width: 100%; }
+.header .logo{ width: 60px; height: 24px; display:block; margin: 0px 0 0 16px; }
+.header .title{ width: 430px; height: 68px; display: inline-block; float: left; margin: 20px 0 0 10px; }
+
+.header .countdown{ width: 285px; height: 110px; display: inline-block; float: right; }
+.header .countdown dt{ font-size: 14px; color: #fff; text-indent: 25px; background: url(../img/clock.png) center left no-repeat; }
+.header .countdown dd{ width: 285px; height: 69px; color: #fff; background: url(../img/filpbg.png) center left no-repeat; margin-top: 10px; }
+.header .countdown dd span{ font-size: 30px; line-height: 36px; display: inline-block; margin: 10px 17px; }
+.header .countdown dd em{ font-size: 18px; line-height: 24px; display: inline-block; margin: 10px 17px; }
+.header .countdown dd sub{ font-size: 12px; line-height: 12px; margin-top: 50px; display: block; float: right; }
+
+.topbar{ }
+.topbar .barbody{ padding: 0 50px; background: url(../img/topbar_main.jpg) top center repeat-y; }
+
+.topbar .barbody h2{ text-align: center; font-size: 40px; color: #e31717; }
+.topbar .barbody h2 span{ font-size: 50px; font-weight: bold; }
+.topbar .barbody h3{ text-align: center; font-size: 18px; color: #e31717; }
+
+.topbar .intro{ margin-top: 20px; background: url(../img/iconplus.jpg) 300px 100px no-repeat; }
+
+.topbar .intro .intro_ascu{ width: 250px; text-align: center; float: left; margin-left: 25px; }
+.topbar .intro .intro_ascu dd{ font-size: 14px; margin: 4px 0; color: #e31717; font-weight: bold; }
+.topbar .intro .intro_ascu dd span{ font-size: 28px; color: #e31717; }
+.topbar .intro .intro_ascu dd em{ font-size: 14px; font-style: normal; }
+.topbar .intro .intro_ascu dt{ font-size: 20px; line-height: 30px; }
+.topbar .intro .intro_ascu dt span{ color: #e31717; font-size: 38px; font-weight: bold; }
+
+.topbar .intro .choosearea{ width: 520px; float: right; text-align:center; margin-right: 14px; }
+.topbar .intro .choosearea h4{ font-size: 18px; line-height: 24px; }
+.topbar .intro .choosearea h4 span{ color: #e31717; font-size: 28px; }
+
+.topbar .intro .choosearea .addproc{ width: 160px; float: left; margin: 20px 5px 0; }
+.topbar .intro .choosearea .addproc dt{ font-size: 14px; line-height: 24px; display: inline-block; font-weight: bold; }
+.topbar .intro .choosearea .addproc dd{ margin: 4px 0; }
+.topbar .intro .choosearea .addproc dd strong{ color: #e31717; font-size: 22px; }
+
+.topbar .intro .choosearea .addproc dd input{ width: 14px; height: 14px; }
+
+.topbar .checkarea{ width: 320px; margin: 0 auto; }
+.topbar .checkarea dt{ margin-bottom: 8px; }
+.topbar .checkarea dd{ font-size: 12px; }
+.topbar .checkarea dd em{ font-size: 18px; color: #e31717; }
+.topbar .checkarea dd.price{ font-size: 20px; }
+.topbar .checkarea dd.price span{ font-weight: bold; color: #e31717; font-size: 38px; }
+
+.middle{ }
+.middle .lace{ height: 405px; display: inline-block; position: relative; }
+
+.middle .lace .leftsharp{ width: 15px; height: 30px; display: block; position: absolute; left: -15px; bottom: 0; }
+.middle .lace .rightsharp{ width: 15px; height: 30px; display: block; position: absolute; right: -15px; bottom: 0; }
+
+.middle .lace .introduce{ width:710px; height: 405px; display: inline-block; float: left; background: url(../img/procpackbg.png) center top no-repeat; }
+
+.middle .lace .introduce .introtitle{ color: #000; text-align: center; margin-bottom: 25px; margin-top: 22px; }
+.middle .lace .introduce .introtitle dt{ font-size: 22px; font-weight: 600; line-height: 36px; }
+.middle .lace .introduce .introtitle dt span{ color: #c42e1b; font-size: 30px; }
+.middle .lace .introduce .introtitle dd{ font-size: 14px; }
+.middle .lace .introduce .introtitle dd span{ color: #c42e1b; }
+
+.middle .lace .foucs{ width: 665px; height: 280px; display: block; margin: 30px auto 0; }
+
+.middle .lace .control{ width: 280px; height: 405px; display: inline-block; float: right; background: url(../img/cartbg.png) 0 0 no-repeat; }
+.middle .lace .control ul{ width: 280px; margin: 0 auto; color: #333; }
+.middle .lace .control .name{ font-size:18px; text-align:center; line-height:30px; }
+.middle .lace .control .price{ font-size:14px; line-height:40px; text-align:center; }
+.middle .lace .control .price span{ font-size:30px; color: #c42e1b; }
+.middle .lace .control .original{ text-align: center; }
+.middle .lace .control .original span{ color:#666; font-style:normal; text-decoration:line-through; }
+.middle .lace .control .people{ font-size:12px; text-align: center; line-height:24px; }
+.middle .lace .control .people span{ font-size:18px; font-style:italic; color: #c42e1b; }
+.middle .lace .control .subscription{ line-height:30px; text-align:center; margin:10px 0; font-weight:bold; }
+.middle .lace .control .subscription span{ color: #c42e1b; font-size:18px; }
+
+.middle .lace .control .activebtn{ margin: 20px auto; }
+
+.middle .corssname{ font-size:24px; color:#e31717; line-height:30px; margin: 20px 0 30px; text-align:center; }
+
+.middle .whatdo{ width: 940px; display: block; margin: 0 auto; height: 370px;}
+.middle .whatdo .left{ width: 581px; border-right:1px solid #fff; float:left; display:inline-block; background: #f3f3f3;}
+.middle .whatdo .left .boxshot{ width:200px; height:203px; float:left; margin: 70px 0 20px 20px; }
+.middle .whatdo .left dl{ float:right; width: 340px; margin: 40px 20px 10px 0; position:relative; }
+.middle .whatdo .left dl dt{ font-size:20px; height:30px; line-height:30px; }
+.middle .whatdo .left dl dd{ font-size: 13px; color:#666; line-height:20px; margin: 4px 0; }
+.middle .whatdo .left dl dd img{ margin: 10px 0; }
+.middle .whatdo .left dl dd a{ color:#279fda; text-decoration:underline; float: right; font-size: 12px; display: block; margin-top: 0px; }
+.middle .whatdo .left dl dd a:hover{ color:#1282ba; }
+.middle .whatdo .left dl dd.sale{ background:url(../img/sale.png) no-repeat; width: 67px; height: 67px; position:absolute; top: -70px; right: -20px; }
+.middle .whatdo .right{ float: right; width: 310px; }
+.middle .whatdo .right dl{ position:relative; display:inline-block; width: 310px; height: 106px; background: #f3f3f3; margin-bottom: 25px;}
+.middle .whatdo .right dl.end{ margin-bottom: 0; }
+.middle .whatdo .right dl dt{ float:left; width: 80px; height: 90px; margin: 10px; }
+.middle .whatdo .right dl dd.name{ font-size:14px; line-height:30px; color:#000; margin:20px 0 0 0; }
+.middle .whatdo .right dl dd{ font-size:12px; color:#666; line-height:18px; }
+.middle .whatdo .right dl dd.price{ text-align:right; text-decoration:line-through; font-style:italic; font-size:14px; width:350px; }
+.middle .whatdo .right dl dd.free{ background:url(../img/free.png) no-repeat; width: 67px; height: 40px; position:absolute; top: -1px; right: -1px; }
+
+
+.middle .cross .link{ float:left; width:265px; margin:30px 0 30px 30px; }
+.middle .cross .link dt{ font-size:14px; background:url(../img/arrow_down.png) no-repeat 30px 0; text-indent:70px; line-height:21px; margin:0 0 5px 0; }
+.middle .cross .link dt span{ font-size:18px; font-style:italic; color:#e31717; }
+.middle .cross .link dd a{ background:url(../img/btn_buy.png) no-repeat; text-transform:uppercase; font-size:24px; color:#fff; display:block; line-height:60px; text-decoration:none; text-shadow:1px 0 0 #2f7e00; text-indent:50px; }
+.middle .cross .link dd a:hover{ background-position:0 -64px; }
+.middle .cross .right{ float:left; width:160px; text-align:right; margin:55px 0 0 0; }
+.middle .cross .right dt{ font-size:18px; line-height:36px; }
+.middle .cross .right dt span{ font-size:36px; color:#e31717; }
+.middle .cross .right dd{ color:#666; font-size:14px; }
+.middle .cross .right dd span{ text-decoration:line-through; font-weight:bold; }
+
+.middle .payment{ margin: 20px; }
+.middle .awards{ border-bottom:1px solid #eee; width: 940px; margin: 0 auto;}
+.middle .awards dt{ font-size:24px; line-height:30px; margin:30px 0 0 0; }
+.middle .awards dd{ margin:30px 0; }
+
+.middle .usersaying{ margin: 30px auto; width: 940px;}
+.middle .usersaying h2{ font-size:24px; line-height:30px; text-align:left; color:#000; text-indent:0; margin-bottom: 15px; }
+.middle .usersaying .boxa{ width:47%; float:left; margin:30px 0 0; }
+.middle .usersaying .boxb{ width:47%; float:right; margin:30px 0 0; }
+.middle .usersaying h3{ margin-bottom: 24px; line-height: 22px; }
+.middle .usersaying .user{ float:left; color:#666; width:105px; }
+.middle .usersaying .user dt{ margin-bottom:12px; }
+.middle .usersaying .user dd{ line-height:20px; font-size:13px; }
+.middle .usersaying .quit{ width: 330px; float:right; }
+.middle .usersaying .quit dt{ float:left; display:block; width:24px; height:20px; margin-right:8px; }
+.middle .usersaying .quit dd{ margin-left:32px; height:auto; font-size:13px; line-height:20px; }
+.middle .usersaying .quit dd em{ float: right; }
+
+.middle .comparison_table{ margin: 16px auto; width: 940px;}
+.middle .comparison_table h4{ font-size: 16px; line-height:28px; }
+.middle .comparison_table .comtable{ margin-top:14px; /* text-align:center; */}
+.middle .comparison_table .comtable dt{ font-size:20px; /* font-weight:bold; */ margin-bottom:15px; }
+.middle .comparison_table .comtable dt span{ color:#0790a5; }
+
+.middle .comparison_table .comlist{ margin-top: 25px; }
+.middle .comparison_table .comlist dt{ font-size:16px; line-height:20px; font-weight:bold; color:#006699; background: url(../img/listicon.png)0 -3px  no-repeat; padding-left:30px; }
+.middle .comparison_table .comlist dd{ font-size:12px; line-height:16px; margin:10px 0; margin-left:30px; }
+
+.copy{ line-height:25px; margin:0 auto 30px auto; text-align:center; }
+
+.floatlayer{ height:143px; width: 973px; background: url(../img/bg_float.png) top center no-repeat; position:fixed; z-index:10; top:-145px; visibility: hidden; transition:all 0.4s; -webkit-transition: all 0.4s; -moz-transition: all 0.4s; -o-transition: all 0.4s; margin-left: 8px; }
+.floatlayer.on{ top: 0; visibility: visible; }
+.floatlayer .left{ width: 550px; float:left; text-align:center; margin: 40px 0 0 100px; color: #ca0606; font-weight: bold;}
+.floatlayer .left dt{ font-size: 35px; line-height: 40px;}
+.floatlayer .left dt span{ font-size:30px; color:#e31717; }
+.floatlayer .left dd{ font-size: 18px; line-height: 26px; }
+.floatlayer .left dd span{ font-size:18px; color:#e31717; font-style:italic; }
+
+.floatlayer .checkarea{ width:265px; float: right; margin: 7px 40px 0 0; text-align: center; }
+.floatlayer .checkarea dt{ font-size: 34px; color: #e31717; font-weight: bold;}
+.floatlayer .checkarea dd{ text-align:center; font-size: 14px; line-height: 24px; }
+.floatlayer .checkarea dd em{ color:#e31717; font-size: 16px; }
+
+.floatlayer .checkarea dt .countdown{ font-size: 14px; display: inline-block; color: #333; font-weight: normal; }
+
+.annotation{ margin: 30px auto; font-size: 12px; color: #666; width: 940px;}
+.annotation dt{ font-size: 13px; display: inline-block; }
+
+.checkbtn{ color:#fff; background: url(../img/checkbtn.png) center center no-repeat; text-decoration: none; }
+.checkbtn:hover{ color:#fff; background: url(../img/checkbtn_hover.png) center center no-repeat; }
+
+.checkbtn.mainbtn{ width:245px; height:56px; display: inline-block; background-size: 245px 56px; font-size: 24px; line-height: 56px; text-indent: 30px; }
+.checkbtn.floatbtn{ width:228px; height:48px; display: inline-block; background-size: 228px 48px; font-size: 20px; line-height: 48px; text-indent: 40px; }

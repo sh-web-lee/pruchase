@@ -1,0 +1,252 @@
+@charset "utf-8";
+/* CSS Document */
+* { margin: 0; padding: 0;}
+body { min-width: 1000px;  font-size: 14px; line-height: 1.4; color: #232323; background: #f2f2f2; font-family: "Montserrat", Arial, Helvetica, sans-serif; outline: 0; vertical-align: baseline; font-weight: 500;}
+a { margin: 0; padding: 0; font-size: 100%; vertical-align: baseline; background: transparent; color: #000; outline: none; text-decoration: none;  cursor: pointer;}
+a:hover { text-decoration: none; }
+del { text-decoration: line-through; }
+table { border-collapse: collapse; border-spacing: 0;}
+ul,ul li { list-style-type: none; }
+img { border: none; }
+.clear {display:block;height:0;overflow:hidden;clear:both;}
+.clearfix:after { clear: both; display: block; height: 0; font-size: 0; content: ""; visibility: hidden;}
+.clearfix { zoom: 1; }
+.wrapper { position: relative; width: 1000px; margin: 0px auto;}
+
+
+.price { text-align: center; color: #808080;}
+.price p { margin-bottom: 15px;}
+.price strong { line-height: 28px; font-size: 28px; color: #eb2629;}
+.date { margin-top: 10px; text-align: center; color: #ababab; font-size: 16px;}
+.date strong { color: #000;}
+.date .countdown { display: inline-block; width: 45px; height: 18px; overflow: hidden; line-height: 20px; background: url(../images/date.png);}
+.date .countdown .scroll-tick { float: left; width: 15px; color: #fff;}
+.date .countdown .scroll-tick span { display: block;}
+
+
+.buybtn { display: block; width: 233px; height:52px; line-height: 52px; font-size: 20px; color: #fff;margin: 0px auto; overflow: hidden; text-align: center; background: rgb(234,41,43);  
+  border-radius: 6px; text-shadow: 0px 3px 7px rgba(135, 3, 25, 0.35);
+  background-image: -moz-linear-gradient( 90deg, rgb(246,41,44) 0%, rgb(253,85,46) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(246,41,44) 0%, rgb(253,85,46) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(246,41,44) 0%, rgb(253,85,46) 100%);
+  box-shadow: 0px 8px 15px 0px rgba(235, 38, 41, 0.4),inset 0px 1px 0px 0px rgba(253, 96, 127, 0.004);
+}
+.buybtn:hover {
+  background: rgb(253,85,46);
+   background-image: -moz-linear-gradient( 90deg, rgb(253,85,46) 0%, rgb(246,41,44) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(253,85,46) 0%, rgb(246,41,44) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(253,85,46) 0%, rgb(246,41,44) 100%);
+}
+
+.banner { height: 650px; background:#f2f2f2  url(../images/banner.jpg) no-repeat center top;}
+.banner .logo { display: inline-block; width: 38px; height: 13px; margin-top: 19px; text-indent: -9999px; background: url(../images/logo.png);}
+.banner h1 { height: 51px; margin-top: 68px; text-indent: -9999px; background: url(../images/title.png) no-repeat center top;}
+
+.banner dl { float: left; width: 463px; height: 144px; margin-top: 40px; color: #fff; font-size: 16px;}
+.banner dl span { display: block; font-size: 14px;}
+.banner dl dt,.banner dl dd { padding-left: 300px;}
+.banner dl dt { margin-top: 35px; margin-bottom: 20px;}
+
+.banner dl.left-box { margin-left: -27px; background: url(../images/db-one-box.png) no-repeat right;}
+.banner dl.right-box { position: relative; margin-left: 60px; background: url(../images/db-two-box.png) no-repeat right;}
+.banner dl.right-box:after { position: absolute; content: "+"; font-family: Arial; font-size: 48px; left: -35px; top: 43px; color: #1c1c1c; }
+.banner dl.right-box .reduce { position: absolute; width: 168px; height: 157px; top: 0px; left: 2px;}
+.banner dl.right-box .ghost {width: 168px; height: 157px; background: url(../images/gift-ghost.png);}
+.banner dl.right-box .num { position: absolute; width: 32px; height: 32px; top: 72px; left: 51px; background: url(../images/reduce.png);}
+
+
+
+.banner .price { clear: both; padding-top: 40px;}
+.banner  .last { margin-top: 65px; text-align: center; color: #adadad;}
+
+.payment { height: 59px; border-radius: 10px; text-align: center; line-height: 59px; background: #f7f7f7;}
+.payment img { display: inline-block; vertical-align: middle;}
+
+.comparison { margin-top: 50px; text-align: center;}
+.comparison h2 { margin-bottom: 50px; font-size: 30px; font-weight: 500;}
+.comparison h2 span { display: inline-block; vertical-align: middle; padding-bottom: 6px; margin-right: 10px; font-size: 42px; font-style: italic;}
+
+.comparison table { border: solid #ebebeb 2px;}
+.comparison table .itema { width: 400px;}
+.comparison table .itemb { width: 200px;}
+.comparison table .itemc { width: 400px;}
+.comparison table th { background: #ebebeb; font-size: 20px;}
+.comparison table th span { display: inline-block; width: 43px; height: 20px; border-radius: 5px; color: #fff; font-size: 15px;}
+.comparison table th.itema span { background: #31b00e}
+.comparison table th.itemc span { background: #eb2629}
+.comparison table th, .comparison table td { padding: 30px 0px;}
+.comparison table td span { color: #eb2629;}
+.comparison table td { font-size: 16px; color: #3f3f3f; line-height: 24px;}
+.comparison table td.itemb { font-size: 14px; text-transform: uppercase; color: #999999; background: url(../images/itemb-bg.png) no-repeat center;}
+.comparison table tr:nth-child(odd) { background: #fff;}
+.comparison table tr:nth-child(even) { background: #ebebeb;}
+
+.between-buy { margin-top: 50px; text-align: center;}
+.between-buy h2 { font-size: 28px; color: #1c1c1c; font-weight: 500;}
+.between-buy h3 { margin-top: 10px; margin-bottom: 30px; font-weight: normal; font-size: 18px; color: #383838;}
+.between-buy h3 span { color: #eb2629;}
+
+/* review */
+.review { 
+  position: relative; 
+  height: 650px;
+}
+.dg-container { 
+  position: relative;
+  width: 100%;
+  height: 600px; 
+  overflow: hidden;
+}
+.dg-wrapper { 
+  margin: 0 auto;
+  width: 660px;
+  height: 500px;
+  -webkit-transform-style: preserve-3d; 
+          transform-style: preserve-3d; 
+  -webkit-perspective: 500px;
+          perspective: 500px;
+}
+.dg-wrapper .dg-transition { 
+  -webkit-transition: all 0.5s ease-in-out;
+          transition: all 0.5s ease-in-out; 
+}
+.dg-container .nav { 
+  position: relative;
+  width: 100%; 
+}
+.dg-container .nav span { 
+  position: absolute; 
+  top: 132px;
+  width: 22px; 
+  height: 41px; 
+  display: block; 
+  overflow: hidden; 
+  cursor: pointer; 
+  background: url(../images/review-control.png) no-repeat;
+}
+.dg-container .nav .dg-prev { 
+  left: 0; 
+  background-position: 0 0;
+}
+.dg-container .nav .dg-prev:hover { background-position: 0 -41px;}
+.dg-container .nav .dg-next { 
+  right: 0; 
+  background-position: -22px 0;
+}
+.dg-container .nav .dg-next:hover{ background-position: -22px -41px;}
+.inner { 
+  display: block; 
+  margin: 0 auto;
+  width: 660px; 
+  height: 510px; 
+}
+.content { 
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  padding-top: 88px; 
+  width: 660px; 
+  height: 510px; 
+}
+    
+.content .reviews { 
+  position: absolute; 
+  left: 0; 
+  top: 88px;
+  display: block;
+  width: 660px; 
+  height: 500px;
+  text-align: center;
+}
+.content .reviews dt { margin-bottom: 70px; }
+.content .reviews dt  img { 
+  width: 130px; 
+  height: 130px;
+  border-radius: 50%;
+}
+.content .reviews dd {
+  margin-left: -120px;
+  display: none;
+  width: 900px; 
+}
+.content .reviews dd h2 {
+  display: inline-block; 
+  margin-bottom: 40px;
+  font-size: 30px;  
+  font-weight: 400;
+  color: #161723;
+}
+.content .reviews dd p {
+  line-height: 28px; 
+  color: #212121;
+}
+.content .reviews dd cite {
+  display: inline-block; 
+  margin-top: 30px; 
+  font-style: normal; 
+  font-size: 20px; 
+  color: #161723;
+}
+.content .reviews.dg-center dt img {
+  -webkit-transition: all 0.2s;
+          transition: all 0.2s; 
+  box-shadow: 0 40px 40px rgba(92, 95, 101, 0.3);
+}
+.content .reviews.dg-center dd { display: block;}
+
+.award { height: 288px; color: #232323; text-align: center; background: url(../images/award-bg.jpg) no-repeat center;}
+.award h2 { font-size: 36px; padding-top: 70px; color: #393649;}
+.award ul { margin-top: 40px; overflow: hidden; }
+.award li {
+  float: left;
+  margin: 0 16px;
+}
+.award li.first { margin-left: 0; }
+.award li.last { margin-right: 0; }
+
+.serive { padding-bottom: 25px; border-bottom: solid #ccc 1px; overflow: hidden; margin-top: 40px; text-align: center;}
+.serive dl { float: left; width: 220px; margin-right: 170px; }
+.serive dl.last { margin-right: 0px;}
+.serive dl dt { margin-bottom: 25px; height: 72px; line-height: 72px;}
+.serive dl dt img { display: inline-block; vertical-align: middle;}
+.serive dl dd { margin-top: 10px; font-size: 12px; line-height: 18px;}
+.serive dl dd strong { font-weight: normal; font-size: 16px;}
+
+.footer { text-align: center; padding: 15px 0px; padding-bottom: 120px; color: #8f8f8f; font-size: 12px;}
+
+/* floatlayer */
+.floatlayer { 
+  position: fixed; 
+  z-index: 10; 
+  bottom: -120px; 
+  height: 100px; 
+  width: 100%; 
+  background: url(../images/fl-bg.jpg) top center no-repeat;
+  visibility: hidden; 
+  -webkit-transition: all 0.4s; 
+     -moz-transition: all 0.4s; 
+       -o-transition: all 0.4s;
+          transition: all 0.4s;  
+}
+.floatlayer.on { 
+  bottom: 0; 
+  visibility: visible; 
+}
+.floatlayer .img { float: left; margin-left: 19px; margin-top: -30px;}
+.floatlayer .reduce { position: absolute; width: 159px; height: 147px; top: -41px; left: 24px;}
+.floatlayer .ghost {width: 159px; height: 147px; background: url(../images/gift-ghost-bottom.png);}
+.floatlayer .num { position: absolute; width: 32px; height: 32px; top: 72px; left: 51px; background: url(../images/reduce.png);}
+
+
+.floatlayer .number { float: left; margin-top: 10px; width: 535px; margin-left: 70px; text-align: center;}
+.floatlayer .number .date { color: #383838;}
+.floatlayer .number .progress { position: relative; width: 500px; height: 6px; margin: 0px auto; margin-top: 20px; border-radius: 25px; background: #ffd9da;}
+.floatlayer .number .progress span { position: absolute; left: 0; top: 0; display: block; width: 25px; height: 6px; border-top-left-radius: 25px; border-bottom-left-radius: 25px; background: #eb2629;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.floatlayer .number .progress span:after { position: absolute; content: ""; width: 2px; height: 10px; background: #eb2629; right: -2px; top: -2px;}
+
+.floatlayer .buybtn { float: right; width: 160px; height: 40px; margin-right: 24px; margin-top: 30px; line-height: 40px; font-size: 20px;}

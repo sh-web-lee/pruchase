@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>countdown</title>
+<meta name="Copyright" content="IObit">
+<link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600'>
+<link href="http://purchase.rs.iobit.com/2017/db/jandbsalesv/style/style.css" rel="stylesheet">
+<script src="http://codes.iobit.com/js/jquery/jquery-1.7.1.min.js" type="text/javascript"></script>
+<script src="http://codes.iobit.com/js/mapplication/2.2/mapplication.js" type="text/javascript"></script>  
+<script src="js/script.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+  <!-- header start -->
+  <div class="header">
+    <div class="wrapper">
+      <a class="logo" href="http://www.iobit.com" target="_blank">
+        <img src="http://purchase.rs.iobit.com/2017/db/jandbsalesv/images/logo.png" alt="IObit">
+      </a>
+      <div class="title">
+        <h1>FSLUTFÖRSÄLJNING -57%</h1>
+        <p>Köp nu och du kan dra nytta av <strong>57%</strong> rabatt på DB PRO!</p>
+      </div>
+      <!-- time -->
+      <ul id="countdown" class="countdown">
+        <li><strong>00</strong> houer</li>
+        <li><strong>00</strong> min</li>
+        <li><strong>00</strong> sek</li>
+        <li><strong>000</strong> ms</li>
+        <li></li>
+      </ul>
+      <!-- panel -->
+      <div class="panel clearfix">
+        <div class="redbox fl">
+          <div class="top">
+            <h2>PRIVATA ANVÄNDARE</h2>
+            <p><strong>3</strong>  PC, 1 År</p>
+            <img src="http://purchase.rs.iobit.com/2017/db/jandbsalesv/images/header_dbpcs.png">
+          </div>
+          <dl>
+            <dt>Fixar och uppdaterar mer än 400.000 drivrutiner för hela familjen</dt>
+            <dd>
+              <strong>379.00 SEK</strong>
+              <span>-520.00 SEK</span>
+              <del>899.00 SEK</del>
+            </dd>
+            <dd>
+              <a class="buybtn redbtn" href="http://www.iobit.com/buy.php?product=sv-db43pc37900&ref=sv_db43pcpurchase1701&refs=sv_purchase_db" onclick="ga('send', 'event', 'dbbuy', 'buy', 'dbpurchase1701-sv');">
+                <i class="all-icons">cart</i>
+                KÖP NU
+              </a>
+            </dd>
+          </dl>
+        </div>
+        <div class="graybox fl">
+          <div class="top">
+            <h2>PRIVATANVÄNDARE</h2>
+            <p>1 PC, 1 År</p>
+            <img src="http://purchase.rs.iobit.com/2017/db/jandbsalesv/images/header_dbpc.png">
+          </div>
+          <dl>
+            <dt>Ger dig optimal datorprestanda</dt>
+            <dd>
+              <strong>299.00 SEK</strong>
+              <span>-400.00 SEK</span>
+              <del>699.00 SEK</del>
+            </dd>
+            <dd>
+              <a class="buybtn graybtn" href="http://www.iobit.com/buy.php?product=sv-db41pc29900&ref=sv_db41pcpurchase1701&refs=sv_purchase_db" onclick="ga('send', 'event', 'dbbuy', 'buy', 'dbpurchase1701-sv');">
+                <i class="all-icons">cart</i>
+                KÖP NU
+              </a>
+            </dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- header end -->
+  <script>    
+  //userreview 
+  $(function(){
+    countdown((".countdown strong"));
+  });
+</script>
+</body>
+</html>

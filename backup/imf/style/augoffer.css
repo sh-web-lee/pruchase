@@ -1,0 +1,103 @@
+* {	margin:0;padding:0;}
+img {border:0;}
+body {font-family:Arial, Helvetica, sans-serif;font-size:13px;color:#333;background:#fff;}
+li {list-style:none;}
+.clear {clear:both;height:0;border:0;font-size:0;}
+@font-face {
+    font-family: 'MyriadProCondensed';
+    src: url('../../tpl/fonts/myriadpro-cond-webfont.eot');
+    src: url('../../tpl/fonts/myriadpro-cond-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../tpl/fonts/myriadpro-cond-webfont.woff') format('woff'),
+         url('../../tpl/fonts/myriadpro-cond-webfont.ttf') format('truetype'),
+         url('../../tpl/fonts/myriadpro-cond-webfont.svg#MyriadProCondensed') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}	
+@font-face {
+	font-family: 'MyriadProBold';
+    src: url('../../tpl/fonts/myriadpro-bold-webfont.eot');
+    src: url('../../tpl/fonts/myriadpro-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../tpl/fonts/myriadpro-bold-webfont.woff') format('woff'),
+         url('../../tpl/fonts/myriadpro-bold-webfont.ttf') format('truetype'),
+         url('../../tpl/fonts/myriadpro-bold-webfont.svg#MyriadProBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+a{color:#006699;}
+a:hover{color:#028bcf;}
+.mt5{margin-top:5px;}
+.ml10{margin-left:10px;}
+.mb10{margin-bottom:10px;}
+.right{float:right;}
+.center{text-align:center;}
+.red{color:#cc0000;}
+.del{text-decoration:line-through;}
+.f11{font-size:11px; color:#666;}
+.bf14{font-weight:bold; font-size:14px ;}
+.bf16{font-weight:bold; font-size:16px ;}
+h2{font-size:20px; line-height:26px;}
+h3{font-size:16px; line-height:24px;}
+.cyellow{color:#ff9900;}
+.c_orange{color:#ff6600;}
+#lang { float:right; }
+#lang { position:relative; width:175px; height:20px; overflow:hidden; margin-right:10px; }
+#google_translate_element { position:absolute; right:0; top:-4px; }
+#google_translate_element select { font-size:11px; width:160px; }
+.myfont{font-family:MyriadProCondensed; font-size:26px; color:#444;} 
+.iconsale{width:63px; height:62px; display:block; text-indent:-10000px; background:url(../img/icon_sale.png); position:absolute; right:-10px; top:-7px;}
+.iconfree{width:63px; height:62px; display:block; text-indent:-10000px; background:url(../img/icon_free.png); position:absolute; right:-10px; top:-7px;}
+.checkbtn{width:238px; height:49px; display:block; font-size:18px; line-height:46px; text-transform:uppercase; color:#fff; text-align:center; text-decoration:none; text-shadow:0 -1px 0 #000; background:url(../img/checkbtn.png) 0 0 no-repeat;}
+.checkbtn:hover{background-position:0 -60px; color:#fff;}
+.price{ position:relative;}
+.price em{ width:55px; height:2px; display:block; background:#cc0000; position:relative; top:-11px; left:32px;}
+#main{width:1060px; margin:0 auto; background: #890000 url(../img/bg.png) top center no-repeat;}
+#main .head{width:1060px; height:69px; display:inline-block; background:url(../img/head.png) 0 0 no-repeat; position:relative;}
+#main .head .maintitle{ font-size:60px; color:#fff; font-family:MyriadProBold; text-shadow:0 -1px 0 #000; position:absolute; top:12px; left:330px;}
+#main .head .savepoint{font-size:38px; color:#fff; font-family:MyriadProCondensed; text-shadow:0 -1px 0 #000;position:absolute; top:10px; left:400px;}
+#main .head .promotion_date{font-size:12px; color:#fff; font-weight:bold; text-shadow:0 -1px 0 #000; position:absolute; top:104px; left:520px; }
+
+#main .mbody{ width:956px; margin:0 auto; padding:0 9px 10px; background:#fff;}
+
+#main .pricebox{margin:0 10px;}
+#main .pricetab{margin-top:5px;}
+#main .pricetab td{padding:0px;}
+#main .pricetab .topborder{border-top:1px #ccc solid;}
+#main .pricetab .tlborder{border-top:1px #ccc solid; border-left:1px #ccc solid;}
+#main .pricetab .rborder{border-right:1px #ccc solid;}
+#main .pricetab .bborder{border-bottom:1px #ccc solid;}
+#main .pricetab .gryborder{border: 1px #ccc solid; background:#efefef;}
+#main .pricetab .grybg{background:#efefef;}
+#main .checkout{margin-top:35px;}
+#main .checkout .moneyback{width:600px; height:65px; padding-left:70px; padding-top:12px; margin-top:-10px; float:left;font-size:11px; line-height:18px; color:#666; background:url(../img/moneyback.png) 0 0 no-repeat;}
+#main .checkout .btn{width:250px; float:right;}
+#main .checkout .btn span{width:238px; display:inline-block; text-align:center;}
+
+#main .checkout .moneyback2{width:600px; height:65px; padding-left:70px; padding-top:12px; margin-top:-10px; float:left;font-size:11px; line-height:18px; color:#666; background:url(../img/60days-moneyback.png) 0 0 no-repeat;}
+
+.avintro{margin:15px 50px; text-align:center; font-weight:bold;}
+.avintro dt{font-size:48px;}
+.avintro li{font-size:22px; margin:10px 0;}
+.avintro li.big{font-size:28px;}
+.avintro li.big span{color:#ff6600;}
+.avintro li.small{font-size:13px; text-align:left; line-height:24px;}
+
+.avarea{/*background:url(../img/avbg.png) left bottom repeat-x;*/ border:1px #ccc solid; margin:20px 10px 0;}
+
+.boxascav{width:900px; height:310px; margin:30px auto 0; background:url(../img/boxascu.png) center center no-repeat;}
+.ascav{width:260px; height:285px; display:block; float:left; margin-left:15px;}
+
+.boxascav .boxleft{width:293px; height:225px; display:block; float:left; margin-top:30px; margin-left:10px; background:url(../img/boxleftdetail.png) 0 0 no-repeat;}
+.boxascav .boxleft li{font-size:17px; color:#fff; font-weight:bold; padding-left:40px;margin:10px 0 40px; text-shadow:1px 1px 0 #333;}
+
+.boxascav .boxright{width:314px; height:262px; display:block; float:right;margin-top:20px; margin-right:0px; background:url(../img/boxrightdetail.png) 0 0 no-repeat;}
+.boxascav .boxright li{font-size:17px; color:#fff; font-weight:bold; padding-left:130px;margin:10px 0 34px; text-shadow:1px 1px 0 #333;}
+.detail{ width:880px; height:90px; margin:20px auto;}
+.detail li{float:left; margin-right:30px;}
+.detail li.awards{ text-align:right; margin-right:100px;}
+.detail li.btnbox{ margin-right:0; width:219px; text-align:center;}
+.btn_buyascav{width:219px; height:61px; line-height:61px; display:block; background:url(../img/btn_buy.png) 0 0 no-repeat; color:#fff; font-size:20px; font-weight:bold; text-transform:uppercase; text-indent:20px; text-decoration:none; text-shadow:1px 1px 0 #333;margin-bottom:3px; }
+
+.btn_buyascav:hover{ color:#fff; background-position:0 -61px;}
+
+#main .footer{width:1060px; height:61px; display:block; }

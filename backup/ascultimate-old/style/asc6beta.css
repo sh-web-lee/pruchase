@@ -1,0 +1,121 @@
+* {	margin:0;padding:0;}
+img {border:0;}
+body {font-family:Arial, Helvetica, sans-serif;font-size:13px;color:#333;background:#fff;}
+li {list-style:none;}
+.clear {clear:both;height:0;border:0;font-size:0;}
+a{color:#006699;}
+a:hover{color:#028bcf;}
+.mt5{margin-top:5px;}
+.ml10{margin-left:10px;}
+.mb10{margin-bottom:10px;}
+.right{float:right;}
+.center{text-align:center;}
+.red{color:#cc0000;}
+.del{text-decoration:line-through;}
+.f11{font-size:11px; color:#666;}
+.f12{font-size:11px; color:#666;}
+.bf14{font-weight:bold; font-size:14px ;}
+.bf16{font-weight:bold; font-size:16px ;}
+h2{font-size:20px; line-height:26px;}
+h3{font-size:16px; line-height:24px;}
+.cyellow{color:#ff9900;}
+.corange{color:#ff6600;}
+.cgray{color:#333;}
+.cnormal{color:#000;}
+#lang { float:right; }
+#lang { position:relative; width:175px; height:20px; overflow:hidden; margin-right:10px; }
+#google_translate_element { position:absolute; right:0; top:-4px; }
+#google_translate_element select { font-size:11px; width:160px; }
+@font-face {
+	font-family: 'MyriadProBold';
+    src: url('../fonts/myriadpro-bold-webfont.eot');
+    src: url('../fonts/myriadpro-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/myriadpro-bold-webfont.woff') format('woff'),
+         url('../fonts/myriadpro-bold-webfont.ttf') format('truetype'),
+         url('../fonts/myriadpro-bold-webfont.svg#MyriadProBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.wrapper{width:800px; margin:0 auto;}
+#head{height:65px; background:#041b30 url(../img/asc6beta/head.png) center center no-repeat;}
+#head .homelink{width:112px; height:58px; display:block; float:left;margin-top:22px; text-indent:-9999px;}
+#head dl{float:right; width:300px; font-size:11px; color:#fff; margin-top:6px;}
+#head dl dt{width:70px; height:66px; display:block; background:url(../img/asc6beta/cnet_logo.png) 0 0 no-repeat; float:right;}
+#head dl dd{float:left; width:220px; text-align:right;}
+
+#main{ }
+#main .shadow{height:18px; background:url(../img/asc6beta/shadow.png) top center no-repeat;}
+
+#main .intro{height:368px; background:url(../img/asc6beta/proc_bg.png) 0 0 repeat-x;}
+
+#main .intro h1{text-align:center; font-size:30px; font-style:italic; margin:10px 0;}
+#main .intro h1 span{color:#cc0000;}
+#main .intro h1 em{font-size:12px; color:#666; margin-left:10px;}
+#main .intro h2{text-align:right; font-size:18px; font-style:italic; color:#666; margin-right:82px;}
+#main .intro .boxshot{width:343px;px; height:248px; display:block; background:url(../img/asc6beta/boxshot.png) 0 0 no-repeat; float:left; margin-top:30px; margin-left:20px;}
+
+#main .intro .discount{width:300px; margin-top:30px; float:right; margin-right:56px; text-align:center;}
+#main .intro .discount h3{font-size:20px;}
+#main .intro .discount .disprice{color:#ff0000; font-size:52px; font-weight:bold; font-family:MyriadProBold; text-align:center; margin:5px 0;}
+#main .intro .discount .disprice span{font-size:26px; margin-left:5px;}
+#main .intro .discount .adwords{color:#ff0000; font-size:16px;font-weight:bold;}
+#main .intro .discount .adwords span{font-siez:20px; font-weight:bold;}
+#main .intro .discount .tips{font-size:12px; color:#666; text-align:right; margin:10px 5px 10px 0;}
+#main .intro .discount .wprice{margin:8px 0; font-size:14px; color:#ff0000; font-family:Tahoma; font-weight:bold;
+;}
+#main .intro .discount .wprice em{font-size:23px;}
+#main .intro .discount .wprice del{color:#666; font-family:Arial; font-size:14px; margin:0 5px;}
+#main .intro .discount .wprice span{color:#333; font-family:Arial; font-size:12px;}
+.porder_btn{width:294px; height:56px; display:block; background:url(../img/asc6beta/prorderbtn.png) 0 0 no-repeat; font-size:18px; font-weight:bold; text-align:center; text-indent:30px; line-height:56px; color:#fff; text-decoration:none; text-shadow:1px 1px #000;}
+.porder_btn:hover{ background-position:0 -56px; color:#fff;}
+#main .promise{margin-top:20px;}
+#main .promise h2{font-size:22px; font-weight:bold; margin-bottom:30px;}
+#main .promise h2 span{color:#0099cc;}
+#main .promise .leftbox{width:520px; float:left;}
+
+#main .promise .leftbox .crlist{width:230px; float:left; margin-right:30px; margin-bottom:30px;}
+#main .promise .leftbox .crlist dl{border-bottom:1px #ccc solid; padding-bottom:14px; margin-bottom:8px;}
+#main .promise .leftbox .crlist dl dt{width:37px; height:37px; display:block; background:url(../img/asc6beta/icons.png)  no-repeat; float:left; margin-right:10px;}
+#main .promise .leftbox .crlist dl dd{ font-size:14px; font-weight:bold;}
+
+#main .promise .leftbox .crlist dl dt.pro01{ background-position:0 0 ;}
+#main .promise .leftbox .crlist dl dt.pro02{ background-position:0 -60px ;}
+#main .promise .leftbox .crlist dl dt.pro03{ background-position:0 -120px ;}
+#main .promise .leftbox .crlist dl dt.pro04{ background-position:0 -180px ;}
+
+#main .promise .leftbox .crlist p{ line-height:18px;}
+
+
+#main .promise .review{width:265px; float:right; line-height:24px; position:relative;}
+#main .promise .review span{float:left; width:20px; height:17px; display:block; margin-right:10px; background:url(../img/asc6beta/quote.png) 0 0 no-repeat;}
+#main .promise .review .awpic{float:right; text-align:right; margin-top:15px;}
+
+#main .pricebox{margin-top:10px;}
+#main .pricetab{margin-top:5px;}
+#main .pricetab td{padding:0px;}
+#main .pricetab .topborder{border-top:1px #ccc solid;}
+#main .pricetab .tlborder{border-top:1px #ccc solid; border-left:1px #ccc solid;}
+#main .pricetab .rborder{border-right:1px #ccc solid;}
+#main .pricetab .bborder{border-bottom:1px #ccc solid;}
+#main .pricetab .gryborder{border: 1px #ccc solid; background:#efefef;}
+#main .pricetab .grybg{background:#efefef;}
+#main .checkout{margin-top:25px;}
+#main .checkout .moneyback{width:450px; height:65px; padding-left:70px; padding-top:12px; margin-top:-10px; float:left;font-size:11px; line-height:18px; color:#666; background:url(../img/moneyback.png) 0 10px no-repeat;}
+#main .checkout .btn{width:238px; float:right;}
+#main .checkout .btn span{width:238px; display:inline-block; text-align:center;}
+.price{ position:relative;}
+.price em{ width:55px; height:2px; display:block; background:#cc0000; position:relative; top:-11px; left:32px;}
+
+.checkbtn{width:244px; height:56px; display:block; font-size:18px; line-height:56px; /*text-transform:uppercase; */color:#fff; text-align:center; text-indent:30px;font-weight:bold; text-decoration:none; text-shadow:1 1px 0 #000; background: url(../img/asc6beta/prorderbtn_small.png) 0 0 no-repeat;}
+.checkbtn:hover{background-position:0 -56px; color:#fff;}
+
+#main .awards{width:683px; height:78px; margin:30px 58px; display:inline-block; background:url(../img/asc6beta/download_awards.jpg) 0 0 no-repeat;}
+
+.bttombuy{width:800px; margin:20px 0;}
+
+.buybtn{width:295px; height:66px; line-height:66px; display:block; margin:0 auto;text-align:center; background:url(../img/avtrial/btns.png) 0 0 no-repeat; color:#fff;font-size:24px; font-weight:bold; text-align:center; text-decoration:none; text-align:1px 1px 0 #000;}
+.buybtn:hover{ background-position:0 -67px; color:#fff;}
+
+#footer{height:55px; line-height:55px; background:url(../img/asc6beta/shadow.png) center top no-repeat;}
+#footer .wrapper{text-align:center; font-size:11px; color:#999;}

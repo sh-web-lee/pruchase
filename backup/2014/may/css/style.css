@@ -1,0 +1,126 @@
+* {	margin:0;padding:0;}
+img {border:0;}
+body {font-size: 14px; font-family:'Open Sans', Arial, Helvetica, sans-serif; color:#333; background:#fff url(../img/bg_main.jpg) repeat-x top;}
+li {list-style:none;}
+/* float clearing for everyone else */
+.clearfix:after{clear: both;content: ".";display: block; height: 0;visibility: hidden;font-size: 0;line-height: 0;}
+.clearfix {display: inline-block;}
+/* clear for single use */
+.clear{clear:both; border:0; height:0; font-size:0; line-height:0; }
+
+
+.warpper{ width:990px; margin:0 auto; display:block; position:relative;}
+
+.header { width:100%; display:inline-block;}
+.header .logo{ width:58px; height:22px; display:block; float:left; background:url(../img/logo_iobit.png) no-repeat; margin:20px 0 0 0;}
+.header .title{ width:375px; height:122px; display:block; background:url(../img/title.png) no-repeat; text-indent:-9999px; position:absolute; top:15px; left:0;}
+.header .time{ float:right; width:296px; margin:35px 0 0 0;}
+.header .time dt{ background:url(../img/bg_clock.png) no-repeat; font-size:14px; color:#fff; height:20px; line-height:20px; font-weight:bold; text-indent:25px;}
+.header .time dd{ background:url(../img/filpbg.png) no-repeat; height:70px; margin:5px 0 0 0;}
+.header .time dd span{ float:left; width:64px; height:70px; line-height:60px; font-size:30px; font-weight:bold; text-align:center; color:#fff; margin:0 4px 0 0 ;}
+.header .time dd em{ width:auto; font-size:14px; line-height:115px; font-style:normal; color:#fff;}
+
+.middle .lace{ background:url(../img/lace.png) no-repeat; margin:20px 0 0 0; position:relative; width:990px; height:382px;}
+.middle .lace .cover{ width:325px; height:348px; position:absolute; z-index:1; right:0; top:10px; background:url(../img/asc7box.jpg) no-repeat; line-height:50px;}
+.middle .lace .introduce{ width:695px; position:absolute; left:0px; top:0px; z-index:1; margin:20px;}
+.middle .lace .introduce h3{ font-size:28px; font-weight:normal; line-height:30px; margin:20px 0 0 0;}
+.middle .lace .introduce h3 span{ color:#e31717; font-size:30px;}
+.middle .lace .introduce p{ line-height:24px; margin:10px 0; color:#666;}
+.middle .lace .introduce .list{ display:inline-block;}
+.middle .lace .introduce .list dl{ float:left; width:150px; margin:40px 0 0 0;}
+.middle .lace .introduce .list dl dt{ position:relative; margin:0 0 10px 0;}
+.middle .lace .introduce .list dl dt span{ background:url(../img/free.png) no-repeat; width:33px; height:33px; position:absolute; top:-10px; right:30px;}
+.middle .lace .introduce .list dl dd{ line-height:24px;}
+.middle .lace .introduce .list dl dd span{ text-decoration:line-through;}
+.middle .lace .introduce .list dl.item{ width:235px; height:251px; margin:0 0 0 10px; position:relative;}
+.middle .lace .introduce .list dl.item dt{ margin:0;}
+.middle .lace .introduce .list dl.item dt span{ background:url(../img/moneyback60.png) no-repeat; width:88px; height:88px; position:absolute; top:-25px; right:0px;}
+.middle .lace .introduce .list dl.item dd{ position:absolute; bottom:-5px; left:25px;}
+.middle .lace .introduce .list dl.item dd a{ font-size:12px; color:#666;}
+.middle .lace .introduce .list dl.item dd a:hover{ color:#333;}
+
+.middle .lace .control{ position:absolute; top:80px; right:15px; z-index:3;}
+.middle .lace .control ul{ width:220px;}
+.middle .lace .control .price{ font-size:14px; line-height:40px; text-align:center; color:#fff;}
+.middle .lace .control .price span{ font-size:30px; color:#fff;}
+.middle .lace .control .original{ text-align: center;}
+.middle .lace .control .original span{ color:#666; font-style:normal; text-decoration:line-through;}
+.middle .lace .control .link{ width:220px; height:60px; margin:10px 0;}
+.middle .lace .control .link a{ background:url(../img/btn_buy_top.png) no-repeat; text-transform:uppercase; font-size:24px; color:#fff; display:block; line-height:55px; text-decoration:none; text-shadow:1px 0 0 #487f00; text-indent:60px;}
+.middle .lace .control .link a:hover{ background-position:0 -60px;}
+.middle .lace .control .people{ font-size:12px; background:url(../img/arrow_up.png) no-repeat 10px 0px; text-indent:40px; line-height:24px; color:#fff;}
+.middle .lace .control .people span{ font-size:18px; font-style:italic; color:#fffb4d;}
+.middle .lace .control .packs{ line-height:30px; text-align:center; margin:10px 0; font-weight:bold;}
+.middle .lace .control .packs span{ color:#fff; font-size:18px;}
+
+.comprestab{ width:796px; height: 440px; display: block; padding-top:80px; margin:40px auto 0 auto; background: url(../img/comprestab.png) center top no-repeat; position: relative; }
+.comprestab p{ width:350px; line-height:24px; position:absolute; top:10px; left:40px; font-size:13px;}
+.totlenum{position: absolute; right: 250px; top: 24px; font-size: 34px; color: #da4300; text-align: right;}
+.compress{width: 680px; margin:0 auto;}
+.compress td{text-align: center; font-size: 16px;}
+.compress td.lists{line-height: 36px; position:relative;}
+.compress .c_yellow{color: #ff6600; font-size: 24px;}
+.compress .icon_free{width: 25px; height: 11px; display: block; background: url(../img/icon_free.jpg) center top no-repeat; position: absolute; right:30px; top:0;}
+.compress sup{color: #ff6600;}
+.compress a{text-decoration: none;}
+.compress .itema_head{font-size: 22px; height: 32px; line-height: 32px; display: inline-block; margin-top:20px; font-family: tahoma; color: #fff; }
+.compress .itemb_head{font-size: 26px; font-family: tahoma; color: #da4300; font-weight: bold;}
+.compress .itema_price{font-size: 22px; line-height: 26px; display: inline-block; margin-bottom: 10px; color: #fff; }
+.compress .itemb_price{font-size: 26px;line-height: 50px; color: #da4300; font-weight: bold; }
+.compress .itema_price em,.compress .itemb_price em{font-size: 16px;}
+.btna{width: 206px; height: 48px; display:block; margin: 0 auto; margin-bottom: 20px; color: #fff; line-height: 48px; font-size: 20px; font-weight: bold; text-indent: 40px; text-decoration: none; background: url(../img/btna.png) center top no-repeat;}
+.btna:hover{color: #fff; text-decoration: none; background-position: 0 -48px;}
+
+.btnb{width: 226px; height: 48px; display:block; margin: 0 auto; margin-bottom: 20px; color: #fff; line-height: 48px; font-size: 20px; font-weight: bold; text-indent: 40px; text-decoration: none; background: url(../img/btnb.png) center top no-repeat; position: relative;}
+.btnb:hover{color: #fff; text-decoration: none; background-position: center -48px;}
+.btnb span{width: 38px; height: 38px; display: block; background: url(../img/iconb.png) center center no-repeat; position: absolute; right: -10px; bottom: -10px;}
+
+.middle .awards{ border-bottom:1px solid #eee;}
+.middle .awards dt{ font-size:24px; line-height:30px; margin:30px 0 0 0;}
+.middle .awards dd{ margin:30px 0;}
+
+.middle .usersaying{ margin:30px 0;}
+.middle .usersaying h2{ font-size:24px; line-height:30px; text-align:left;}
+.middle .usersaying .boxa{width:47%; float:left; margin:30px 0 0;}
+.middle .usersaying .boxb{width:47%; float:right; margin:30px 0 0;}
+.middle .usersaying h3{margin-bottom:23px;}
+.middle .usersaying .user{float:left; color:#666; width:105px;}
+.middle .usersaying .user dt{margin-bottom:12px;}
+.middle .usersaying .user dd{line-height:20px; font-size:13px;}
+.middle .usersaying .quit{ width:360px; float:right;}
+.middle .usersaying .quit dt{float:left; display:block; width:24px; height:20px; margin-right:8px;}
+.middle .usersaying .quit dd{margin-left:32px; height:auto; font-size:13px; line-height:20px;}
+
+.middle .comparison_table{margin:30px 0;}
+.middle .comparison_table p{font-size: 16px; font-weight: bold; line-height: 22px;}
+.middle .comparison_table table {border:0; border-collapse:separate; border-spacing:0 ;}
+.middle .comparison_table thead tr th{border-bottom:2px #fd6b00 solid; height: 60px; font-size: 15px;} 
+.middle .comparison_table tfoot th{ height: 100px; font-weight: normal; font-size: 14px;border-bottom:2px #fd6b00 solid;}
+.middle .comparison_table tfoot th span{font-weight: bold;}
+.middle .comparison_table tr td.virtue{ text-align:left; width: 400px;}
+.middle .comparison_table tr{text-align: center; font-size: 16px;}
+.middle .comparison_table .itema{color: #000; background: #fbfae9; text-align: center;width: 180px;}
+.middle .comparison_table .itemb{color: #000; background: #eef7ec; text-align: center;width: 180px;}
+.middle .comparison_table td{height: 54px; vertical-align: middle; border-bottom: 1px #ccc solid;}
+.middle .comparison_table td.icons{text-align: center; width: 50px;}
+.middle .comparison_table th.awards{text-align: center;}
+.middle .comparison_table td.buyarea{position:relative;}
+.middle .comparison_table .discount{width: 63px;height: 63px; display: block;background: url(../img/discount.png) 0 0 no-repeat; position: absolute; z-index: 10; margin-top: -10px; margin-left: 180px;/* top:-10px; right: -10px;*/}
+.middle .tbbuybtn{width: 150px; height: 34px; display: block; margin: 10px auto 0; line-height: 34px; font-size: 18px; color: #fff; text-decoration: none; background: #ff9204; text-shadow:0 1px 0 #a86003;}
+.middle .tbbuybtn:hover{background: #fda82c; text-decoration: none; color: #fff;}
+
+.copy{ line-height:25px; margin:0 auto 30px auto; text-align:center;}
+
+.floatlayer{height:110px; width: 984px; background:#fcffe0 url(../img/bg_float.png); border:3px #40ab00 solid; border-top:none; border-bottom-left-radius:20px; border-bottom-right-radius:20px;position:fixed; z-index:10; top:-110px;visibility: hidden; transition:all 0.4s; -webkit-transition: all 0.4s; -moz-transition: all 0.4s; -o-transition: all 0.4s;}
+.floatlayer.on{top: 0; visibility: visible;}
+.floatlayer .left{ width:600px; float:left; text-align:center; margin:20px 0 0 0;}
+.floatlayer .left dt{ font-size:18px; line-height:30px;}
+.floatlayer .left dt span{ font-size:30px; color:#e31717;}
+.floatlayer .left dd{ font-size:14px; line-height:30px; color:#666;}
+.floatlayer .left dd span{ font-size:18px; color:#e31717; font-style:italic;}
+.floatlayer .price{ float:left; background:url(../img/btn_price.png) no-repeat; width:105px; height:48px; font-size:24px; font-style:italic; color:#e31717; text-align:center; line-height:40px; margin:15px 0 0 0;}
+.floatlayer .right{ width:265px; float:left; margin:15px 0 0 0;}
+.floatlayer .right dt a{ background:url(../img/btn_buy.png) no-repeat; text-transform:uppercase; font-size:24px; color:#fff; display:block; line-height:58px; text-decoration:none; text-shadow:1px 0 0 #2f7e00; text-indent:50px;}
+.floatlayer .right dt a:hover{ background-position:0 -64px;}
+.floatlayer .right dd{ text-align:center; font-size:12px; line-height:15px;}
+.floatlayer .right dd em{ color:#40ab00;}

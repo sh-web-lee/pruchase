@@ -1,0 +1,168 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+    font-family: 'MyriadProCondensed';
+    src: url('../fonts/myriadpro-cond-webfont.eot');
+    src: url('../fonts/myriadpro-cond-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/myriadpro-cond-webfont.woff') format('woff'),
+         url('../fonts/myriadpro-cond-webfont.ttf') format('truetype'),
+         url('../fonts/myriadpro-cond-webfont.svg#MyriadProCondensed') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}	
+@font-face {
+	font-family: 'MyriadProBold';
+    src: url('../fonts/myriadpro-bold-webfont.eot');
+    src: url('../fonts/myriadpro-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/myriadpro-bold-webfont.woff') format('woff'),
+         url('../fonts/myriadpro-bold-webfont.ttf') format('truetype'),
+         url('../fonts/myriadpro-bold-webfont.svg#MyriadProBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MyriadPro';
+    src: url('../fonts/MyriadPro-Regular.eot');
+    src: url('../fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/MyriadPro-Regular.woff') format('woff'),
+         url('../fonts/MyriadPro-Regular.ttf') format('truetype'),
+         url('../fonts/MyriadPro-Regular.svg#MyriadProBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+* {	margin:0;padding:0;}
+img {border:0;}
+body {font-family:Arial, Helvetica, sans-serif;font-size:12px;color:#333;background:#fff;-webkit-text-size-adjust:none;}
+li {list-style:none;}
+a{color:#006699;}
+a:hover{color:#028bcf;}
+.mt5{margin-top:5px;}
+.ml10{margin-left:10px;}
+.mb10{margin-bottom:10px;}
+.right{float:right;}
+.center{text-align:center;}
+.red{color:#cc0000;}
+.del{text-decoration:line-through;}
+.f11{font-size:11px; color:#666;}
+.f12{font-size:11px; color:#666;}
+.bf14{font-weight:bold; font-size:14px ;}
+.bf16{font-weight:bold; font-size:16px ;}
+h2{font-size:20px; line-height:26px;}
+h3{font-size:16px; line-height:24px;}
+.cyellow{color:#ff9900;}
+.corange{color:#ff6600;}
+.cgray{color:#333;}
+.cnormal{color:#000;}
+#lang { float:right; }
+#lang { position:relative; width:175px; height:20px; overflow:hidden; margin-right:10px; }
+#google_translate_element { position:absolute; right:0; top:-4px; }
+#google_translate_element select { font-size:11px; width:160px; }
+.clear{ clear:both; line-height:0; font-size:0; height:0; margin:0; }
+
+/*Page header*/
+/*header logo*/
+#header{ height:65px; background:#041c32; font-family:Arial;}
+#header .headtop{ width:900px; height:65px; background:url(../img/head.png) center center no-repeat; margin:0 auto;}
+#header .headtop a{ width:115px; height:65px; float:left;}
+#header .headtop dl{ background:url(../img/cnet_logo.png) no-repeat right 10px; width:223px; height:55px; float:right; color:#fff; font-size:11px; -webkit-text-size-adjust:none; padding:10px 70px 0 0; text-align:right; line-height:14px; margin:0 17px 0 0; }
+.shadow{ background:url(../img/shadow.png) no-repeat; width:850px; height:13px; margin:0 auto}
+
+/*Page main*/
+#main{ width:800px; margin:0 auto;}
+#main h1{ font-size:30px; font-style:italic; font-weight: normal; text-align:center; margin:10px 0; color: #666; }
+#main h1 span{font-weight: bold; }
+#main h1 em{ color:#0099cc; font-size: 48px; }
+#main h2{ font-size:16px; font-weight:bold; text-align:right; color:#666; padding:0 40px 0 0; margin:10px 0; }
+
+#main .minfo{padding:10px; background: url(../img/topbg.png) center bottom repeat-x;}
+#main .minfo .boxshot{width: 390px; height: 250px; display: block; float: left; background: url(../img/boxshot.png) center center no-repeat;}
+
+#main .minfo .discount{width: 330px; float: right; margin-right: 22px;}
+#main .minfo .discount dd{margin: 10px 0;}
+
+
+#main .infoarea{margin: 30px 0 10px;}
+#main .infoarea .benfits{width: 500px; float: left;}
+#main .infoarea .benfits h4{font-size: 16px;}
+#main .infoarea .benfits span{color: #0099cc;}
+#main .infoarea .benfits h4 a{font-size: 12px; font-weight: normal;}
+
+#main .infoarea .benfits dl{width: 220px; float: left; margin-top: 15px; margin-right: 50px;}
+#main .infoarea .benfits dl.end{margin-right: 0;}
+#main .infoarea .benfits dl dt{font-size: 24px;color: #0099cc;margin: 5px 0;line-height: 24px;position: relative;text-indent: 30px;}
+#main .infoarea .benfits dl dt span{width: 32px; height: 32px; display: inline-block;position: absolute;left: -35px;top: -5px;}
+#main .infoarea .benfits dl dd{ color: #666; line-height: 16px;}
+#main .infoarea .benfits dl dd.discrip{font-size: 14px; font-weight: bold; color:#333;margin-bottom: 5px;}
+
+#main .infoarea .rightinfo{width: 254px; float: right;}
+#main .infoarea .rightinfo .count{width:230px; padding: 12px; background: #f5f5f5; border-radius: 5px; position: relative;}
+#main .infoarea .rightinfo .count .arrow{width: 31px; height: 52px; display: block; background: url(../img/arrow.png) 0 0 no-repeat; position: absolute;top: -40px;left: 40px;}
+#main .infoarea .rightinfo .count p{font-size: 18px; color: #666;}
+#main .infoarea .rightinfo .count p span{font-size: 20px; color: #ff6600; font-weight: bold;}
+#main .infoarea .rightinfo .count p .txtasc7{width: 226px;height: 25px; display: block; background: url(../img/txtasc7.png) center center no-repeat;}
+
+#main .infoarea .rightinfo .review{margin-top: 20px;}
+#main .infoarea .rightinfo .review dt{font-weight: bold; font-size: 15px; line-height: 24px;}
+#main .infoarea .rightinfo .review dd{color: #666; line-height: 20px; margin-top: 10px;}
+#main .infoarea .rightinfo .review dd img{float: left; margin-right: 5px;}
+#main .infoarea .rightinfo .review dd span{display: inline-block;font-weight: bold;float: right;}
+
+#main .pricebox{margin-top:10px;}
+#main .pricebox h2{text-align: left; font-size: 20px; color: #333; font-weight: bold;}
+
+#main .pricetab{margin-top:5px;}
+#main .pricetab td{padding:0px;}
+#main .pricetab .topborder{border-top:1px #ccc solid;}
+#main .pricetab .tlborder{border-top:1px #ccc solid; border-left:1px #ccc solid;}
+#main .pricetab .rborder{border-right:1px #ccc solid;}
+#main .pricetab .bborder{border-bottom:1px #ccc solid;}
+#main .pricetab .gryborder{border: 1px #ccc solid; background:#efefef;}
+#main .pricetab .grybg{background:#efefef;}
+#main .pricetab .grybg td{padding: 2px;}
+.price{ position:relative;}
+.price em{ width:55px; height:2px; display:block; background:#cc0000; position:relative; top: -12px; left: 24px;}
+
+#main .checkout{margin:10px 0;height: 70px;}
+#main .checkout .moneyback{width: 480px; height:65px; padding-right:70px;   float:left;font-size: 31px;font-family:"MyriadProCondensed";line-height: 50px; color:#666; background:url(../img/moneyback.png) right center no-repeat;}
+#main .checkout .btn{width:238px; float:right;}
+#main .checkout .btn span{width:238px; display:inline-block; text-align:center; text-transform:uppercase;}
+
+#main .awards{margin: 10px 0;}
+
+.checkbtn{width:238px; height:49px; display:block; font-size:18px; line-height:46px; text-transform:uppercase; color:#fff; text-align:center; text-decoration:none; text-shadow:0 -1px 0 #000; background:url(../img/checkbtn.png) 0 0 no-repeat;}
+.checkbtn:hover{background-position:0 -60px; color:#fff;}
+
+.toporderbtn{width: 294px; height: 56px; display: block; margin:0 auto; background: url(../img/orderbtn.png) 0 0 no-repeat; color: #fff; text-align: center; font-size: 18px; font-weight: bold; line-height: 56px; text-decoration: none; text-shadow:0 1px 0 #914d00;}
+.toporderbtn:hover{color:#fff; background-position: 0 -56px;}
+
+.buybtn{width: 150px; height: 34px; display: block; margin: 10px auto 0; line-height: 34px; font-size: 18px; color: #fff; text-decoration: none; background: #ff9204; text-shadow:0 1px 0 #a86003;}
+.buybtn:hover{background: #fda82c; text-decoration: none; color: #fff;}
+
+#main .comparison_table{margin:0 0 35px;}
+#main .comparison_table p{font-size: 16px; font-weight: bold; line-height: 22px;}
+#main .comparison_table table{}
+
+#main .comparison_table table {border:0; border-collapse:separate; border-spacing:0 ;}
+
+#main .comparison_table thead tr th{border-bottom:2px #fd6b00 solid; height: 60px; font-size: 15px;} 
+
+#main .comparison_table tfoot th{ height: 100px; font-weight: normal; font-size: 14px;border-bottom:2px #fd6b00 solid;}
+#main .comparison_table tfoot th span{font-weight: bold;}
+
+#main .comparison_table tr td.virtue{ text-align:left; width: 400px;}
+#main .comparison_table tr{text-align: center; font-size: 16px;}
+#main .comparison_table .itema{color: #000; background: #fbfae9; text-align: center;width: 180px;}
+#main .comparison_table .itemb{color: #000; background: #eef7ec; text-align: center;width: 180px;}
+#main .comparison_table td{height: 54px; vertical-align: middle; border-bottom: 1px #ccc solid;}
+#main .comparison_table td.icons{text-align: center; padding:0 10px;}
+#main .comparison_table th.awards{text-align: center;}
+#main .comparison_table td.buyarea{position:relative;}
+#main .comparison_table .discount{width: 63px;height: 63px; display: block;background: url(../img/discount.png) 0 0 no-repeat; position: absolute; z-index: 10; margin-top: -10px; margin-left: 180px;/* top:-10px; right: -10px;*/}
+
+/*Page footer*/
+#footer{ background:url(../img/bg_copyshadow.png) no-repeat top center; width:940px; margin:0 auto;text-align:center; color:#999; padding: 10px 0; line-height:20px;}
+
+
+
+
+

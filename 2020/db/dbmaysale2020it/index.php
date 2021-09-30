@@ -1,0 +1,518 @@
+<?php
+error_reporting(0);
+define("IObit","IObit");
+if(@!$include) {
+  $pResUrl = './';
+  $pRootUrl = '../../../';
+}
+include $pRootUrl.'include/common.inc.php';
+
+$viewNum=rand(168,236);
+if($_GET['action']=='getViewNum'){
+	echo $viewNum;
+	exit();
+}
+
+
+$refStr.=empty($_GET['st'])?'':('-'.$_GET['st']);
+if(in_array($_GET['pop'],array('x_db','xi_db','xb_db'))){
+  $refStr.='-'.$_GET['pop'];
+}
+if(!empty($_GET['to'])){
+  $refStr.='-'.$_GET['to'];
+}
+if(preg_match_all('/([0-9]*)\./',$_GET['ver'],$matches)){
+  $ver=$matches[1][0].$matches[1][1];
+  $refStr.='-'.$ver;
+}
+$refStr.=empty($_GET['ref'])?'':('-'.$_GET['ref']);
+$refStr.=empty($_GET['user'])?'':('-'.$_GET['user']);
+$refStr.=empty($_GET['insur'])?'':('-'.$_GET['insur']);
+$refStr.=empty($_GET['insday'])?'':('-'.$_GET['insday']);
+$refStr.='-i'.$_GET['instd'].'-u'.$_GET['usr'].'-t'.$_GET['type'].'-e'.$_GET['expd'];
+?>
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <title>Offerta Speciale - Sconti fino all'85% per Driver Booster PRO</title>
+  <meta name="Copyright" content="IObit">
+  <link rel="icon" href="<?php echo $pRootUrl; ?>tpl/img/favicon.ico" mce_href="<?php echo $pRootUrl; ?>tpl/img/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="<?php echo $pRootUrl; ?>tpl/img/favicon.ico" mce_href="<?php echo $pRootUrl; ?>tpl/img/favicon.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed:700|Montserrat:500,600,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="<?php echo getStaticUrl('style/style.css')?>">
+  <?php echo $gJavascript ['public'];?>
+  <?php echo $gJavascript ['head']?>
+</head>
+<body>
+<!-- banner start -->
+<div class="banner">
+  <div class="wrapper clearfix">
+    <!-- logo -->
+    <a class="logo" href="https://www.iobit.com/it/index.php" target="_blank">IObit</a>
+    <!-- title -->
+    <div class="title">
+      <h1>CORREGGI E AGGIORNA TUTTI I DRIVER ORA!</h1>
+      <p>PIÙ DRIVER ESCLUSIVI, PIÙ SICURI GLI AGGIORNAMENTI, PIÙ EFFICACE E VELOCE SARÀ IL TUO PC!</p>
+    </div>
+    <!-- content -->
+    <div class="content">
+
+      <!-- 3pc -->
+      <div class="offer small">
+        <!-- box -->
+        <div class="box">
+          <img src="<?php echo getStaticUrl('images/banner-db.png')?>" alt="Driver Booster PRO">
+          <span><b>-64</b>%</span>
+        </div>
+        <!-- price -->
+        <p class="price"><big>26</big>,99€ <del>74,78€</del></p>
+        <!-- buybtn -->
+        <a class="buybtn"
+           href="https://www.iobit.com/buy.php?product=it-db83pc2699&ref=it_db83pc2699purchase2005<?php echo $refStr;?>&refs=it_purchase_db"
+           onclick="ga( 'send', 'event', 'dbbuy', 'buy', 'db3pc2699purchase2005-it');">
+          ACQUISTA ORA
+        </a>
+      </div>
+
+      <!-- 3pc+bundle -->
+      <div class="offer large">
+        <!-- countdown -->
+        <p class="countdown">
+          <i class="all-icons"></i>
+          Scade tra:
+          <strong>10</strong><span>Min :</span>
+          <strong>00</strong><span>Sec :</span>
+          <strong>00</strong><span>Ms</span>
+        </p>
+        <!-- box -->
+        <div class="box">
+          <img src="<?php echo getStaticUrl('images/banner-bundle.png')?>" alt="Driver Booster PRO+Smart Defrag PRO+Protected Folder+IObit Uninstaller PRO">
+          <span><b>-85</b>%</span>
+        </div>
+        <!-- price -->
+        <p class="price red"><big>25</big>,99€ <del>174,78€</del></p>
+        <!-- buybtn -->
+        <a class="buybtn"
+           href="https://www.iobit.com/buy.php?product=it-db83pciusdpf2599&ref=it_db83pciusdpf2599purchase2005<?php echo $refStr;?>&refs=it_purchase_db"
+           onclick="ga( 'send', 'event', 'dbbuy', 'buy', 'db3pciusdpf2599purchase2005-it');">
+          ACQUISTA ORA
+        </a>
+        <!-- packs -->
+        <p class="packs"><b class="packsNum">54</b> utenti stanno visualizzando</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- banner end -->
+
+<!-- payment -->
+<div class="payment wrapper">
+  <img src="<?php echo getStaticUrl('images/payments.png')?>" alt=""/>
+</div>
+<!-- end payment -->
+
+<!-- map -->
+<div class="map">
+  <div class="wrapper">
+    <h2>
+      Ti garantiamo un PC più stabile, sicuro ed efficace con la versione PRO <br>
+      Altrimenti, ti rimborseremo subito! <span onclick="goTarget($('.footer'))">!</span>
+    </h2>
+    <p>Oltre 10 milioni di utenti internazionali hanno scelto Driver Booster PRO</p>
+  </div>
+</div>
+<!-- end map -->
+
+<!-- feature -->
+<div class="feature wrapper">
+  <img class="feature-db" src="<?php echo getStaticUrl('images/feature-db.png')?>" alt=""/>
+  <dl class="one clearfix">
+    <dt><img src="<?php echo $pResUrl;?>images/feature-icon01.png" alt=""></dt>
+    <dd>
+      <h3>AGGIORNAMENTO DI DRIVER <strong>PIÙ VELOCE E SEMPLICE</strong></h3>
+      <p>
+        Ti offre la soluzione di aggiornamento automatico che installa e aggiorna <br>i driver in modo automatico durante il tempo di inattività del tuo PC.
+      </p>
+    </dd>
+  </dl>
+  <dl class="two clearfix">
+    <dt><img src="<?php echo $pResUrl;?>images/feature-icon02.png" alt=""></dt>
+    <dd>
+      <h3>AGGIORNAMENTO DI DRIVER <strong>PIÙ SICURO</strong></h3>
+      <p>
+        Effettua automaticamente il backup e crea un punto di <br>ripristino del sistema prima dell'aggiornamento, <br>nel caso qualcosa vada storto.
+      </p>
+    </dd>
+  </dl>
+  <dl class="three clearfix">
+    <dt><img src="<?php echo $pResUrl;?>images/feature-icon03.png" alt=""></dt>
+    <dd>
+      <h3>SISTEMA <strong>PIÙ STABILE</strong></h3>
+      <p>
+        Mantiene tutti i tuoi driver sempre <br>aggiornati così il sistema funziona in <br>modo più stabile.</p>
+    </dd>
+  </dl>
+  <dl class="four clearfix">
+    <dt><img src="<?php echo $pResUrl;?>images/feature-icon04.png" alt=""></dt>
+    <dd>
+      <h3><strong>100%* PIÙ VELOCE</strong> IL DOWNLOAD</h3>
+      <p>La velocità di download di driver è 100% più <br>veloce rispetto alla versione Free</p>
+    </dd>
+  </dl>
+  <dl class="five clearfix">
+    <dt><img src="<?php echo $pResUrl;?>images/feature-icon05.png" alt=""></dt>
+    <dd>
+      <h3><strong>OTTIMA ESPERIENZA</strong> DI GIOCO</h3>
+      <p>
+        Mantiene i driver grafici e i driver di Game Ready sempre aggiornati al fine di <br> ottimizzare le prestazioni hardware e migliorare al massimo l’esperienza di gioco.
+      </p>
+    </dd>
+  </dl>
+</div>
+<!-- end feature -->
+
+<!-- gifts -->
+<div class="gifts">
+  <div class="wrapper clearfix">
+    <h2>Paghi uno a prezzo scontato e ottieni QUATTRO!*</h2>
+    <h3>Tutto quello che vuoi per il tuo PC è qui, a portata di clic!</h3>
+    <dl class="iu">
+      <dt>
+        <span class="ribbon"></span>
+        <img src="<?php echo getStaticUrl('images/gifts-iu.png')?>" alt="IObit Uninstaller PRO"/>
+      </dt>
+      <dd>
+        <h4>IObit Uninstaller PRO</h4>
+        <strong>0€ </strong> <del>29,99€</del>
+        <p>Elimina definitivamente programmi, plugin e app di Windows indesiderati con un solo clic!</p>
+      </dd>
+    </dl>
+    <dl class="sd">
+      <dt>
+        <span class="ribbon"></span>
+        <img src="<?php echo getStaticUrl('images/gifts-sd.png')?>" alt="Smart Defrag PRO"/>
+      </dt>
+      <dd>
+        <h4>Smart Defrag PRO</h4>
+        <strong>0€ </strong> <del>29,99€</del>
+        <p>Offre la migliore deframmentazione del disco e  accelera al massimo l'hard driver!</p>
+      </dd>
+    </dl>
+    <dl class="pf">
+      <dt>
+        <span class="ribbon"></span>
+        <img src="<?php echo getStaticUrl('images/gifts-pf.png')?>" alt="Protected Folder"/>
+      </dt>
+      <dd>
+        <h4>Protected Folder</h4>
+        <strong>0€ </strong> <del>39,95€</del>
+        <p>Protegge i tuoi file personali e li mantiene lontani dagli attacchi dannosi!</p>
+      </dd>
+    </dl>
+  </div>
+</div>
+<!-- end gifts -->
+
+<!-- centbuy -->
+<div class="centbuy wrapper">
+  <!-- price -->
+  <p class="price"><big>25,99€</big> <del>174,78€</del></p>
+  <p>PREZZO PIÙ VANTAGGIOSO</p>
+  <!-- buybtn -->
+  <a class="buybtn"
+     href="https://www.iobit.com/buy.php?product=it-db83pciusdpf2599&ref=it_db83pciusdpf2599purchase2005<?php echo $refStr;?>&refs=it_purchase_db"
+     onclick="ga( 'send', 'event', 'dbbuy', 'buy', 'db3pciusdpf2599purchase2005-it');">
+    ACQUISTA ORA
+  </a>
+  <!-- countdown -->
+  <p class="countdown">
+    Scade tra:
+    <strong>10</strong><span>Min :</span>
+    <strong>00</strong><span>Sec :</span>
+    <strong>00</strong><span>Ms</span>
+  </p>
+</div>
+<!-- end centbuy -->
+
+<!-- review -->
+<div class="review wrapper">
+  <h2>Facciamo tutto il possibile per soddisfare i nostri<br> clienti ovunque essi siano!</h2>
+  <div class="reviewbox">
+    <h3>Cosa dicono di noi</h3>
+    <ul>
+      <li class="one"><img src="<?php echo getStaticUrl('images/chip.png')?>" alt="Chip"></li>
+      <li class="two">
+        <img src="<?php echo getStaticUrl('images/adam-backlund.png')?>" alt="Adam Backlund">
+      </li>
+      <li class="three">
+        <img src="<?php echo getStaticUrl('images/fabio-tursi.png')?>" alt="Fabio Tursi">
+      </li>
+      <li class="four"><img src="<?php echo getStaticUrl('images/olorin89.png')?>" alt="Olorin 89"></li>
+    </ul>
+    <div class="details">
+      <div>
+        <h4>CHIP <span class="flag de"></span></h4>
+        <p>
+          "Driver Booster Pro: La funzionalità di download automatico di driver è disponibile solo nella versione Pro." – Tradotto da Tedesco
+        </p>
+      </div>
+      <div class="active">
+        <h4>Adam Backlund <span class="flag us"></span></h4>
+        <p>
+          "Driver Booster Pro è un'applicazione eccellente. Se avete molte applicazioni e dispositivi sul computer ma non avete tempo per aggiornarli manualmente come me, vi consiglio vivamente Driver Booster, vi aiuta ad aggiornare i driver in modo molto veloce e facile." – Tradotto da inglese
+        </p>
+      </div>
+      <div>
+        <h4>Fabio Tursi <span class="flag it"></span></h4>
+        <p>
+          “Finalmente, con IObit Driver Booster Pro ho trovato il programma perfetto per mantenere pulito e aggiornato il mio sistema.”
+        </p>
+      </div>
+      <div>
+        <h4>Olorin 89 <span class="flag it"></span></h4>
+        <p>
+          "Driver Booster è semplicemente il tool di aggiornamento driver che semplifica la vita a tutti."
+        </p>
+      </div>
+    </div>
+    <a class="next" href="javascript: nextFun();"></a>
+    <a class="prev" href="javascript: prevFun();"></a>
+  </div>
+</div>
+<!-- end review -->
+
+<!-- awards -->
+<div class="awards">
+  <div class="wrapper">
+    <h2>I PREMI DI DRIVER BOOSTER</h2>
+    <img src="<?php echo getStaticUrl('images/award.png')?>" alt=""/>
+  </div>
+</div>
+<!-- end awards -->
+
+<!-- comparison -->
+<div class="comparison wrapper">
+  <table>
+    <thead>
+    <tr>
+      <th colspan="2" class="text">La comparazione dei prodotti:</th>
+      <th class="space"></th>
+      <th class="itema">
+        <div class="pro">
+          <h3>La versione PRO<br> <big>AGGIORNATA</big></h3>
+          <em class="all-icons smile"></em>
+        </div>
+      </th>
+      <th class="space"></th>
+      <th class="itemb">
+        <div class="free">
+          <h3>La tua versione<br> <big>ATTUALE</big></h3>
+          <em class="all-icons"></em>
+        </div>
+      </th>
+    </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="icons"><img src="<?php echo getStaticUrl('images/icon01.png')?>" alt=""/></td>
+        <td class="virtue">Scarica e aggiorna i driver obsoleti con un solo clic</td>
+        <td class="space"></td>
+        <td class="itema"><i class="all-icons red">√</i></td>
+        <td class="space"></td>
+        <td class="itemb"><i class="all-icons">√</i></td>
+      </tr>
+      <tr>
+        <td class="icons"><img src="<?php echo getStaticUrl('images/icon11.png')?>" alt=""/></td>
+        <td class="virtue"> Scegli tra priorità per driver più stabili per una maggiore sicurezza o driver più recenti per una migliore esperienza di gioco <sup class="all-icons nov">Nuovo</sup></td>
+        <td class="space"></td>
+        <td class="itema"><i class="all-icons red" style="vertical-align: middle; margin-left: 80px;"></i><b>4.500.000+<br> driver</b></td>
+        <td class="space"></td>
+        <td class="itemb"><i class="all-icons" style="vertical-align: middle;margin-left: 80px;"></i><b>3.500.000+<br> driver</b></td>
+      </tr>
+      <tr>
+        <td class="icons"><img src="<?php echo getStaticUrl('images/icon02.png')?>" alt=""/></td>
+        <td class="virtue">
+          Sblocca la velocità massima di aggiornamento dei driver <sup class="all-icons">Migliorato</sup>
+        </td>
+        <td class="space"></td>
+        <td class="itema"><i class="all-icons red">√</i></td>
+        <td class="space"></td>
+        <td class="itemb"><i class="all-icons gray">√</i></td>
+      </tr>
+      <tr>
+        <td class="icons"><img src="<?php echo getStaticUrl('images/icon03.png')?>" alt=""/></td>
+        <td class="virtue vtop">
+          <span>Database del 200% più grande per aggiornare molti più driver rari e obsoleti </span>
+          <sup class="all-icons"></sup>
+        </td>
+        <td class="space"></td>
+        <td class="itema"><i class="all-icons red">√</i></td>
+        <td class="space"></td>
+        <td class="itemb"><i class="all-icons gray">√</i></td>
+      </tr>
+      <tr>
+        <td class="icons"><img src="<?php echo getStaticUrl('images/icon04.png')?>" alt=""/></td>
+        <td class="virtue">
+          Riduce i blocchi del sistema, migliorandone le prestazioni
+        </td>
+        <td class="space"></td>
+        <td class="itema"><i class="all-icons red">√</i></td>
+        <td class="space"></td>
+        <td class="itemb"><i class="all-icons gray">√</i></td>
+      </tr>
+      <tr>
+        <td class="icons"><img src="<?php echo getStaticUrl('images/icon05.png')?>" alt=""/></td>
+        <td class="vtop">
+              <span>
+                Download, aggiornamento e installazione automatica dei driver durante i periodi di inattività del sistema
+              </span>
+          <!-- <sup class="all-icons nov">Nuovo</sup> -->
+        </td>
+        <td class="space"></td>
+        <td class="itema"><i class="all-icons red">√</i></td>
+        <td class="space"></td>
+        <td class="itemb"><i class="all-icons gray">√</i></td>
+      </tr>
+      <tr>
+        <td class="icons"><img src="<?php echo getStaticUrl('images/icon06.png')?>" alt=""/></td>
+        <td class="virtue">Backup automatico di tutti i driver per il ripristino sicuro <sup class="all-icons">Migliorato</sup></td>
+        <td class="space"></td>
+        <td class="itema"><i class="all-icons red">√</i></td>
+        <td class="space"></td>
+        <td class="itemb"><i class="all-icons gray">√</i></td>
+      </tr>
+      <tr>
+        <td class="icons"><img src="<?php echo getStaticUrl('images/icon07.png')?>" alt=""/></td>
+        <td class="virtue">
+          Aggiornamento prioritario delle periferiche per giocare <sup class="all-icons">Migliorato</sup>
+        </td>
+        <td class="space"></td>
+        <td class="itema"><i class="all-icons red">√</i></td>
+        <td class="space"></td>
+        <td class="itemb"><i class="all-icons gray">√</i></td>
+      </tr>
+      <tr>
+        <td class="icons"><img src="<?php echo getStaticUrl('images/icon08.png')?>" alt=""/></td>
+        <td class="virtue">Rileva e ripara gli errori dei driver in modo efficace</td>
+        <td class="space"></td>
+        <td class="itema"><i class="all-icons red">√</i></td>
+        <td class="space"></td>
+        <td class="itemb"><i class="all-icons gray">√</i></td>
+      </tr>
+      <tr>
+        <td class="icons"><img src="<?php echo getStaticUrl('images/icon09.png')?>" alt=""/></td>
+        <td class="virtue">Aggiornamento automatico alla versione più recente</td>
+        <td class="space"></td>
+        <td class="itema"><i class="all-icons red">√</i></td>
+        <td class="space"></td>
+        <td class="itemb"><i class="all-icons gray">√</i></td>
+      </tr>
+      <tr>
+        <td class="icons"><img src="<?php echo getStaticUrl('images/icon10.png')?>" alt=""/></td>
+        <td class="virtue">Supporto tecnico 24/7 gratuito su richiesta</td>
+        <td class="space"></td>
+        <td class="itema"><i class="all-icons red">√</i></td>
+        <td class="space"></td>
+        <td class="itemb"><i class="all-icons gray">√</i></td>
+      </tr>    
+    </tbody>
+  </table>
+</div>
+<!-- end compariso-->
+
+<!-- bottombuy -->
+<div class="bottombuy">
+  <div class="wrapper clearfix">
+    <h2>NON FARTI ROVINARE LA GIORNATA DA UN PROBLEMA DEL PC!</h2>
+    <!-- box -->
+    <div class="box">
+      <img class="active" src="<?php echo getStaticUrl('images/banner-bundle.png')?>" alt="Driver Booster PRO+Smart Defrag PRO+Protected Folder+IObit Uninstaller PRO">
+      <img src="<?php echo getStaticUrl('images/bottombuy-db.png')?>" alt="Driver Booster PRO">
+    </div>
+    <!-- selector -->
+    <ul>
+      <li class="active one clearfix" data-num="1">
+        1 ANNO / 3 PC+Regali Gratis
+        <strong>-85%</strong>
+      </li>
+      <li class="two clearfix" data-num="0">
+        1 ANNO / 3 PC
+        <strong>-64%</strong>
+      </li>
+    </ul>
+    <!-- dl -->
+    <dl>
+      <dd>
+        <!-- price -->
+        <p class="price red"><big>25</big>,99€&nbsp;<del>174,78€</del></p>
+        <!-- buybtn -->
+        <a class="buybtn"
+           href="https://www.iobit.com/buy.php?product=it-db83pciusdpf2599&ref=it_db83pciusdpf2599purchase2005<?php echo $refStr;?>&refs=it_purchase_db"
+           onclick="ga( 'send', 'event', 'dbbuy', 'buy', 'db3pciusdpf2599purchase2005-it');">
+          ACQUISTA ORA
+        </a>
+        <!-- countdown -->
+        <p class="countdown">
+          Scade tra:
+          <strong>10</strong><span>Min :</span>
+          <strong>00</strong><span>Sec :</span>
+          <strong>00</strong><span>Ms</span>
+        </p>
+      </dd>
+    </dl>
+  </div>
+</div>
+<!-- end bottombuy -->
+
+<!-- footer -->
+<div class="footer">
+  <div class="wrapper">
+    <div class="service clearfix">
+      <dl>
+        <dt><img src="<?php echo getStaticUrl('images/moneyback.png')?>" alt=""></dt>
+        <dd>
+          <h3>Garanzia di Soddisfazione</h3>
+          <p>60 giorni rimborso</p>
+        </dd>
+      </dl>
+      <dl>
+        <dt><img src="<?php echo getStaticUrl('images/secure.png')?>" alt=""></dt>
+        <dd>
+          <h3>Pagamento Assicurato</h3>
+          <p>IObit supporta diverse modalità di <br> pagamento sicure</p>
+        </dd>
+      </dl>
+      <dl>
+        <dt><img src="<?php echo getStaticUrl('images/cart.png')?>" alt=""></dt>
+        <dd>
+          <h3>Attivazione Veloce</h3>
+          <p>Dopo il tuo acquisto, riceverai il codice <br> di licenza in pochi muniti tramite la mail</p>
+        </dd>
+      </dl>
+      <dl>
+        <dt><img src="<?php echo getStaticUrl('images/service.png')?>" alt=""></dt>
+        <dd>
+          <h3>Servizio Clienti</h3>
+          <p>24/7 Supporto tecnico gratuito</p>
+        </dd>
+      </dl>
+    </div>
+    <dl class="note">
+      <dt>Note:</dt>
+      <dd>* I dati potrebbero variare in base al sistema o computer.</dd>
+      <dd>* Tali promozioni sono soggette alle modifiche senza preavviso, periodicamente alla nostra esclusiva discrezione.</dd>
+      <dd>* IObit Uninstaller PRO / Smart Defrag PRO / Protected Folder per un anno di iscrizione su 1 PC.</dd>
+      <dd>* Se sei insoddisfatto, annulla entro 60 giorni senza alcun addebito, ti saranno rimborsati automaticamente sulla tua carta di credito o account PayPal.</dd>
+    </dl>
+    <p class="copyright">Copyright 2005 - <?php echo date('Y')?> IObit. Tutti i diritti riservati</p>
+  </div>
+</div>
+<!-- end footer -->
+
+<script src="<?php echo getStaticUrl('script/script.js')?>"></script>
+</body>
+</html>

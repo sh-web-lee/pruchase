@@ -1,0 +1,93 @@
+* {	margin:0;padding:0;}
+img {border:0;}
+table{border-collapse:collapse;border-spacing:0;}
+body {font-size: 14px; font-family:'Open Sans', Arial, Helvetica, sans-serif; color:#333; background:#fff url(../img/bg_main.jpg) repeat-x top;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+li {list-style:none;}
+/* float clearing for everyone else */
+.clearfix:after{clear: both;content: ".";display: block; height: 0;visibility: hidden;font-size: 0;line-height: 0;}
+.clearfix {display: inline-block;}
+/* clear for single use */
+.clear{clear:both; border:0; height:0; font-size:0; line-height:0; }
+.wrapper{ width:980px; margin:0 auto; display:block; position:relative;}
+
+#head{height:40px; width:100%; display: block; background: #1d2124; }
+#head:after{content:'';height: 1px; width: 100%; display: block; margin-top: -1px; box-shadow: 0px 1px 6px rgba(0, 0, 0, 1);}
+.logo_head{ float:left; width:70px; height:40px; display:inline-block; margin-left:10px; text-indent:-9999px; overflow:hidden; background:url(../img/logo_head.png) 0 0 no-repeat;}
+
+
+#main h2{font-size:24px;  color:#f60; margin:30px auto; text-align: center;}
+
+#main .comparison_table{margin:0 0 35px;}
+#main .comparison_table thead { border-bottom:2px #fd6b00 solid;}
+#main .comparison_table thead th{font-weight: normal;}
+#main .comparison_table thead .new h5{ font-size:20px; margin:0 0 10px 0;}
+#main .comparison_table thead .new li{ font-size:13px; line-height:18px; margin:0 0 10px 0;}
+#main .comparison_table thead .procdetail tr{ border:none;}
+#main .comparison_table thead .procdetail p{ font-size:17px;}
+#main .comparison_table thead .procdetail td{ height:45px}
+#main .comparison_table thead .procdetail .price{ font-size:13px;}
+#main .comparison_table thead .procdetail .price em{ text-decoration:line-through; }
+#main .comparison_table thead .money{ font-size:14px;}
+#main .comparison_table thead .version{ font-size:14px;}
+#main .comparison_table thead .countdown{ font-size:14px;color: #ff6600;}
+#main .comparison_table thead .countdown sub{margin-left: 5px; color: #333; font-size: 12px;}
+
+#main .comparison_table tfoot{ border-bottom:2px #fd6b00 solid; }
+#main .comparison_table tfoot th{ height: 100px; font-weight: normal;}
+
+#main .btn_download,#main .btn_trail,#main .btn_buy{ margin:0 auto;}
+#main .btnfont{ font-size:24px; line-height:22px; padding:10px 0 0 0; height:55px;}
+#main .btnfont em{ font-size:18px;}
+#main .comparison_table span{ font-size:17px; display: block; line-height: 24px; padding: 10px 0;}
+
+#main .comparison_table tfoot .itemb span{height: 30px;}
+#main .comparison_table tfoot .itemb span+em{height: 55px;display: inline-block;font-style: normal;}
+
+#main .comparison_table .intro{margin-top: 20px;margin-right: 20px;text-align: left;font-weight: normal;}
+#main .comparison_table .intro img{margin: 10px 0;}
+#main .comparison_table tr td.subtitle{text-align: left; font-weight: bold;}
+
+#main .comparison_table tr td.virtue{ text-align:left;}
+#main .comparison_table tr{text-align: center; font-size: 16px; border-bottom: 1px #ccc solid;}
+#main .comparison_table .itema{color: #000; background: #fbfae9; text-align: center;}
+#main .comparison_table .itemb{color: #000; background: #eef7ec; text-align: center;}
+#main .comparison_table td{height:60px; vertical-align: middle;}
+#main .comparison_table td.icons{text-align: center; padding:0 10px;}
+#main .comparison_table th.awards{text-align: center;}
+#main .comparison_table td.buyarea{position:relative;}
+#main .comparison_table .discount{width: 63px;height: 63px; display: block;background: url(../img/discount.png) 0 0 no-repeat; position: absolute; z-index: 10; margin-top: -10px; margin-left: 180px;/* top:-10px; right: -10px;*/}
+
+#main .reviews{width: 980px; margin:0 0 15px;}
+#main .reviews h3{font-size: 24px; line-height: 24px; margin: 15px 0;}
+#main .reviews h4{font-size: 18px; line-height: 20px; margin: 10px 0; font-family: Georgia;}
+#main .reviews .media{float:left; width: 450px;}
+#main .reviews .customer{float: right; width: 450px;}
+#main .reviews dl{margin:25px 0 10px;}
+#main .reviews dl dt{width:115px; float: left;}
+#main .reviews dl dd{margin-left: 115px; font-size: 14px; line-height: 22px;}
+#main .reviews dl dt span{font-size:12px; color: #7f7f7f; width: 76px; display:block; text-align: right;}
+#main .reviews dl dd.detail{ font-family: Georgia; margin: 0 0 5px 115px;}
+
+#main .mlink{ margin:15px 0 0 0; padding-left:18px; color:#0ba8ff; font-size:14px; line-height:18px; background:url(../img/arr.png) 0 2px no-repeat; float:right; }
+
+#main .buy{width:370px; margin:30px auto;}
+#main .buy dt{float:left; margin:5px 0 0 0;}
+#main .buy dd{text-align:center; font-size:14px; margin-left:120px;}
+#main .buy dd.price{font-size:45px;}
+#main .buy dd.price sup{font-size:30px; color:#c00;}
+
+#main .annotation{margin: 30px 0; font-size: 12px; color: #666;}
+#main .annotation dt{font-size: 13px; display: inline-block;}
+
+#footer { height: auto; padding: 35px 0 0 0; color: #898c8d; background: #12181a url(../img/footer_bg.png) 0 0 repeat-x; }
+#footer .footer{font-size:12px; line-height:24px; height:30px;}
+#footer .footer p{float:left;}
+#footer .footer a{color:#898c8d; text-decoration: none;}
+#footer .footer a:hover{text-decoration: underline;}
+#footer .footer ul{float:right; font-size:14px; }
+#footer .footer ul li{float:left; margin:0 15px;}
+
+
+.btn_buy { width: 235px; height: 65px; line-height: 56px; text-align: center; color: #fff; text-decoration: none; font-size: 26px; text-shadow: 0 1px 0 #a86003; display: block; background: url(../img/btns.png) 0 -195px no-repeat; }
+.btn_buy:hover{text-decoration: none; color: #fff; background-position:0 -260px;}

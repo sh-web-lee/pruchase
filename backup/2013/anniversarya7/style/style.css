@@ -1,0 +1,152 @@
+@font-face {
+    font-family: 'MyriadProCondensed';
+    src: url('../fonts/myriadpro-cond-webfont.eot');
+    src: url('../fonts/myriadpro-cond-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/myriadpro-cond-webfont.woff') format('woff'),
+         url('../fonts/myriadpro-cond-webfont.ttf') format('truetype'),
+         url('../fonts/myriadpro-cond-webfont.svg#MyriadProCondensed') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}   
+@font-face {
+    font-family: 'MyriadProBold';
+    src: url('../fonts/myriadpro-bold-webfont.eot');
+    src: url('../fonts/myriadpro-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/myriadpro-bold-webfont.woff') format('woff'),
+         url('../fonts/myriadpro-bold-webfont.ttf') format('truetype'),
+         url('../fonts/myriadpro-bold-webfont.svg#MyriadProBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MyriadPro';
+    src: url('../fonts/MyriadPro-Regular.eot');
+    src: url('../fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/MyriadPro-Regular.woff') format('woff'),
+         url('../fonts/MyriadPro-Regular.ttf') format('truetype'),
+         url('../fonts/MyriadPro-Regular.svg#MyriadProBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+* { margin:0;padding:0;}
+img {border:0;}
+body {font-family:Arial, Helvetica, sans-serif;font-size:13px;color:#333;background:#fff;}
+li {list-style:none;}
+.clear {clear:both;height:0;border:0;font-size:0;}
+a{color:#006699;}
+a:hover{color:#028bcf;}
+.mt5{margin-top:5px;}
+.ml10{margin-left:10px;}
+.mb10{margin-bottom:10px;}
+.right{float:right;}
+.center{text-align:center;}
+.red{color:#cc0000;}
+.del{text-decoration:line-through;}
+.f11{font-size:11px; color:#666;}
+.bf14{font-weight:bold; font-size:14px ;}
+.bf16{font-weight:bold; font-size:16px ;}
+h2{font-size:20px; line-height:26px;}
+h3{font-size:16px; line-height:24px; margin:0 0 5px 0;}
+.cyellow{color:#ff9900;}
+#lang { float:right; }
+#lang { position:relative; width:175px; height:20px; overflow:hidden; margin-right:40px; }
+#google_translate_element { position:absolute; right:0; top:-4px; }
+#google_translate_element select { font-size:11px; width:160px; }
+.myfont{font-family:MyriadProCondensed; font-size:26px; color:#444;} 
+.iconsale{width:63px; height:62px; display:block; text-indent:-10000px; background:url(../img/icon_sale.png); position:absolute; right:-10px; top:-22px;}
+.iconfree{width:63px; height:62px; display:block; text-indent:-10000px; background:url(../img/icon_free.png); position:absolute; right:-10px; top:-22px;}
+
+.price{ position:relative;}
+.price em{ width:55px; height:2px; display:block; background:#cc0000; position:relative; top:-9px; left:32px;}
+#main{width:1060px; margin:0 auto; background:url("../img/bg.png") no-repeat scroll center top #830101; padding:0 0 10px 0; }
+#main .head{width:1060px; height: 268px; display:inline-block; background:url(../img/head.jpg) 0 0 no-repeat; position:relative;}
+#main .head .logo{ width:95px; height:45px; position:absolute; top:20px; left:40px;}
+#main .head .logo a{ display:block; width:95px; height:45px;}
+#main .head .valid{color:#fff; position: absolute; bottom: 70px; right: 40px;}
+#main .head .giftbox{width: 135px; height: 135px; display: block; position: absolute; right: 165px; bottom: 12px;}
+#main .head .countdown{font-size: 15px; font-family:"MyriadProCondensed";color: #fff;width: 175px;position: absolute;right: 10px;bottom: 36px;}
+#main .head .countdown span{ font-size: 28px;}
+#main .head .countdown em{font-size: 12px;}
+
+#main .mbody{ width:960px; margin:0 auto; padding: 1px 6px 10px 10px; background:#fff;}
+
+#main h1{color: #cc0000; font-size: 36px; font-family:"MyriadProCondensed"; text-align: center;font-weight: normal;line-height: 46px;}
+#main h1 span{font-size: 60px;}
+
+#main .intro{width:725px; height: 250px; margin-top: 10px; margin-left: 165px; position: relative;}
+
+#main .intro dl{float: left; width: 640px;}
+#main .intro dl dt{width: 250px;float: left;}
+#main .intro dl dd{ font-size: 14px; line-height: 30px; margin: 22px 0 20px 270px; padding-left: 42px; background: url(../img/icon.png) no-repeat;}
+
+#main .intro dl dd.icon_01{background-position: 0 2px;}
+#main .intro dl dd.icon_02{background-position: 0 -78px;}
+#main .intro dl dd.icon_03{background-position: 0 -161px;margin-bottom: 10px;}
+#main .intro dl dd.icon_04{background-position: 0 -240px;}
+
+#main .intro .moneyback{width: 84px; height: 84px; display: block; position: absolute; bottom: 10px; right: 0;}
+#main .intro .txtlink{background: none; font-size: 12px;margin: 0 46px 0;text-align: right;}
+
+#main .pricebox{width: 890px; margin:20px auto;}
+
+
+#main .pricebox .buyarea{width: 268px; position: relative; background: url(../img/countpurchesed.png) right 10px no-repeat;}
+#main .pricebox .buyarea .count{width: 132px; font-size: 36px; color: #da4300; font-family: "MyriadProCondensed"; line-height: 35px;font-weight: normal;text-align: right;}
+#main .pricebox .buyarea span{text-align: center;margin-left: 90px;margin-top: 4px;display: inline-block;}
+
+.buybtn{width:204px; height:61px; display:block; font-size: 20px; line-height:61px; text-transform:uppercase; color:#fff; text-align:center; text-decoration:none; text-shadow: 0 -1px 1px #85652c; background:url(../img/buybtn.png) 0 0 no-repeat;text-indent: 15px;margin-left: 40px;}
+.buybtn:hover{background-position:0 -61px; color:#fff;}
+
+.checkbtn{width:238px; height:49px; display:block; font-size:18px; line-height:46px; text-transform:uppercase; color:#fff; text-align:center; text-decoration:none; text-shadow:0 -1px 0 #000; background:url(../img/checkbtn.png) 0 0 no-repeat;}
+.checkbtn:hover{background-position:0 -60px; color:#fff;}
+
+.awards{ border-top: 1px solid #ccc; margin-top: 30px; padding-top: 20px;}
+
+#main .footer{ display: block; height: 20px; width: 1060px;}
+
+
+.usersaying{margin-top:20px; padding:0 8px;}
+.usersaying .boxa{width:47%; float:left; margin:30px 0 0;}
+.usersaying .boxb{width:47%; float:right; margin:30px 0 0;}
+.usersaying h3{margin-bottom:23px;}
+.usersaying .user{float:left; color:#666; width:105px;}
+.usersaying .user dt{margin-bottom:12px;}
+.usersaying .user dd{line-height:20px; font-size:13px;}
+
+.usersaying .quit{ width:330px; float:right;}
+.usersaying .quit dt{float:left; display:block; width:24px; height:20px; margin-right:8px;}
+.usersaying .quit dd{margin-left:32px; height:auto; font-size:13px; line-height:20px;}
+
+#main .comparison_table{margin: 35px 10px;}
+#main .comparison_table p{font-size: 16px; font-weight: bold; line-height: 22px;}
+#main .comparison_table table{}
+
+#main .comparison_table table {border:0; border-collapse:separate; border-spacing:0 ;}
+
+#main .comparison_table thead tr th{border-bottom:2px #fd6b00 solid; height: 60px; font-size: 15px;} 
+
+#main .comparison_table tfoot th{ height: 100px; font-weight: normal; font-size: 14px;border-bottom:2px #fd6b00 solid;}
+#main .comparison_table tfoot th span{font-weight: bold;}
+
+#main .comparison_table tr td.virtue{ text-align:left; width: 400px;}
+#main .comparison_table tr{text-align: center; font-size: 16px;}
+#main .comparison_table .itema{color: #000; background: #fbfae9; text-align: center;width: 180px;}
+#main .comparison_table .itemb{color: #000; background: #eef7ec; text-align: center;width: 180px;}
+#main .comparison_table td{height: 54px; vertical-align: middle; border-bottom: 1px #ccc solid;}
+#main .comparison_table td.icons{text-align: center; padding:0 10px;width: 50px;}
+#main .comparison_table th.awards{text-align: center;}
+#main .comparison_table td.buyarea{position:relative;}
+#main .comparison_table .discount{width: 63px;height: 63px; display: block;background: url(../img/discount.png) 0 0 no-repeat; position: absolute; z-index: 10; margin-top: -10px; margin-left: 180px;/* top:-10px; right: -10px;*/}
+
+.tbbuybtn{width: 150px; height: 34px; display: block; margin: 10px auto 0; line-height: 34px; font-size: 18px; color: #fff; text-decoration: none; background: #ff9204; text-shadow:0 1px 0 #a86003;}
+.tbbuybtn:hover{background: #fda82c; text-decoration: none; color: #fff;}
+
+
+.mlink{height:30px; text-align:center; margin-top:15px;}
+
+.floatlayer{height:80px; width:975px; padding:10px 42px; background:#eaffea; border:1px #7bad51 solid; position:fixed; bottom:0; display:none;}
+.floatlayer .moneyback{width:600px; height:65px; padding-left:70px; padding-top:12px; margin-top:10px; margin-left:10px;float:left;font-size:11px; line-height:18px; color:#666; background:url(../img/moneyback-s.png) 0 0 no-repeat;}
+.floatlayer .btn{width:250px; float:right; margin-right:10px;}
+.floatlayer .btn span{width:238px; display:inline-block; text-align:center;font-weight: bold;}
+.floatlayer .btn .countdown{/* */ text-align: center;}
+.floatlayer .btn .countdown span{width: inherit;}

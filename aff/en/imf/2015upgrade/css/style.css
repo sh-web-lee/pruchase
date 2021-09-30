@@ -1,0 +1,191 @@
+* {	margin:0;padding:0;}
+img {border:0;}
+body {font-size: 14px; font-family:'Open Sans', Arial, Helvetica, sans-serif; color:#333;}
+li {list-style:none;}
+a{color: #006699;}
+a:hover{text-decoration: underline;}
+/* float clearing for everyone else */
+.clearfix:after{clear: both;content: ".";display: block; height: 0;visibility: hidden;font-size: 0;line-height: 0;}
+.clearfix {display: inline-block;}
+/* clear for single use */
+.clear{clear:both; border:0; height:0; font-size:0; line-height:0; }
+.wrapper{ width:980px; margin:0 auto; display:block; position:relative; }
+.show{display: block;}
+.hidden{display: none;}
+
+#main{ position: relative; display:block; width: 1100px; margin:0 auto; padding-bottom:40px;  background: #cf022c url(../img/bg.jpg) top center no-repeat;}
+
+.header { display: block; width: 100%; height:170px; }
+.header .logo{display: block; width:66px; height:32px; padding: 10px 0 0 0;}
+.header .title{position:relative; width: 530px; height: 96px; display: inline-block; float: left; margin: 10px 0 0 58px;  font-family: arial;color:#fff; text-shadow: 0 0 3px rgba(0,0,0,.3); background: url(../img/discount.jpg) top right no-repeat;}
+.header .title h1{font-size: 50px; font-weight: 600;}
+.header .title h2{font-size: 24px; font-weight: normal;}
+
+.header .countdown{display: inline-block; float: right; width: 290px; height: 69px; margin: 25px 0px 0 0; background: url(../img/countdown.png) left center no-repeat;}
+.header .countdown span{display: inline-block; float:left;  padding: 0 14px; margin-right: 5px; color:#fff; font-size: 30px; line-height: 50px; height: 50px; }
+.header .countdown i{ float:left; line-height:75px; margin:0 8px ; font-style:normal;}
+.header .countdown em{ height:45px; display: inline-block;  float:left; padding: 0 16px; font-size:18px; line-height: 75px; color:#fff;   vertical-align: bottom;}
+.header .countdown sub{ font-size:12px; line-height:75px; margin:0 0 0 5px; display: inline-block;  float:left; color: #fff;}
+
+.content{position: relative; display: block; width: 100%; height: auto; padding: 34px 0;background: #fff url(../img/contentbg.png) left top repeat-x;box-shadow: 0 0 5px rgba(0,0,0,0.3);}
+.content .intro{display:block;height: 300px;}
+.content .intro dl{width: 500px; float: left; margin-left: 70px;}
+.content .intro dl dt{display:inline-block; padding-bottom:10px; font-size: 30px;}
+.content .intro dl dd{display: table; height: 30px; padding: 6px 0; line-height: 30px; text-indent: 40px; font-size: 18px; background: url(../img/listicon.png) left center no-repeat;}
+.content .intro dl dd.nobg{background: none;}
+.content .intro dl dd sup{font-size: 12px;}
+
+.content .intro .boxshot{display: block; width: 226px; float: right;margin-top: 10px; margin-right: 120px; text-align: center;}
+.content .intro .boxshot span{display: inline-block; font-size: 18px;text-indent: 30px;}
+
+.compare{display: block; width: 705px; height: 480px; margin: 10px auto; background: url(../img/comparebg.png) top center no-repeat;}
+.compare table{display: block; width: 670px; margin: 0 auto; text-align: center;}
+.compare table td.itema{width: 316px;}
+.compare table td.itemb{width: 355px;}
+.compare table thead{font-size: 18px;}
+.compare table thead td{padding: 2px 0;}
+.compare table thead .cate td{padding: 0;}
+.compare table thead .cate td.itema{padding-bottom: 8px;}
+.compare table thead .type,.compare table thead .price{color:#fff; text-shadow:rgba(0,0,3px,0.3);}
+.compare table .type td{padding-top: 10px;}
+.compare table .price td del{font-size: 16px;}
+.compare table thead .type td.itema,.compare table thead .price td.itema{font-size: 22px;}
+.compare table thead .type td.itemb,.compare table thead .price td.itemb{font-size: 26px;}
+.compare table td.itemb .tab-buybtn span{padding: 9px 40px;}
+ 
+.compare table tbody{font-size: 18px;}
+.compare table tbody td{padding: 5px 0; font-weight: 600;}
+.compare table tbody span{color: #d00000;}
+.compare table tbody .count td{padding-top: 20px;}
+.compare table tbody tr.detail td.itemb{font-size: 16px;}
+.compare table tbody tr.detail td.itemb em{display: inline-block; margin-left: 10px;font-style: normal;}
+.compare table tbody tr.detail td.itemb sup{color: #d00000;}
+.compare table tbody tr.detail td.itemb{padding: 8px 0 6px;}
+.compare table tbody .price td{font-size: 16px;}
+.compare table tbody .price td.itemb span{font-size: 24px;}
+
+.tab-buybtn{}
+.tab-buybtn span{display:inline-block; height: 26px; padding: 9px 30px;  border-radius: 8px; color:#fff; font-size: 20px; line-height: 26px; font-weight:600; text-decoration: none; background: #689f0f\9; background-image:-webkit-linear-gradient(to top, #547b08, #8ee61c); background-image:linear-gradient(to top,#547b08, #8ee61c);}
+.tab-buybtn span:before{display: inline-block; float: left; content:""; width: 27px; height: 26px; margin-right: 5px; background: url(../img/cart.png) 0 0 no-repeat;}
+.tab-buybtn span:hover{background: #59840a\9; background-image:-webkit-linear-gradient(to top, #4b6e08, #86d71c); background-image:linear-gradient(to top,#4b6e08, #86d71c);}
+
+.prolist{height:140px; padding: 15px 0;}
+.prolist dl{display: block; width: 300px; float: left;margin: 0 10px;}
+.prolist dl dt{width:130px; float: left;}
+.prolist dl dd{font-size: 13px; padding: 4px 0;}
+.prolist dl dd.name,.prolist dl dd strong{font-size: 14px; font-weight: 600;padding-top: 30px;}
+.prolist dl dd strong{font-size: 24px; color: #d00000;}
+.prolist dl dd strong del{font-size: 14px; color: #333;}
+
+
+.payment{margin: 20px 0 0; text-align: center;border-top: 1px #eee solid;padding-top: 20px;}
+
+/*review*/
+.review{ background: #f8f8f8; padding: 40px 20px 0;}
+.review h3{ font-size: 24px; display: inline-block; margin-left: 120px; }
+.review h4{ font-size: 18px; line-height: 22px; margin: 12px 0; }
+.review dt{ float: left; width: 110px; }
+.review dd{ font-size: 14px; line-height: 24px; margin-left: 120px; }
+.review dd span{ float: right; }
+
+.media_rev{ }
+.user_rev{ margin-top: 40px; }
+.user_rev .content{ background: #fff; box-shadow: 0px 0px 5px 3px #ddd; padding: 20px 20px 20px 0; width: 920px; margin: 0 auto;}
+.user_rev .users{ height: 140px; width: 640px; margin: 25px auto 0; }
+.user_rev .users li{ text-align: center; float: left; width: 100px; font-size: 12px; margin: 0 30px; position: relative; cursor: pointer; }
+.user_rev .users li img{ width: 76px; height: 76px; display: block; border-radius: 50%; margin: 0 auto 10px; }
+.user_rev .users li.current:before{ content: ""; display: block; width: 0; height: 0; border-left: 15px solid transparent; border-right: 15px solid transparent; border-top: 15px solid #fff; position: absolute; top: -25px; left: 34px; z-index: 1;}
+.user_rev .users li.current:after{ content: ""; display: block; width: 0; height: 0; border-left: 17px solid transparent; border-right: 17px solid transparent; border-top: 17px solid #ddd; position: absolute; top: -21px; left: 32px; z-index: 0;  -webkit-filter: blur(2px); -moz-filter: blur(2px); -o-filter: blur(2px); -ms-filter: blur(2px); filter: blur(2px);}
+
+#main .comparison_table{margin: 30px 10px 10px;}
+#main .comparison_table p{font-size: 16px; font-weight: bold; line-height: 22px;}
+#main .comparison_table table {border:0; border-collapse:separate; border-spacing:0 ;}
+#main .comparison_table thead tr th{border-bottom:2px #fd6b00 solid; height: 60px; font-size: 15px;} 
+#main .comparison_table tfoot th{ height: 100px; font-weight: normal; font-size: 14px;border-bottom:2px #fd6b00 solid;}
+#main .comparison_table tfoot th span{font-weight: bold;}
+#main .comparison_table tr td.virtue{ text-align:left; width: 400px;}
+#main .comparison_table tr{text-align: center; font-size: 16px;}
+#main .comparison_table .itema{color: #000; background: #fbfae9; text-align: center;width: 180px;}
+#main .comparison_table .itemb{color: #000; background: #eef7ec; text-align: center;width: 180px;}
+#main .comparison_table td{height: 54px; vertical-align: middle; border-bottom: 1px #ccc solid;}
+#main .comparison_table td.icons{text-align: center; width: 50px;}
+#main .comparison_table th.awards{text-align: center;}
+#main .comparison_table td.buyarea{position:relative;}
+#main .comparison_table .discount{width: 63px;height: 63px; display: block;background: url(../img/discount.png) 0 0 no-repeat; position: absolute; z-index: 10; margin-top: -10px; margin-left: 180px;/* top:-10px; right: -10px;*/}
+#main .tbbuybtn{width: 150px; height: 34px; display: block; margin: 10px auto 0; line-height: 34px; font-size: 18px; color: #fff; text-decoration: none; background: #ff9204; text-shadow:0 1px 0 #a86003;}
+#main .tbbuybtn:hover{background: #fda82c; text-decoration: none; color: #fff;}
+
+#main .footer{ display: block; height:30px; width: 1060px; color:#fff; line-height:30px; text-align:center;}
+
+.buybtn{ width:204px; height:61px; display:block; font-size:18px; line-height:61px; text-transform:uppercase; color:#fff; text-align:center; text-decoration:none; text-shadow: 0 -1px 1px #85652c; background:url(../img/buybtn.png) 0 0 no-repeat;text-indent:15px; position:relative; margin:5px auto;}
+.buybtn:hover{ background-position:0 -61px; color:#fff; text-decoration:none;}
+.buybtn .moneyback{ background:url(../img/moneyback.png) no-repeat; width:72px; height:73px; position:absolute; top:-8px; right:-40px; display:block;}
+
+.floatlayer{ height:120px; width: 980px; background:#fff; border:5px solid #e31717; border-top:none; border-bottom-left-radius:10px; border-bottom-right-radius:10px; position:fixed; z-index:10; top:-120px; visibility: hidden; transition:all 0.4s; -webkit-transition: all 0.4s; -moz-transition: all 0.4s; -o-transition: all 0.4s; }
+.floatlayer.on{ top: 0; visibility: visible; }
+.floatlayer .left{ width: 700px; float:left; text-align:center; margin:20px 0 0 0;}
+.floatlayer .left dt{ font-size: 18px; line-height: 30px; text-align:center; margin:0 0 10px 0;}
+.floatlayer .left dt span{ font-size:30px; color:#e31717; }
+.floatlayer .left dd{ font-size: 18px; line-height: 26px; color:#555;}
+.floatlayer .left dd em{ color:#e31717; font-size: 16px; }
+.floatlayer .checkarea{ float: right; margin: 7px 20px 0 0; text-align: center; }
+.floatlayer .checkarea dt{ font-size:18px;  font-weight: bold;}
+.floatlayer .checkarea dt span{ font-size: 30px; color: #e31717; font-weight: bold;}
+.floatlayer .checkarea dt .countdown{ font-size: 14px; display: inline-block; color: #333; font-weight: normal; }
+
+.annotation{ margin: 20px 20px 0; font-size: 12px; color: #666;}
+.annotation dt{ font-size: 13px; display: inline-block; }
+
+.checkbtn{ color:#fff; background:url(../img/checkbtn.png) no-repeat; text-decoration: none; }
+.checkbtn:hover{ color:#fff; background-position:0 -58px; text-decoration: none;}
+
+.checkbtn.mainbtn{ width:192px; height:58px; display:block; font-size: 18px; line-height: 58px; text-indent: 40px; position:relative;}
+.checkbtn.floatbtn{ width:192px; height:58px; display: block; font-size: 18px; line-height: 58px; text-indent: 30px; }
+.checkbtn.mainbtn em{ background:url(../img/moneyback.png) no-repeat; width:72px; height:72px; position:absolute; top:-10px; right:-50px;}
+.pop-up {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100001;
+    width: 100%;
+    height: 100%;
+    background: url(../img/pop.png) repeat;
+}
+.pop-main {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.pop-box {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -108px;
+    margin-left: -289px;
+    width: 578px;
+    height: 216px;
+    border: 1px solid #faf0bf;
+    background-color: #fff;
+}
+.pop-box h2,
+.pop-box p {
+    margin: 0 auto;
+    width: 410px;
+    text-align: left;
+}
+.pop-box h2 {
+    padding: 32px 0 10px;
+    font-size: 22px;
+    color: #e50403;
+}
+.pop-box p {
+    margin-bottom: 18px;
+    font-size: 16px;
+    line-height: 22px;
+    color: #010007;
+}
+.main {
+    position: relative;
+}

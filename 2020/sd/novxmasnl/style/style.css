@@ -1,0 +1,278 @@
+@charset "utf-8";
+*{ margin:0; padding:0; border:0; outline:0; font-size:100%; vertical-align:baseline;}
+body { min-width: 1000px; font-size: 14px; line-height:1.4; color: #000; font-family: 'Open Sans', Arial, Helvetica, sans-serif;}
+a { margin:0; padding:0; font-size:100%; vertical-align:baseline; background:transparent; outline: none; color: #000; text-decoration: none; cursor: pointer; }
+a:hover {  text-decoration:none; }
+del { text-decoration:line-through; }
+table { border-collapse:collapse; border-spacing:0; }
+ul,ul li { list-style-type:none;}
+.clear {display:block;height:0;overflow:hidden;clear:both;}
+.clearfix:after {content:'\20';display:block;height:0;clear:both;}
+.clearfix {*zoom:1;}
+.hidden { display: none; }
+.show { display: block !important; }
+.wrapper { width: 1000px; overflow: visible; margin: 0 auto; position: relative;}
+.left { float: left;}
+.right { float: right;}
+.t-hidden {  width: 0; height: 0; text-indent: -9999px; overflow: hidden; visibility: hidden;}
+
+
+.buybtn { display: block; width: 309px; height: 97px; line-height: 85px; text-indent: 45px; margin: 0px auto; font-size: 26px; color: #fff; text-align: center; background: url(../images/buybtn.png); }
+.buybtn:hover { background-position: 0px -103px;}
+dl.buy { text-align: center; margin-top: 25px;}
+dl.buy dt { font-size: 18px; }
+dl.buy dt strong { font-size: 32px; color: #ff2929; font-weight: 400;}
+dl.buy  dd:last-child { margin-top: -8px;}
+
+/* banner */
+.banner { 
+  position: relative;
+  height: 657px;
+  text-align: center;
+  background: url(../images/bg.jpg) top center no-repeat;
+}
+.banner .logo { 
+  display: block; 
+  position: absolute;
+  top: 33px;
+  left: -12px;
+  width: 64px; 
+  height: 37px; 
+  text-indent: -9999px; 
+  background: url(../images/logo.png) no-repeat;
+}
+.banner .try {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 34px;
+  color: #fb9894;
+  font-size: 12px;
+  line-height: 34px;
+  background-color: #d01e37;
+}
+.banner .title {
+  height: 210px;
+  text-indent: -9999px;
+  background: url(../images/title.png) bottom center no-repeat;
+}
+.banner .imgbox {
+  float: left;
+  margin-top: 80px;
+  width: 440px;
+  margin-left: -35px;
+  margin-right: 35px;
+}
+.ribbon { position: relative; }
+
+.banner .imgbox > img {
+  display: block;
+  margin: 0 0 0 6px;
+}
+.banner .msgbox {
+  float: left;
+  margin-left: 10px;
+  width: 520px;
+  text-align: center;
+}
+.banner .msgbox h2 {
+  margin: 52px 0 30px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.discount {
+  position: absolute;
+  top: 68px;
+  right: -117px;
+  width: 206px;
+  height: 205px;
+  text-indent: -9999px;
+  background: url(../images/discount.png) no-repeat;
+}
+.banner .msgbox {
+  margin-left: 10px;
+  width: 520px;
+  text-align: center;
+}
+.banner .msgbox h2 {
+  margin: 52px 0 30px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.banner .numbox {
+  margin: 0 auto 20px;
+  width: 353px;
+  height: 78px;
+  color: #d42f31;
+  font-weight: 600;
+  line-height: 78px;
+  border-radius: 2px;
+  font-size: 18px;
+  background: #fddbdc;
+  border: 1px solid #f48e8f;
+}
+.banner .numbox strong {
+  font-size: 24px;
+}
+.banner .numbox strong span:last-child {
+  font-size: 16px;
+}
+
+
+.change {
+  color: #323236;
+  font-weight: 600;
+  font-size: 12px;
+}
+.change b {
+  display: inline-block;
+  width: 24px;
+  text-align: center;
+}
+.price li {
+  text-align: center;
+}
+.price li.first { margin-right: 22px; }
+.price p {
+  color: #8e8e98;
+  font-size: 12px;
+  font-weight: 600;
+}
+.price strong {
+  color: #323236;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.price strong big { 
+  font-size: 36px; 
+  font-weight: 700;
+}
+
+.price del {
+  padding-left: 4px;
+  color: #918f8f;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+
+
+
+.accepted { margin-top: 80px;}
+.accepted li { display: inline-block; text-align: center; line-height: 54px; }
+.accepted span,
+.accepted img { display: inline-block; vertical-align: middle; margin-right: 8px; }
+.accepted li.cent { margin-left: 15px; margin-right: 20px; padding: 0 10px 0 20px; border-left: 1px solid #e6e6e6; border-right: 1px solid #e6e6e6; }
+
+.clnet { margin-top: 80px; height: 112px; border: solid #ccc 1px; border-radius: 10px; text-align: center;}
+.clnet h2 { position: absolute; width: 100%; height: 45px; top: -25px; font-size: 20px; color: #737373; font-weight: 400; background: url(../images/h2-title.png) no-repeat center;}
+.clnet img { margin-top: 30px;}
+
+.sd-content { margin-top: 80px;}
+.sd-content h2 { text-align: center; font-size: 24px;}
+.sd-content dl { width: 285px; float: left; margin-top: 60px;}
+.sd-content dl.right { float: right;}
+.sd-content dl dt { float: left;}
+.sd-content dl dd { float: left; width: 223px;}
+.sd-content dl dd strong { display: block; white-space:nowrap; padding-bottom: 5px; margin-bottom: 5px; width: 204px; border-bottom: solid #d42f31  1px; text-indent: 15px; font-size: 16px;}
+.sd-content dl dd span { display: block; padding-left: 15px; line-height: 18px;}
+.sd-content .img-sd-content { position: absolute; width: 431px; height: 280px; left: 275px; top: 70px;}
+.sd-content p  { position: relative; text-align: center; margin-top: 30px;}
+.sd-content p a  { color: #d42f31 ; text-decoration: underline;}
+
+.center-buy {
+  height: 706px;
+  margin-top: 40px;
+  background: url(../images/center-bg.jpg) no-repeat center;
+}
+.center-buy h2 { padding-top: 130px; font-size: 32px; color: #323236; text-align: center;}
+.center-buy dl {
+  float: left;
+  width: 50%;
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+.center-buy dl dt {
+  float: left;
+  margin-left: 5px;
+  margin-right: 60px;
+  
+}
+.center-buy dl dd {
+  padding-top: 20px;
+}
+.center-buy dl dd strong {
+  font-size: 36px;
+  color: #f12a2a;
+}
+.center-buy dl dd del {
+  font-size: 16px;
+  color: #918f8f;
+}
+.center-buy dl dd p {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #666;
+  line-height: 20px;
+}
+.center-buy .buybtn {
+  clear: both;
+}
+.center-buy p.last {
+  text-align: center;
+  color: #8e8e98;
+}
+
+.review{ padding: 40px 0; margin-top: 50px;}
+.review h3{ font-size: 24px; display: inline-block; margin-left: 120px; }
+.review h4{ font-size: 18px; line-height: 22px; margin: 12px 0; }
+.review dt{ float: left; width: 110px; }
+.review dd{ font-size: 14px; line-height: 24px; margin-left: 120px; }
+.review dd strong {display: block; margin-top: 10px; margin-bottom: 5px; font-size: 18px;}
+.review dd span{ float: right;}
+
+.user_rev{ margin-top: 40px; }
+.user_rev .content{ background: #f5f5f5; box-shadow: 0px 0px 5px 3px #ddd; padding: 20px 20px 20px 0; }
+.user_rev .users{ height: 140px; width: 640px; margin: 25px auto 0; }
+.user_rev .users li{ text-align: center; float: left; width: 100px; font-size: 12px; margin: 0 30px; position: relative; cursor: pointer; }
+.user_rev .users li:first-of-type { margin-left: 110px;}
+.user_rev .users li img{ width: 76px; height: 76px; display: block; border-radius: 50%; margin: 0 auto 10px; }
+.user_rev .users li.active:before{ content: ""; display: block; width: 0; height: 0; border-left: 15px solid transparent; border-right: 15px solid transparent; border-top: 15px solid #f5f5f5; position: absolute; top: -25px; left: 34px; z-index: 1;}
+.user_rev .users li.active:after{ content: ""; display: block; width: 0; height: 0; border-left: 17px solid transparent; border-right: 17px solid transparent; border-top: 17px solid #ddd; position: absolute; top: -21px; left: 32px; z-index: 0;  -webkit-filter: blur(2px); -moz-filter: blur(2px); -o-filter: blur(2px); -ms-filter: blur(2px); filter: blur(2px);}
+.user_rev dl { padding-left: 30px; display: none;}
+.user_rev dd { margin-left: 0px;}
+.user_rev h3 { margin-left: 30px;}
+
+.comparison_table{margin:50px auto;}
+.comparison_table p em{ font-size: 18px; font-weight: 600; font-style: normal;}
+.comparison_table table {border:0; border-collapse:separate; border-spacing:0 ;}
+.comparison_table thead tr th{border-bottom:2px #fd6b00 solid; padding: 5px 0px; font-size: 15px; text-align: left; font-weight: 400; vertical-align: middle; }
+.comparison_table tfoot th{ padding: 20px 0px; font-weight: normal; font-size: 14px;border-bottom:2px #fd6b00 solid; vertical-align: middle;}
+.comparison_table tr td.virtue{ text-align:left; width: 400px;}
+.comparison_table tr{text-align: center;}
+.comparison_table strong { color:#ff2929; font-size: 18px;}
+.comparison_table span.last { display: block; }
+.comparison_table .itema,.comparison_table .itemb{color: #000; background: #fbfae9; text-align: center;width: 230px;}
+.comparison_table .itemb{ background: #eef7ec;}
+.comparison_table td{height: 54px; vertical-align: middle; border-bottom: 1px #ccc solid;  font-size: 15px;}
+.comparison_table td.icons{text-align: center; width: 50px;}
+.comparison_table th.itema p,.comparison_table .itemb p{font-size: 14px; font-weight: 400; line-height: 34px;}
+.tbbuybtn{ display: block; width: 182px; height: 62px; line-height: 50px; font-size: 18px; margin: 0px auto; text-align: center; color: #fff; background: url(../images/tbbuybtn.png);}
+.tbbuybtn:hover{ background-position: 0px -68px;}
+
+.fy-banner { height: 120px; margin-top: 70px; }
+.fy-banner >img { position: absolute; left: -10px; top: -40px;}
+.fy-banner dl {width: 960px; height: 120px; float: right;  border: solid #e6e6e6 3px; border-radius: 10px;}
+.fy-banner dl dd { float: left; width: 380px; width: 420px\0; margin-left: 230px;margin-left: 220px\0; margin-top: 25px;margin-top: 15px\0;}
+.fy-banner dl dd span { display: block; margin-top: 10px; line-height: 18px; font-weight: 600;}
+.fy-banner dl dd span.spped{ background: url(../images/spped.png) no-repeat 0px 0px; padding-left: 35px;}
+.fy-banner dl dd span.last { background: url(../images/imporve.png) no-repeat 0px 0px; padding-left: 35px;}
+.fy-banner dl dd img { margin-right: 15px;}
+.fy-banner dl dt { float: left; width: 309px; margin-left: 0px\0; margin-top: 15px; margin-right: -25px\0; margin-left: 25px;}
+
+.annotation { border-bottom: solid #ccc 1px; padding-bottom: 15px; margin-top: 25px; font-size: 12px; line-height: 24px; color: #333;}
+.annotation dt { font-weight: 600;}
+.footer p { padding-top: 30px; padding-bottom: 30px; color: #434343; text-align: center;}

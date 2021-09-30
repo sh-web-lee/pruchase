@@ -1,0 +1,68 @@
+*{ margin:0; padding:0; border:0; outline:0; font-size:100%; vertical-align:baseline;}
+body { min-width: 1000px; font-size: 14px; line-height:1.4; color: #000; font-family: 'Open Sans', Arial, Helvetica, sans-serif;}
+a { margin:0; padding:0; font-size:100%; vertical-align:baseline; background:transparent; outline: none; color: #006699; text-decoration: none; cursor: pointer; }
+a:hover {  text-decoration:none; }
+del { text-decoration:line-through; }
+table { border-collapse:collapse; border-spacing:0; }
+ul,ul li { list-style-type:none;}
+.clear {display:block;height:0;overflow:hidden;clear:both;}
+.clearfix:after {content:'\20';display:block;height:0;clear:both;}
+.clearfix {*zoom:1;}
+.hidden { display: none; }
+.show { display: block; }
+.wrapper{width:820px; margin:0 auto;}
+
+.head{height:65px; background:#041b30 url(../images/head.jpg) center center no-repeat;}
+.head .logo{width:112px; height:58px; display:block; float:left; text-indent:-9999px;}
+
+.head dl{float:right; font-size:11px; color:#fff; margin-top:6px;}
+.head dl dt{width:125px; float:right; margin-top: 15px;}
+.head dl dd{float:left;width: 280px;text-align:right;margin-right: 10px;margin-top: 8px;}
+
+#main{ }
+
+#main .intro{ position: relative; height:389px; background:url(../images/proc_bg.png) 0 0 repeat-x;}
+#main .intro:after {content:'\20'; position: absolute; display:block; top: 1px; width: 800px; height: 18px; background: url(../images/shadow.png) center;}
+
+#main .intro h1{text-align:center; font-size:30px; font-style:italic; padding:10px 0 0;}
+#main .intro h2{text-align:center; font-size:17px; font-style:italic; color:#666; padding-bottom: 14px;}
+#main .intro .boxshot{ float:left; margin-top: 30px; margin-left: 15px; }
+
+#main .intro .discount{width: 352px; margin-top:30px; float:right; margin-right: 10px; text-align:center;}
+#main .intro .discount h3{font-size:19px;}
+#main .intro .discount h3 span{ display: block; font-size: 30px; line-height: 32px; color: #ff0000; font-weight: bold;}
+#main .intro .discount dl {}
+#main .intro .discount dl dt {height: 70px;display:block;text-indent: -9999px;background: url(../images/discount.png) center no-repeat;}
+#main .intro .discount dl dt img { display: block; margin: 0px auto;}
+#main .intro .discount dl dt span { display: none; text-indent: -9999px;}
+#main .intro .discount dl dd{ margin-bottom: 10px; font-size: 12px;}
+#main .intro .discount dl dd.price {color: #ff0000;font-weight: 600;line-height: 20px;}
+#main .intro .discount dl dd.price span { font-size: 13px; color: #333;}
+#main .intro .discount dl dd.price em { font-size:23px;}
+#main .intro .discount dl dd.price del {width: 54px;height: 18px;display: inline-block;text-indent: -9999px;background: url(../images/original.png) center no-repeat;}
+
+.checkbtn{width:254px; height:56px; display:block; margin: 0px auto;background:url(../images/btns.png) 0 0 no-repeat; font-size:20px; font-family: "Arial"; font-weight:bold; text-align:center; text-indent:35px; line-height:56px; color:#fff; text-decoration:none; text-shadow: 0px 1px #000;}
+.checkbtn:hover{ background-position:0 -63px; color:#fff;}
+
+
+#main .promise{margin-top:50px;}
+#main .promise h2{font-size:22px; margin-bottom:30px;color:#0099cc;}
+#main .promise .leftbox{width: 490px;float:left;}
+#main .promise .leftbox ul{}
+#main .promise .leftbox ul li{font-size: 15px;font-weight: bold;color: #666;line-height: 24px;margin:10px 0;padding-bottom: 4px;}
+#main .promise .leftbox ul li span{display: block; float: left; width: 32px; height: 50px; padding-top:6px; margin-right:5px;}
+
+#main .promise .review{width:300px; float:right; line-height:24px; position:relative;}
+#main .promise .review span{float:left; width:20px; height:17px; display:block; margin-right:10px; background:url(../images/quote.png) 0 0 no-repeat;}
+#main .promise .review img { display: block; float: right; margin: 15px 0; }
+
+#main .checkout{margin-top:25px;}
+#main .checkout .moneyback{width:450px; height:65px; padding-right:70px; padding-top:12px; margin-top:-10px; float:left;font-size:11px; line-height:18px; color:#666; background:url(../images/mback.png) right 5px no-repeat;}
+#main .checkout .moneyback a { text-decoration: underline;}
+#main .checkout .btn{width:255px; float:right; text-align: center;}
+#main .checkout .btn span { margin-top: 10px;text-transform: uppercase;}
+
+#main .awards{width:691px; height:105px; margin:30px 58px; display:inline-block; background:url(../images/download_awards.jpg) 0 0 no-repeat;}
+
+#footer{ height:55px; line-height:55px; background:url(../images/shadow.png) center top no-repeat;text-align:center; font-size:11px; color:#999;}
+#footer img { display: inline-block; line-height: 20px; vertical-align: middle; margin-right: 5px;}

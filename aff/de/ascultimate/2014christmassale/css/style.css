@@ -1,0 +1,163 @@
+* {	margin:0;padding:0;}
+img {border:0;}
+body {font-size: 14px; font-family:'Open Sans', Arial, Helvetica, sans-serif; color:#333; background:#fff url(../img/background.jpg) top center no-repeat; }
+li {list-style:none;}
+/* float clearing for everyone else */
+.clearfix:after{clear: both;content: ".";display: block; height: 0;visibility: hidden;font-size: 0;line-height: 0;}
+.clearfix {display: inline-block;}
+/* clear for single use */
+.clear{clear:both; border:0; height:0; font-size:0; line-height:0; }
+
+
+.warpper{ width:990px; margin:0 auto; display:block; position:relative;}
+
+.header { height: 120px; display: inline-block; margin-top: 56px; width: 100%; }
+.header .logo{ width: 60px; height: 24px; display:block; margin: 0px 0 0 16px; }
+.header .title{ width: 430px; height: 68px; display: inline-block; float: left; margin: 20px 0 0 10px; color: #fff; font-weight: bold; text-shadow:1px 2px 1px #880204;}
+.header .title dt{font-size: 38px;line-height: 42px;}
+.header .title dd{font-size: 24px;line-height: 28px;}
+
+.header .countdown{ width: 285px; height: 110px; display: inline-block; float: right; }
+.header .countdown dt{ font-size: 14px; color: #fff; text-indent: 25px; background: url(../img/clock.png) center left no-repeat; }
+.header .countdown dd{ width: 285px; height: 69px; color: #fff; background: url(../img/filpbg.png) center left no-repeat; margin-top: 10px; }
+.header .countdown dd span{ font-size: 30px; line-height: 36px; display: inline-block; margin: 10px 17px; }
+.header .countdown dd em{ font-size: 18px; line-height: 24px; display: inline-block; margin: 10px 17px; }
+.header .countdown dd sub{ font-size: 12px; line-height: 12px; margin-top: 50px; display: block; float: right; }
+
+.topbar{ }
+.topbar .barbody{ background: url(../img/topbar_main.jpg) top center repeat-y; }
+
+.topbar .barbody h2{ text-align: center; font-size: 24px; font-weight: normal; line-height: 32px;}
+.topbar .barbody h2 span{ font-size: 32px; font-weight: bold; color: #e31717;}
+.topbar .barbody h3{ text-align: center; font-size: 14px; font-weight: normal; line-height: 24px;}
+.topbar .barbody h3 span{color: #e31717;}
+.topbar .intro{ margin: 20px 0 0; background: url(../img/iconplus.jpg) 300px 100px no-repeat; height: 285px;}
+
+.topbar .intro .intro_proc{ width: 670px; height: 280px; display: block; float: left; margin-left: 20px; }
+
+.topbar .intro .choosearea{ width: 520px; float: right; text-align:center; margin-right: 14px; }
+.topbar .intro .choosearea h4{ font-size: 18px; line-height: 24px; }
+.topbar .intro .choosearea h4 span{ color: #e31717; font-size: 28px; }
+
+
+.topbar .checkarea{ width: 245px; float: right; margin: 30px 35px 0 0; text-align: center;}
+.topbar .checkarea dt{ margin-bottom: 8px; }
+.topbar .checkarea dd{ font-size: 18px; margin: 6px 0;}
+.topbar .checkarea dd em{ font-size: 18px; color: #e31717; }
+.topbar .checkarea dd.price{ font-size: 20px; }
+.topbar .checkarea dd.price span{ font-weight: bold; color: #e31717; font-size: 38px; }
+.topbar .checkarea dd.normal{font-size: 12px;}
+
+.middle .lace{ background:url(../img/lace.png) no-repeat; margin:20px 0 0 0; position:relative; width:990px; height:382px;}
+.middle .lace .cover{ width:325px; height:348px; position:absolute; z-index:1; right:0; top:10px; background:url(../img/asc7box.jpg) no-repeat; line-height:50px;}
+.middle .lace .introduce{ width:695px; position:absolute; left:0px; top:0px; z-index:1; margin:20px;}
+.middle .lace .introduce h3{ font-size: 20px; font-weight:normal; line-height:30px;}
+.middle .lace .introduce h3 span{ color:#e31717; font-size:30px;}
+.middle .lace .introduce h3 span em{font-style:normal;}
+.middle .lace .introduce p{ line-height:24px; color:#666;}
+.middle .lace .introduce p span{ color:#e31717; font-weight:bold;}
+.middle .lace .introduce p span em{ font-size:18px; font-style:normal;}
+.middle .lace .control{ position:absolute; top:80px; right:15px; z-index:3;}
+.middle .lace .control ul{ width:220px;}
+.middle .lace .control .name{ font-size:18px; text-align:center; line-height:30px;}
+.middle .lace .control .price{ font-size:14px; line-height:40px; text-align:center; color:#fff;}
+.middle .lace .control .price span{ font-size:30px; color:#fff;}
+.middle .lace .control .original{ text-align: center;}
+.middle .lace .control .original span{ color:#666; font-style:normal; text-decoration:line-through;}
+.middle .lace .control .link{ width:220px; height:60px; margin:10px 0;}
+.middle .lace .control .link a{ background:url(../img/btn_buy_top.png) no-repeat; text-transform:uppercase; font-size: 17px; color:#fff; display:block; line-height: 52px; text-decoration:none; text-shadow:1px 0 0 #487f00; text-indent: 54px; height: 60px;}
+.middle .lace .control .link a:hover{ background-position:0 -60px;}
+.middle .lace .control .people{ font-size:12px; background:url(../img/arrow_up.png) no-repeat 10px 0px; text-align: center; line-height:24px; color:#fff;}
+.middle .lace .control .people span{ font-size:18px; font-style:italic; color:#fffb4d;}
+.middle .lace .control .subscription{ line-height:30px; text-align:center; margin:10px 0; font-weight:bold; color:#fff; }
+.middle .lace .control .subscription span{ color:#fffb4d; font-size:18px;}
+
+.middle .corssname{ font-size:24px; color:#e31717; line-height:30px; margin:20px 0; text-align:center;}
+
+.middle .whatdo{ background:#f2f2f2; width:100%; display:inline-block;}
+.middle .whatdo .left{ width:624px; border-right:1px solid #fff; float:left; display:inline-block;}
+.middle .whatdo .left .boxshot{ background:url(../img/boxshot_ascu.jpg) no-repeat; width:200px; height:240px; float:left; margin:20px 0 20px 20px;}
+.middle .whatdo .left dl{ float:right; width:370px; margin:20px 20px 20px 0; position:relative;}
+.middle .whatdo .left dl dt{ font-size:20px; height:30px; line-height:30px;}
+.middle .whatdo .left dl dd{ font-size:14px; color:#666; line-height:20px; margin:10px 0;}
+.middle .whatdo .left dl dd img{ margin:20px 0;}
+.middle .whatdo .left dl dd.edition a{ color:#279fda; text-decoration:underline;}
+.middle .whatdo .left dl dd.edition a:hover{ color:#1282ba;}
+.middle .whatdo .left dl dd.sale{ background:url(../img/sale.png) no-repeat; width:50px; height:50px; position:absolute; top: -26px; right:-15px;}
+.middle .whatdo .right{ float:left; width:365px;}
+.middle .whatdo .right dl{ position:relative; border-bottom:1px solid #fff; display:inline-block; width:365px; height: 150px;}
+.middle .whatdo .right dl.end{ border-bottom:0;}
+.middle .whatdo .right dl dt{ float:left; width:100px; height:100px; margin: 22px 10px;}
+.middle .whatdo .right dl dd.name{ font-size:14px; line-height: 24px; color:#000; margin:20px 0 0 0;}
+.middle .whatdo .right dl dd{ font-size:12px; color:#666; line-height:18px; width: 250px; margin-left: 110px;}
+.middle .whatdo .right dl dd.price{ text-align:right; text-decoration:line-through; font-style:italic; font-size:14px; width:350px;}
+.middle .whatdo .right dl dd.free{ background:url(../img/free.png) no-repeat; width:61px; height:36px; position:absolute; top:-1px; right:-1px;}
+
+.middle .cross{ border-bottom:1px solid #eee;}
+.middle .cross .left{ float:left; width:510px; margin:20px 0 0 0;}
+.middle .cross .left .discribe{text-align: left;margin-top: 20px;}
+.middle .cross .left .discribe dt{font-size:24px; color: #e31717;text-align: right;}
+.middle .cross .left .discribe dd{margin: 8px 0;}
+
+.middle .cross .link{ float:left; width:270px; margin:30px 0 30px 30px; }
+.middle .cross .link dt{ font-size:14px; background: url(../img/arrow_down.png) no-repeat 0px 0; text-indent: 40px; line-height:21px; margin:0 0 5px 0;}
+.middle .cross .link dt span{ font-size:18px; font-style:italic; color:#e31717;}
+.middle .cross .link dd a{ background:url(../img/btn_buy.png) no-repeat; text-transform:uppercase; font-size: 22px; color:#fff; display:block; line-height: 55px; text-decoration:none; text-shadow:1px 0 0 #2f7e00; text-indent:50px; height: 60px;}
+.middle .cross .link dd a:hover{ background-position:0 -64px;}
+.middle .cross .right{ float:left; width:160px; text-align:right; margin:55px 0 0 0;}
+.middle .cross .right dt{ font-size:18px; line-height:36px;}
+.middle .cross .right dt span{ font-size:36px; color:#e31717;}
+.middle .cross .right dd{ color:#666; font-size:14px;}
+.middle .cross .right dd span{ text-decoration:line-through; font-weight:bold;}
+
+.middle .awards{ border-bottom:1px solid #eee;}
+.middle .awards dt{ font-size:24px; line-height:30px; margin:30px 0 0 0;}
+.middle .awards dd{ margin:30px 0;}
+
+.middle .usersaying{ margin:30px 0;}
+.middle .usersaying h2{ font-size:24px; line-height:30px; text-align:left; color:#000; text-indent:0;}
+.middle .usersaying .boxa{width:47%; float:left; margin:30px 0 0;}
+.middle .usersaying .boxb{width:47%; float:right; margin:30px 0 0;}
+.middle .usersaying h3{margin-bottom:23px;}
+.middle .usersaying .user{float:left; color:#666; width:105px;}
+.middle .usersaying .user dt{margin-bottom:12px;}
+.middle .usersaying .user dd{line-height:20px; font-size:13px;}
+.middle .usersaying .quit{ width:360px; float:right;}
+.middle .usersaying .quit dt{float:left; display:block; width:24px; height:20px; margin-right:8px;}
+.middle .usersaying .quit dd{margin-left:32px; height:auto; font-size:13px; line-height:20px;}
+
+.middle .comparison_table{margin: 16px 10px;}
+.middle .comparison_table h4{font-size: 16px; line-height:28px;}
+.middle .comparison_table .comtable{margin-top:14px;/* text-align:center; */}
+.middle .comparison_table .comtable dt{font-size:20px; /* font-weight:bold; */ margin-bottom:15px;}
+.middle .comparison_table .comtable dt span{color:#0790a5;}
+
+.middle .comparison_table .comlist{margin-top: 25px;}
+.middle .comparison_table .comlist dt{font-size:16px; line-height:20px; font-weight:bold; color:#006699; background: url(../img/listicon.png)0 -3px  no-repeat; padding-left:30px;}
+.middle .comparison_table .comlist dd{font-size:12px; line-height:16px; margin:10px 0; margin-left:30px;}
+
+.copy{ line-height:25px; margin:0 auto 30px auto; text-align:center;}
+
+.floatlayer{ height:143px; width: 973px; background: url(../img/bg_float.png) top center no-repeat; position:fixed; z-index:10; top:-145px; visibility: hidden; transition:all 0.4s; -webkit-transition: all 0.4s; -moz-transition: all 0.4s; -o-transition: all 0.4s; margin-left: 8px; }
+.floatlayer.on{ top: 0; visibility: visible; }
+.floatlayer .left{ width: 430px; float:left; text-align: left; margin: 40px 0 0 220px; color: #ca0606; font-weight: bold;}
+.floatlayer .left dt{ font-size: 35px; line-height: 40px;}
+.floatlayer .left dt span{ font-size:30px; color:#e31717; }
+.floatlayer .left dd{ font-size: 18px; line-height: 26px; }
+.floatlayer .left dd span{ font-size:18px; color:#e31717; font-style:italic; }
+
+.floatlayer .checkarea{ width:265px; float: right; margin: 7px 40px 0 0; text-align: center; }
+.floatlayer .checkarea dt{ font-size: 34px; color: #e31717; font-weight: bold;}
+.floatlayer .checkarea dd{ text-align:center; font-size: 14px; line-height: 24px; }
+.floatlayer .checkarea dd em{ color:#e31717; font-size: 16px; }
+
+.floatlayer .checkarea dt .countdown{ font-size: 14px; display: inline-block; color: #333; font-weight: normal; }
+
+.annotation{margin: 30px 0; font-size: 12px; color: #666;}
+.annotation dt{font-size: 13px; display: inline-block;}
+
+.checkbtn{ color:#fff; background: url(../img/checkbtn.png) center center no-repeat; text-decoration: none; }
+.checkbtn:hover{ color:#fff; background: url(../img/checkbtn_hover.png) center center no-repeat; }
+
+.checkbtn.mainbtn{ width:245px; height:56px; display: inline-block; background-size: 245px 56px; font-size: 20px; line-height: 56px; text-indent: 45px; }
+.checkbtn.floatbtn{ width:228px; height:48px; display: inline-block; background-size: 228px 48px; font-size: 18px; line-height: 48px; text-indent: 40px; }
